@@ -1,0 +1,5252 @@
+[
+  {
+    "id": "q001",
+    "linkup_standard": {
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 2.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 4.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 3.17,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q002",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q003",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q004",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 7.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "source_quality": 1.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 2.17
+  },
+  {
+    "id": "q005",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q006",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q007",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q008",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.17,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q009",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q010",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 4.83,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q011",
+    "linkup_standard": {
+      "accuracy": 5.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 4.83
+  },
+  {
+    "id": "q012",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q013",
+    "linkup_standard": {
+      "accuracy": 10.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 10.0
+    },
+    "parallel": {
+      "accuracy": 10.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.5,
+    "parallel_total": 9.17
+  },
+  {
+    "id": "q014",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q015",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q016",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q017",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 8.67
+  },
+  {
+    "id": "q018",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q019",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q020",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 5.83,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q021",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 9.17
+  },
+  {
+    "id": "q022",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q023",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q024",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q025",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q026",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.67
+  },
+  {
+    "id": "q027",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.0,
+    "parallel_total": 8.67
+  },
+  {
+    "id": "q028",
+    "linkup_standard": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 0.0,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q029",
+    "linkup_standard": {
+      "accuracy": 10.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 10.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 10.0
+    },
+    "linkup_standard_total": 9.17,
+    "parallel_total": 9.5
+  },
+  {
+    "id": "q030",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q031",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q032",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q033",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.0,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q034",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q035",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q036",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q037",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.0,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q038",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q039",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 8.5
+  },
+  {
+    "id": "q040",
+    "linkup_standard": {
+      "accuracy": 5.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 5.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 5.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 4.5,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q041",
+    "linkup_standard": {
+      "accuracy": 10.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 10.0
+    },
+    "parallel": {
+      "accuracy": 10.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.5,
+    "parallel_total": 9.33
+  },
+  {
+    "id": "q042",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q043",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q044",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.0,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q045",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.83,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q046",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q047",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q048",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.5
+  },
+  {
+    "id": "q049",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 5.0,
+      "specificity": 4.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.33,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q050",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q051",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q052",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.83,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q053",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q054",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.0,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q055",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q056",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q057",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q058",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q059",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q060",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q061",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q062",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q063",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q064",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 5.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 3.17
+  },
+  {
+    "id": "q065",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 4.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q066",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q067",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q068",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q069",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q070",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q071",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q072",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q073",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q074",
+    "linkup_standard": {
+      "accuracy": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 3.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q075",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 5.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q076",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.0,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q077",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q078",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q079",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 2.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q080",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 0.0
+  },
+  {
+    "id": "q081",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q082",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 3.17
+  },
+  {
+    "id": "q083",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q084",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "source_quality": 1.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 1.83
+  },
+  {
+    "id": "q085",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q086",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q087",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q088",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q089",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q090",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q091",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q092",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q093",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "source_quality": 1.0,
+      "signal_to_noise": 2.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 1.83
+  },
+  {
+    "id": "q094",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q095",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q096",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q097",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q098",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q099",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q100",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q101",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 1.0,
+      "specificity": 3.0,
+      "source_quality": 2.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 2.5
+  },
+  {
+    "id": "q102",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q103",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q104",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q105",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q106",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q107",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q108",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q109",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 4.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 4.33
+  },
+  {
+    "id": "q110",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q111",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q112",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q113",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q114",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q115",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q116",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q117",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 1.0,
+      "gtm_value": 0.0,
+      "specificity": 1.0,
+      "source_quality": 1.0,
+      "signal_to_noise": 2.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 1.33
+  },
+  {
+    "id": "q118",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q119",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q120",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 5.33
+  },
+  {
+    "id": "q121",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q122",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q123",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q124",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "source_quality": 1.0,
+      "signal_to_noise": 2.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 1.67
+  },
+  {
+    "id": "q125",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q126",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q127",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q128",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q129",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q130",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q131",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q132",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q133",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q134",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q135",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q136",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q137",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q138",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q139",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q140",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 8.83,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q141",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 3.0,
+      "source_quality": 2.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 2.33
+  },
+  {
+    "id": "q142",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.67,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q143",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q144",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q145",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 4.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 4.83
+  },
+  {
+    "id": "q146",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q147",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q148",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q149",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q150",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q151",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q152",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q153",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q154",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q155",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q156",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 5.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 8.33,
+    "parallel_total": 4.67
+  },
+  {
+    "id": "q157",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q158",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.67,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q159",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q160",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 8.33
+  },
+  {
+    "id": "q161",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q162",
+    "linkup_standard": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 4.0
+    },
+    "linkup_standard_total": 0.0,
+    "parallel_total": 4.33
+  },
+  {
+    "id": "q163",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 8.5
+  },
+  {
+    "id": "q164",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q165",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q166",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q167",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 4.83,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q168",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q169",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q170",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q171",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q172",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q173",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q174",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q175",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q176",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q177",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q178",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q179",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q180",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q181",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q182",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 5.67,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q183",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 8.5,
+    "parallel_total": 5.33
+  },
+  {
+    "id": "q184",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 8.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q185",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q186",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q187",
+    "linkup_standard": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 4.83,
+    "parallel_total": 7.33
+  },
+  {
+    "id": "q188",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q189",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "source_quality": 9.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 10.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "linkup_standard_total": 9.0,
+    "parallel_total": 8.83
+  },
+  {
+    "id": "q190",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q191",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q192",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q193",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 8.17,
+    "parallel_total": 8.17
+  },
+  {
+    "id": "q194",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 5.83,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q195",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q196",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q197",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q198",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q199",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q200",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 4.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 5.5,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q201",
+    "linkup_standard": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 4.0
+    },
+    "parallel": {
+      "accuracy": 5.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 4.67,
+    "parallel_total": 4.83
+  },
+  {
+    "id": "q202",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.67
+  },
+  {
+    "id": "q203",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.0,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q204",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 5.67
+  },
+  {
+    "id": "q205",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q206",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.83
+  },
+  {
+    "id": "q207",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q208",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.17
+  },
+  {
+    "id": "q209",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 5.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 4.0
+    },
+    "linkup_standard_total": 5.33,
+    "parallel_total": 4.0
+  },
+  {
+    "id": "q210",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q211",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q212",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 5.17
+  },
+  {
+    "id": "q213",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q214",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q215",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q216",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q217",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q218",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "source_quality": 2.0,
+      "signal_to_noise": 4.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 3.17
+  },
+  {
+    "id": "q219",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q220",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q221",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 4.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 5.0,
+      "source_quality": 2.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 4.83,
+    "parallel_total": 3.17
+  },
+  {
+    "id": "q222",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q223",
+    "linkup_standard": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "source_quality": 0,
+      "signal_to_noise": 0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 0.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q224",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q225",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.33,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q226",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q227",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 4.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 4.5
+  },
+  {
+    "id": "q228",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q229",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q230",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.83,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q231",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 5.5
+  },
+  {
+    "id": "q232",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 9.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 8.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q233",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q234",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 5.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 5.0
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "source_quality": 3.0,
+      "signal_to_noise": 3.0
+    },
+    "linkup_standard_total": 4.67,
+    "parallel_total": 2.83
+  },
+  {
+    "id": "q235",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q236",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q237",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q238",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q239",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.33,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q240",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q241",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 6.5
+  },
+  {
+    "id": "q242",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.67
+  },
+  {
+    "id": "q243",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.5,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q244",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 6.83,
+    "parallel_total": 6.33
+  },
+  {
+    "id": "q245",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.5
+  },
+  {
+    "id": "q246",
+    "linkup_standard": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 5.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.17,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q247",
+    "linkup_standard": {
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 6.0
+    },
+    "linkup_standard_total": 6.5,
+    "parallel_total": 5.83
+  },
+  {
+    "id": "q248",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 7.0
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.0,
+    "parallel_total": 6.17
+  },
+  {
+    "id": "q249",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "source_quality": 7.0,
+      "signal_to_noise": 7.0
+    },
+    "linkup_standard_total": 7.17,
+    "parallel_total": 6.83
+  },
+  {
+    "id": "q250",
+    "linkup_standard": {
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "source_quality": 6.0,
+      "signal_to_noise": 8.0
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "source_quality": 8.0,
+      "signal_to_noise": 8.0
+    },
+    "linkup_standard_total": 6.67,
+    "parallel_total": 7.5
+  }
+]
