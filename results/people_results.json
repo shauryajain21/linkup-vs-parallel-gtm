@@ -1,0 +1,1805 @@
+{
+  "rows": [
+    {
+      "id": "pv3_038",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 1,
+        "ready_rate": 0.3333333333333333,
+        "quality": 0.5555555555555556,
+        "tophit": 1,
+        "n": 3
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 0,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_085",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 6
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.6666666666666666,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_069",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.3,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_004",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.4,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.5185185185185185,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_014",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.3333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.47619047619047616,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_053",
+      "segment": "product",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7777777777777778,
+        "quality": 0.8518518518518519,
+        "tophit": 1,
+        "n": 9
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.9666666666666667,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_037",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.4,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.7142857142857143,
+        "quality": 0.5238095238095238,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_032",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.4,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_084",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.6333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.8666666666666667,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_029",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.6,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 0,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_065",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 1.0,
+        "tophit": 1,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_040",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.7037037037037037,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_091",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.9,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8888888888888888,
+        "quality": 0.6296296296296297,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_059",
+      "segment": "product",
+      "linkup": {
+        "yield": 0,
+        "ready_rate": 0.0,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 1
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.8571428571428571,
+        "quality": 0.5714285714285714,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_016",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.6333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8888888888888888,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_022",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.5,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 4
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.9333333333333333,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_055",
+      "segment": "product",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.3,
+        "quality": 0.36666666666666664,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 2,
+        "ready_rate": 1.0,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 2
+      }
+    },
+    {
+      "id": "pv3_044",
+      "segment": "product",
+      "linkup": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.5416666666666666,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_031",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 6
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.8333333333333334,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_033",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.5714285714285714,
+        "quality": 0.7142857142857143,
+        "tophit": 1,
+        "n": 7
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_046",
+      "segment": "product",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_018",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.26666666666666666,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.8,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_015",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.875,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_062",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.6,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 0.8,
+        "quality": 0.6,
+        "tophit": 0,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_050",
+      "segment": "product",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_093",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.4,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4166666666666667,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_036",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.3,
+        "quality": 0.36666666666666664,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 3,
+        "ready_rate": 1.0,
+        "quality": 0.5555555555555556,
+        "tophit": 1,
+        "n": 3
+      }
+    },
+    {
+      "id": "pv3_008",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.8333333333333334,
+        "quality": 0.7777777777777778,
+        "tophit": 1,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_083",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 1,
+        "ready_rate": 0.1,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_086",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.7666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.8571428571428571,
+        "tophit": 1,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_066",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.6,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 3,
+        "ready_rate": 0.75,
+        "quality": 0.75,
+        "tophit": 1,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_057",
+      "segment": "product",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.75,
+        "quality": 0.5833333333333334,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_024",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.875,
+        "quality": 0.5833333333333334,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.7333333333333333,
+        "tophit": 0,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_049",
+      "segment": "product",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.8,
+        "quality": 0.8,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_095",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.25,
+        "quality": 0.2916666666666667,
+        "tophit": 0,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.42857142857142855,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_077",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.2857142857142857,
+        "quality": 0.42857142857142855,
+        "tophit": 1,
+        "n": 7
+      },
+      "parallel": {
+        "yield": 2,
+        "ready_rate": 0.5,
+        "quality": 0.4166666666666667,
+        "tophit": 0,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_028",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 1,
+        "ready_rate": 0.3333333333333333,
+        "quality": 0.4444444444444444,
+        "tophit": 1,
+        "n": 3
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 1.0,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 4
+      }
+    },
+    {
+      "id": "pv3_023",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.7666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.8666666666666667,
+        "tophit": 1,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_094",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.4,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 1,
+        "ready_rate": 1.0,
+        "quality": 1.0,
+        "tophit": 1,
+        "n": 1
+      }
+    },
+    {
+      "id": "pv3_026",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.36666666666666664,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.7777777777777778,
+        "quality": 0.5925925925925926,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_043",
+      "segment": "product",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.8,
+        "tophit": 1,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_078",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 1.0,
+        "quality": 0.3888888888888889,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_020",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.3,
+        "quality": 0.4666666666666667,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.2777777777777778,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_027",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.4,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.875,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_041",
+      "segment": "product",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 0,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_058",
+      "segment": "product",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.4,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.6296296296296297,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_013",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.5666666666666667,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.8571428571428571,
+        "quality": 0.42857142857142855,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_047",
+      "segment": "product",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.5555555555555556,
+        "tophit": 1,
+        "n": 3
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.625,
+        "quality": 0.625,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_060",
+      "segment": "product",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.625,
+        "quality": 0.7083333333333334,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_056",
+      "segment": "product",
+      "linkup": {
+        "yield": 0,
+        "ready_rate": 0.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 2
+      },
+      "parallel": {
+        "yield": 2,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.4444444444444444,
+        "tophit": 0,
+        "n": 3
+      }
+    },
+    {
+      "id": "pv3_007",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.4666666666666667,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.625,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_072",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.42857142857142855,
+        "quality": 0.5714285714285714,
+        "tophit": 1,
+        "n": 7
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.6333333333333333,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_017",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.5666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_097",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 1,
+        "ready_rate": 0.5,
+        "quality": 0.8333333333333334,
+        "tophit": 1,
+        "n": 2
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.875,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_074",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 0,
+        "ready_rate": 0.0,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.6,
+        "tophit": 1,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_009",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.75,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 4
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4583333333333333,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_068",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4583333333333333,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_076",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 1,
+        "ready_rate": 0.125,
+        "quality": 0.5833333333333334,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_025",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.4444444444444444,
+        "tophit": 0,
+        "n": 9
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.4666666666666667,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_001",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.3,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_030",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.4074074074074074,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_002",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.43333333333333335,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 0.6,
+        "tophit": 0,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_098",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.2,
+        "quality": 0.36666666666666664,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.37037037037037035,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_034",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.5,
+        "quality": 0.5833333333333334,
+        "tophit": 1,
+        "n": 4
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.48148148148148145,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_021",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.5,
+        "quality": 0.4583333333333333,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8888888888888888,
+        "quality": 0.5925925925925926,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_005",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.5555555555555556,
+        "tophit": 1,
+        "n": 6
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_012",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.5666666666666667,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_080",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.4,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_096",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.8333333333333334,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_061",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.4666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.38095238095238093,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_081",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.43333333333333335,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.8571428571428571,
+        "quality": 0.5714285714285714,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_045",
+      "segment": "product",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.4,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_011",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 7,
+        "ready_rate": 0.7,
+        "quality": 0.6,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.7142857142857143,
+        "tophit": 1,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_070",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.7037037037037037,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_003",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.8666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 1.0,
+        "quality": 0.7222222222222222,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_088",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.75,
+        "quality": 0.4583333333333333,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4166666666666667,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_054",
+      "segment": "product",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.36666666666666664,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.4,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_100",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 1,
+        "ready_rate": 0.2,
+        "quality": 0.4,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.8333333333333334,
+        "quality": 0.4444444444444444,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_089",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.5666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_035",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.5333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.75,
+        "quality": 0.4583333333333333,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_010",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.6333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.6333333333333333,
+        "tophit": 0,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_064",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.5925925925925926,
+        "tophit": 1,
+        "n": 9
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.8571428571428571,
+        "quality": 0.5714285714285714,
+        "tophit": 1,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_052",
+      "segment": "product",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.75,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 4
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 1.0,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_006",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.4666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.4666666666666667,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_067",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.2,
+        "quality": 0.5666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 3,
+        "ready_rate": 1.0,
+        "quality": 0.4444444444444444,
+        "tophit": 0,
+        "n": 3
+      }
+    },
+    {
+      "id": "pv3_092",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 4,
+        "ready_rate": 0.8,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 5
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.875,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_071",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 8,
+        "ready_rate": 0.8,
+        "quality": 0.8,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 1.0,
+        "quality": 1.0,
+        "tophit": 1,
+        "n": 5
+      }
+    },
+    {
+      "id": "pv3_048",
+      "segment": "product",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.7333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 0.875,
+        "quality": 0.875,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_051",
+      "segment": "product",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 3
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.6190476190476191,
+        "tophit": 1,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_082",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.36666666666666664,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4583333333333333,
+        "tophit": 0,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_099",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.6333333333333333,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.6333333333333333,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_042",
+      "segment": "product",
+      "linkup": {
+        "yield": 10,
+        "ready_rate": 1.0,
+        "quality": 0.6666666666666666,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 5,
+        "ready_rate": 0.7142857142857143,
+        "quality": 0.5714285714285714,
+        "tophit": 1,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_073",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.43333333333333335,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.5238095238095238,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_039",
+      "segment": "marketing",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.5,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 1.0,
+        "quality": 0.4166666666666667,
+        "tophit": 1,
+        "n": 8
+      }
+    },
+    {
+      "id": "pv3_019",
+      "segment": "revenue",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.375,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 7,
+        "ready_rate": 1.0,
+        "quality": 0.47619047619047616,
+        "tophit": 0,
+        "n": 7
+      }
+    },
+    {
+      "id": "pv3_079",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 3,
+        "ready_rate": 0.375,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 4,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.3333333333333333,
+        "tophit": 0,
+        "n": 6
+      }
+    },
+    {
+      "id": "pv3_090",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 6,
+        "ready_rate": 0.6,
+        "quality": 0.36666666666666664,
+        "tophit": 0,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 8,
+        "ready_rate": 0.8888888888888888,
+        "quality": 0.4444444444444444,
+        "tophit": 0,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_063",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.625,
+        "quality": 0.625,
+        "tophit": 1,
+        "n": 8
+      },
+      "parallel": {
+        "yield": 9,
+        "ready_rate": 0.9,
+        "quality": 0.7,
+        "tophit": 1,
+        "n": 10
+      }
+    },
+    {
+      "id": "pv3_087",
+      "segment": "ops_people",
+      "linkup": {
+        "yield": 5,
+        "ready_rate": 0.5,
+        "quality": 0.5666666666666667,
+        "tophit": 1,
+        "n": 10
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 0.6666666666666666,
+        "quality": 0.4444444444444444,
+        "tophit": 1,
+        "n": 9
+      }
+    },
+    {
+      "id": "pv3_075",
+      "segment": "engineering",
+      "linkup": {
+        "yield": 2,
+        "ready_rate": 0.3333333333333333,
+        "quality": 0.5555555555555556,
+        "tophit": 1,
+        "n": 6
+      },
+      "parallel": {
+        "yield": 6,
+        "ready_rate": 1.0,
+        "quality": 0.5,
+        "tophit": 0,
+        "n": 6
+      }
+    }
+  ],
+  "excluded": []
+}

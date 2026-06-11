@@ -1,24 +1,3 @@
-"""
-Linkup vs Parallel — GTM Benchmark
-===================================
-Compares Linkup Search and Parallel Search on GTM company-research queries.
-
-Fair, RAG-style design:
-  1. Both APIs return raw search results for the SAME query.
-  2. Each result set is synthesized into an answer by the SAME model (Claude Opus 4.8),
-     with an identical prompt and no truncation. Only the retrieved content differs.
-  3. A SEPARATE model (Claude Fable 5) judges each answer blind, on 6 GTM dimensions.
-
-This isolates retrieval quality: given the same downstream model, whose search results
-are better fuel for answering GTM research questions?
-
-Usage:
-  export LINKUP_API_KEY=...      # https://linkup.so
-  export PARALLEL_API_KEY=...    # https://parallel.ai
-  export ANTHROPIC_API_KEY=...   # https://console.anthropic.com
-  pip install anthropic httpx rich
-  python benchmark.py data/queries.jsonl
-"""
 import argparse, asyncio, json, os
 from dataclasses import dataclass
 
@@ -30,8 +9,8 @@ console = Console()
 LINKUP_KEY   = os.environ["LINKUP_API_KEY"]
 PARALLEL_KEY = os.environ["PARALLEL_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
-SYNTH_MODEL = "claude-opus-4-8"   # shared synthesizer
-JUDGE_MODEL = "claude-fable-5"    # independent judge
+SYNTH_MODEL = "claude-opus-4-8"
+JUDGE_MODEL = "claude-fable-5"
 
 DIMS = ["accuracy","completeness","gtm_value","specificity","source_quality","signal_to_noise"]
 
@@ -43,7 +22,6 @@ def _text(resp):
     return ""
 
 
-# ── Retrieval ──────────────────────────────────────────────────────────────
 async def linkup_search(client, query, sem):
     async with sem:
         for a in range(4):
@@ -85,7 +63,6 @@ async def parallel_search(client, query, sem):
         return []
 
 
-# ── Synthesis (shared model, identical prompt, no truncation) ────────────────
 SYNTH_SYSTEM = """You are a research assistant. Answer the user's question using ONLY the search results provided.
 Be specific and factual. Cite concrete details (numbers, names, products) found in the sources.
 If the sources don't contain the answer, say so. Do not use outside knowledge."""
@@ -104,7 +81,6 @@ async def synth(claude, query, results, sem):
         return ""
 
 
-# ── Judge (independent model, 6 dimensions, blind) ───────────────────────────
 JUDGE_SYSTEM = """You are a GTM research quality evaluator. A sales team asked a question about a company
 and received an answer synthesized from search results. Score the answer on 6 dimensions (0-10).
 
@@ -151,6 +127,7 @@ async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("input")
     ap.add_argument("--concurrency", type=int, default=12)
+    ap.add_argument("--out", default="results/results.json")
     args = ap.parse_args()
 
     queries = [json.loads(l) for l in open(args.input) if l.strip()]
@@ -192,8 +169,8 @@ async def main():
     t.add_section(); t.add_row("TOTAL", f"{lt:.1f}", f"{pt:.1f}")
     t.add_row("Win rate", f"{w}/{n}", f"{n-w}/{n}")
     console.print(t)
-    json.dump(rows, open("results/results.json","w"), indent=2)
-    console.print("\n  saved → results/results.json")
+    json.dump(rows, open(args.out,"w"), indent=2)
+    console.print(f"\n  saved → {args.out}")
 
 
 if __name__ == "__main__":
