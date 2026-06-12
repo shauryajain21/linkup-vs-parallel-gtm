@@ -6,11 +6,11 @@ Every benchmark compares the two products' **search APIs** (Linkup `/search`, Pa
 
 ## Benchmarks in this repo
 
-| # | Benchmark | What it tests | Queries | Headline |
-| --- | --- | --- | --- | --- |
-| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.0 — wins all 6 dimensions |
-| 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension |
-| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **76%** vs Parallel 48% top-result hit |
+| # | Benchmark | What it tests | Queries | Headline | Latency (p50) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.0 — wins all 6 dimensions | Linkup **1.47s** vs Parallel 3.09s |
+| 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.36s |
+| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **76%** vs Parallel 48% top-result hit | Linkup **1.97s** vs Parallel 2.65s |
 
 Details, methodology, and reproduce steps for each are below.
 
@@ -169,6 +169,18 @@ The Company and Signal benchmarks compare each product at its **standard search 
 | --- | --- | --- |
 | Linkup | Search (standard) | **$5 / 1,000 requests** ($0.005/query) |
 | Parallel | Search | **$5 / 1,000 requests** ($0.005/query) |
+
+# Latency
+
+Retrieval latency at the comparable tier (Linkup standard vs Parallel default), median (p50) and p95 over 30–40 paired queries per benchmark (sequential, retrieval call only).
+
+| Benchmark | Linkup p50 | Parallel p50 | Linkup p95 | Parallel p95 |
+| --- | --- | --- | --- | --- |
+| Company Research | **1.47s** | 3.09s | **4.72s** | 5.31s |
+| Signal | **1.91s** | 2.36s | **3.08s** | 4.16s |
+| People Search | **1.97s** | 2.65s | **2.67s** | 3.53s |
+
+Linkup is faster on both median and p95 across all three benchmarks (and wins head-to-head on each). Single-run, directional.
 
 # Reproduce
 
