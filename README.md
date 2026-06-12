@@ -217,7 +217,7 @@ Retrieval latency at the comparable tier (Linkup standard vs Parallel default) �
 | People Search | **1.97s** | 2.62s | **2.83s** | 3.79s | **2.23s** | 2.82s |
 | People Research | **2.60s** | 2.82s | **3.69s** | 4.07s | **2.95s** | 3.08s |
 
-Linkup is faster on the median (p50) and on average across all four benchmarks. Full-coverage run over all 500 queries (Linkup 500/500 successful; Parallel 472/500 after excluding malformed/error responses).
+Linkup is faster on the median (p50) and on average across all four benchmarks. Full-coverage run over all 500 queries (Linkup 500/500 successful; Parallel 472/500 after excluding malformed/error responses). Reproduce with `python latency_benchmark.py`; per-query timings in `results/latency_rows.jsonl`.
 
 # Reproduce
 
@@ -231,6 +231,8 @@ python benchmark.py data/company_research_queries.jsonl --out results/company_re
 python benchmark.py data/news_signal_queries.jsonl --out results/news_signal_results.json   # 2. Signal (50)
 python people_benchmark.py data/people_queries.jsonl                                         # 3. People Search (100) → results/people_results.json
 python people_research_benchmark.py data/coresignal_people_queries.jsonl --out results/coresignal_results.json   # 4. People Research (100)
+
+python latency_benchmark.py   # Latency: sequential retrieval-only timing across all 4 benchmarks → results/latency_results.json
 ```
 
 # Repo structure
@@ -243,10 +245,13 @@ data/coresignal_people_queries.jsonl  100 people-research queries (id, category,
 benchmark.py                       company & signal runner (retrieval → shared synthesis → independent judge)
 people_benchmark.py                people runner (best-config retrieval → graded-relevance judge)
 people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 7-dim judge)
+latency_benchmark.py               latency runner (sequential, retrieval-only timing across all 4 benchmarks)
 results/company_results.json       250 company-research scores (id, category, linkup, parallel, totals)
 results/news_signal_results.json   50 signal scores
 results/people_results.json        100 people-search scores (graded relevance + top-result hit)
 results/coresignal_results.json    100 people-research scores (7 dimensions)
+results/latency_results.json       per-benchmark latency stats (p50/p90/p95/p99/mean)
+results/latency_rows.jsonl         per-query retrieval latencies (linkup_s, parallel_s)
 README.md
 ```
 
