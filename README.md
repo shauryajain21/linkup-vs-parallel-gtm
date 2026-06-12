@@ -33,7 +33,7 @@ Details, methodology, and reproduce steps for each are below.
 | Signal-to-Noise | **7.5** | 6.2 |
 | **Overall** | **7.2** | **6.0** |
 
-**Linkup outperforms Parallel on all six dimensions**, winning **191 / 250** queries head-to-head.
+**Linkup outperforms Parallel on all six dimensions**, winning **175 / 250** queries head-to-head (16 ties).
 
 ### By query category
 

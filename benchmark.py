@@ -165,9 +165,12 @@ async def main():
         l=sum(r['linkup'][d] for r in rows)/n; p=sum(r['parallel'][d] for r in rows)/n
         t.add_row(d.replace("_"," ").title(), f"{l:.1f}", f"{p:.1f}")
     lt=sum(r['linkup_total'] for r in rows)/n; pt=sum(r['parallel_total'] for r in rows)/n
-    w=sum(1 for r in rows if r['linkup_total']>=r['parallel_total'])
+    w=sum(1 for r in rows if r['linkup_total']>r['parallel_total'])
+    pw=sum(1 for r in rows if r['parallel_total']>r['linkup_total'])
+    ties=n-w-pw
     t.add_section(); t.add_row("TOTAL", f"{lt:.1f}", f"{pt:.1f}")
-    t.add_row("Win rate", f"{w}/{n}", f"{n-w}/{n}")
+    t.add_row("Wins (excl. ties)", f"{w}/{n}", f"{pw}/{n}")
+    t.add_row("Ties", f"{ties}/{n}", f"{ties}/{n}")
     console.print(t)
     json.dump(rows, open(args.out,"w"), indent=2)
     console.print(f"\n  saved → {args.out}")
