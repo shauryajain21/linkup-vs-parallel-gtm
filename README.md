@@ -8,7 +8,7 @@ Every benchmark compares the two products' **search APIs** (Linkup `/search`, Pa
 
 | # | Benchmark | What it tests | Queries | Headline | Latency (avg) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.0 — wins all 6 dimensions | Linkup **2.73s** vs Parallel 2.84s |
+| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.7 — wins all 6 dimensions | Linkup **2.73s** vs Parallel 2.84s |
 | 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.72s |
 | 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **70%** vs Parallel 53% top-result hit | Linkup **2.23s** vs Parallel 2.82s |
 | 4 | **People Research** | Enrich / activity / signal for a named person (LinkedIn URL given) | 100 | Linkup **6.1** vs Parallel 5.9 — leads, enrichment-driven | Linkup **2.95s** vs Parallel 3.08s |
@@ -25,22 +25,22 @@ Details, methodology, and reproduce steps for each are below.
 
 | Dimension | Linkup | Parallel |
 | --- | --- | --- |
-| Accuracy | **8.3** | 7.1 |
-| Completeness | **6.1** | 4.8 |
-| GTM Value | **6.8** | 5.5 |
-| Specificity | **7.8** | 6.8 |
-| Source Quality | **6.5** | 5.6 |
-| Signal-to-Noise | **7.5** | 6.2 |
-| **Overall** | **7.2** | **6.0** |
+| Accuracy | **8.3** | 8.0 |
+| Completeness | **6.1** | 5.4 |
+| GTM Value | **6.8** | 6.2 |
+| Specificity | **7.8** | 7.5 |
+| Source Quality | **6.5** | 6.3 |
+| Signal-to-Noise | **7.5** | 7.0 |
+| **Overall** | **7.2** | **6.7** |
 
-**Linkup outperforms Parallel on all six dimensions**, winning **175 / 250** queries head-to-head (16 ties).
+**Linkup outperforms Parallel on all six dimensions**, winning **157 / 250** queries head-to-head (17 ties).
 
 ### By query category
 
 | Category | Linkup | Parallel | n |
 | --- | --- | --- | --- |
-| Company profile | **7.5** | 5.9 | 76 |
-| Company enrichment | **7.4** | 5.2 | 63 |
+| Company profile | **7.5** | 6.5 | 76 |
+| Company enrichment | 7.4 | 7.4 | 63 |
 | Company identification | **6.7** | 6.2 | 49 |
 | Financial lookup | **6.7** | 6.5 | 36 |
 | Website analysis | **7.5** | 6.9 | 25 |
