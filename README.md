@@ -2,7 +2,7 @@
 
 A suite of reproducible benchmarks comparing **Linkup Search** and **Parallel Search** across the GTM retrieval surface — the company-research, buying-signal, and people-search questions sales and growth teams run at scale. Every benchmark is designed so the **only variable is retrieval quality**: the same query goes to both APIs, the same downstream model turns each result set into an answer, and an independent model judges the answers blind.
 
-Every benchmark compares the two products' **search APIs** (Linkup `/search`, Parallel `/search`) head-to-head — not their deep-research or agent endpoints, which we evaluate separately.
+Every benchmark compares the two products' **search APIs** (Linkup `/search`, Parallel `/search`) head-to-head.
 
 ## Benchmarks in this repo
 
