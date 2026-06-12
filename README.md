@@ -1,6 +1,8 @@
-# Linkup vs Parallel — GTM Retrieval Benchmarks
+# Linkup Search vs Parallel Search — GTM Retrieval Benchmarks
 
 A suite of reproducible benchmarks comparing **Linkup Search** and **Parallel Search** across the GTM retrieval surface — the company-research, buying-signal, and people-search questions sales and growth teams run at scale. Every benchmark is designed so the **only variable is retrieval quality**: the same query goes to both APIs, the same downstream model turns each result set into an answer, and an independent model judges the answers blind.
+
+Every benchmark compares the two products' **search APIs** (Linkup `/search`, Parallel `/search`) head-to-head — not their deep-research or agent endpoints, which we evaluate separately.
 
 ## Benchmarks in this repo
 
@@ -176,7 +178,7 @@ export LINKUP_API_KEY=...      # https://linkup.so
 export PARALLEL_API_KEY=...    # https://parallel.ai
 export ANTHROPIC_API_KEY=...   # https://console.anthropic.com
 
-python benchmark.py data/queries.jsonl             --out results/company_results.json       # 1. Company Research (250)
+python benchmark.py data/company_research_queries.jsonl --out results/company_results.json   # 1. Company Research (250)
 python benchmark.py data/news_signal_queries.jsonl --out results/news_signal_results.json   # 2. Signal (50)
 python people_benchmark.py data/people_queries.jsonl                                         # 3. People Search (100) → results/people_results.json
 ```
@@ -184,7 +186,7 @@ python people_benchmark.py data/people_queries.jsonl                            
 # Repo structure
 
 ```
-data/queries.jsonl                 250 company-research queries (id, category, query)
+data/company_research_queries.jsonl   250 company-research queries (id, category, query)
 data/news_signal_queries.jsonl     50 signal queries (id, category, query)
 data/people_queries.jsonl          100 people-search queries (id, segment, query)
 benchmark.py                       company & signal runner (retrieval → shared synthesis → independent judge)
