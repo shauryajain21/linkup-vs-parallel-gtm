@@ -6,11 +6,12 @@ Every benchmark compares the two products' **search APIs** (Linkup `/search`, Pa
 
 ## Benchmarks in this repo
 
-| # | Benchmark | What it tests | Queries | Headline | Latency (p50) |
+| # | Benchmark | What it tests | Queries | Headline | Latency (avg) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.0 — wins all 6 dimensions | Linkup **1.47s** vs Parallel 3.09s |
-| 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.36s |
-| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **76%** vs Parallel 48% top-result hit | Linkup **1.97s** vs Parallel 2.65s |
+| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.0 — wins all 6 dimensions | Linkup **2.73s** vs Parallel 2.84s |
+| 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.72s |
+| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **70%** vs Parallel 53% top-result hit | Linkup **2.23s** vs Parallel 2.82s |
+| 4 | **People Research** | Enrich / activity / signal for a named person (LinkedIn URL given) | 100 | Linkup **6.1** vs Parallel 5.9 — leads, enrichment-driven | Linkup **2.95s** vs Parallel 3.08s |
 
 Details, methodology, and reproduce steps for each are below.
 
@@ -84,12 +85,12 @@ Linkup leads or ties on every dimension. The two are closely matched on this wor
 | --- | --- | --- | --- |
 | Security / breach | **6.9** | 6.5 | 16 |
 | Leadership change | **8.0** | 7.0 | 7 |
+| IPO | **5.2** | 5.1 | 3 |
+| Expansion | **6.1** | 5.9 | 2 |
 | Funding | 7.2 | **7.3** | 7 |
 | Layoff | 6.8 | **7.2** | 5 |
 | M&A | 7.0 | **7.3** | 5 |
 | Compliance | 6.0 | **6.7** | 5 |
-| IPO | **5.2** | 5.1 | 3 |
-| Expansion | **6.1** | 5.9 | 2 |
 
 Linkup's strongest edge is on **security-breach** and **leadership-change** detection — the two largest categories. Parallel edges ahead on funding, layoff, M&A, and compliance signals, mostly by thin margins.
 
@@ -114,23 +115,23 @@ The 50 signal queries are a hand-built set of GTM buying-signal questions, phras
 
 | Metric | Linkup | Parallel |
 | --- | --- | --- |
-| **Top-Result Hit** | **76%** | 48% |
-| Quality Score | 55% | 59% |
+| **Top-Result Hit** | **70%** | 53% |
+| Quality Score | 55% | **58%** |
 
-- **Top-Result Hit** — is the #1 returned result the right person (graded relevance ≥ 2)? **Linkup's first result is right 76% of the time vs Parallel's 48%** — Linkup puts the correct prospect at the top far more often.
-- **Quality Score** — mean graded relevance across the top-10 (0–3 normalized). Roughly even (Parallel a touch higher on breadth).
+- **Top-Result Hit** — is the #1 returned result the right person (graded relevance ≥ 2)? **Linkup's first result is right 70% of the time vs Parallel's 53%** — Linkup puts the correct prospect at the top more often.
+- **Quality Score** — mean graded relevance across the top-10 (0–3 normalized). Roughly even.
 
 ### Top-Result Hit by GTM persona
 
 | Segment | Linkup | Parallel |
 | --- | --- | --- |
-| Engineering | 85% | 50% |
-| Marketing | 80% | 45% |
-| Product | 80% | 60% |
-| Ops / People | 70% | 35% |
-| Revenue | 65% | 50% |
+| Engineering | 80% | 50% |
+| Marketing | 60% | 65% |
+| Product | 74% | 53% |
+| Ops / People | 65% | 40% |
+| Revenue | 70% | 55% |
 
-Linkup leads Top-Result Hit across **every** persona segment.
+Linkup leads Top-Result Hit in **four of the five** persona segments.
 
 ### What this measures
 
@@ -149,6 +150,39 @@ Read together: **Linkup is more precise at the top of the list; Parallel returns
 
 ---
 
+# 4. People-Research Benchmark
+
+100 people-research queries about a *specific named individual* — lead enrichment, person-level signals (funding, job change), and recent public activity. Unlike benchmark 3 (which ranks *retrieval* of the right profile), this scores the *synthesized answer*: each API's raw results are passed to the same model and an independent model judges the answer. Each query provides the target's **LinkedIn URL** (identity is pinned), so it tests enrichment about a known person.
+
+## Results — 100 queries
+
+| Dimension | Linkup | Parallel |
+| --- | --- | --- |
+| Accuracy | 7.2 | **7.7** |
+| Identity Match | **8.0** | 7.8 |
+| Completeness | 4.5 | **4.6** |
+| Recency | **5.6** | 4.5 |
+| Specificity | **6.4** | 6.2 |
+| Source Quality | 5.6 | 5.6 |
+| GTM Value | **5.5** | 4.7 |
+| **Overall** | **6.1** | **5.9** |
+
+**Head-to-head: Linkup 60 · Parallel 32 · 8 ties.**
+
+Linkup leads overall, driven by **enrichment** (the largest bucket) plus recency and GTM value. The ~0.2 overall gap is within run-to-run noise; the head-to-head split (60–32) and the enrichment-category win are the more reliable signals. Completeness is low for both — niche individuals are hard to fully enrich.
+
+### Query selection
+
+100 queries (enrichment 60 / activity 20 / signal 20), each naming a real individual with their LinkedIn URL.
+
+### Example queries
+
+- **Enrichment:** I'm enriching a sales lead: {name} (LinkedIn: {url}), listed as {title} at {company}. Confirm full name, current title/company, tenure, prior roles, education, location; note any discrepancy. Include source URLs and dates.
+- **Activity:** Find recent public activity for {name} ({url}) — posts, articles, press, talks in the last several months, with dates.
+- **Signal:** Check for a job-change or funding signal for {name} ({url}). Confirm what changed and when, with sources.
+
+---
+
 # Methodology
 
 **Company & Signal** - designed so the only variable is retrieval quality:
@@ -157,9 +191,11 @@ Read together: **Linkup is more precise at the top of the list; Parallel returns
 3. **Judging (independent).** Each answer is scored blind by a different model (Claude Fable 5) — a different family from the synthesizer, to avoid self-preference. The judge never sees which API produced an answer. Dimensions: accuracy, completeness, gtm_value, specificity, source_quality, signal_to_noise. Final score = mean of the six.
 
 **People Search** - both products in best people config (symmetric, neither vanilla):
-1. Linkup `/v1/search` depth=deep + people-targeting prompt; Parallel `/v1beta/search` + people objective + linkedin source filter; both post-filtered to `linkedin.com/in/` profiles.
+1. Linkup `/v1/search` depth=standard + people-targeting prompt; Parallel `/v1beta/search` + people objective + linkedin source filter; both post-filtered to `linkedin.com/in/` profiles.
 2. Graded relevance 0–3, judged by an independent model (Claude Fable 5): 3 = exact fit (function + seniority + location), 2 = right person minor mismatch, 1 = real person wrong role, 0 = not a real personal profile.
 3. Metrics: Top-Result Hit (rank-1 grade ≥ 2) and Quality Score (mean grade / 3). What makes it distinct from prior people benchmarks: our own GTM-outbound query set, graded relevance instead of binary match, an independent judge from a different model family, and both products tuned to their best config.
+
+**People Research** - same search→synth→judge pipeline as Company & Signal, with a people-tuned synthesis prompt (confirm the right person, don't conflate namesakes) and a 7-dimension judge: accuracy, identity_match, completeness, recency, specificity, source_quality, gtm_value. Final score = mean of the seven.
 
 # Pricing
 
@@ -172,15 +208,16 @@ The Company and Signal benchmarks compare each product at its **standard search 
 
 # Latency
 
-Retrieval latency at the comparable tier (Linkup standard vs Parallel default), median (p50) and p95 over 30–40 paired queries per benchmark (sequential, retrieval call only).
+Retrieval latency at the comparable tier (Linkup standard vs Parallel default) — p50, p90, and average over the **full benchmark** (every query, sequential, retrieval call only).
 
-| Benchmark | Linkup p50 | Parallel p50 | Linkup p95 | Parallel p95 |
-| --- | --- | --- | --- | --- |
-| Company Research | **1.47s** | 3.09s | **4.72s** | 5.31s |
-| Signal | **1.91s** | 2.36s | **3.08s** | 4.16s |
-| People Search | **1.97s** | 2.65s | **2.67s** | 3.53s |
+| Benchmark | Linkup p50 | Parallel p50 | Linkup p90 | Parallel p90 | Linkup avg | Parallel avg |
+| --- | --- | --- | --- | --- | --- | --- |
+| Company Research | **1.58s** | 2.70s | 5.23s | **3.93s** | **2.73s** | 2.84s |
+| Signal | **1.79s** | 2.52s | **2.70s** | 4.11s | **1.91s** | 2.72s |
+| People Search | **1.97s** | 2.62s | **2.83s** | 3.79s | **2.23s** | 2.82s |
+| People Research | **2.60s** | 2.82s | **3.69s** | 4.07s | **2.95s** | 3.08s |
 
-Linkup is faster on both median and p95 across all three benchmarks (and wins head-to-head on each). Single-run, directional.
+Linkup is faster on the median (p50) and on average across all four benchmarks. Full-coverage run over all 500 queries (Linkup 500/500 successful; Parallel 472/500 after excluding malformed/error responses).
 
 # Reproduce
 
@@ -193,6 +230,7 @@ export ANTHROPIC_API_KEY=...   # https://console.anthropic.com
 python benchmark.py data/company_research_queries.jsonl --out results/company_results.json   # 1. Company Research (250)
 python benchmark.py data/news_signal_queries.jsonl --out results/news_signal_results.json   # 2. Signal (50)
 python people_benchmark.py data/people_queries.jsonl                                         # 3. People Search (100) → results/people_results.json
+python people_research_benchmark.py data/coresignal_people_queries.jsonl --out results/coresignal_results.json   # 4. People Research (100)
 ```
 
 # Repo structure
@@ -201,11 +239,14 @@ python people_benchmark.py data/people_queries.jsonl                            
 data/company_research_queries.jsonl   250 company-research queries (id, category, query)
 data/news_signal_queries.jsonl     50 signal queries (id, category, query)
 data/people_queries.jsonl          100 people-search queries (id, segment, query)
+data/coresignal_people_queries.jsonl  100 people-research queries (id, category, query; LinkedIn URL provided)
 benchmark.py                       company & signal runner (retrieval → shared synthesis → independent judge)
 people_benchmark.py                people runner (best-config retrieval → graded-relevance judge)
+people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 7-dim judge)
 results/company_results.json       250 company-research scores (id, category, linkup, parallel, totals)
 results/news_signal_results.json   50 signal scores
 results/people_results.json        100 people-search scores (graded relevance + top-result hit)
+results/coresignal_results.json    100 people-research scores (7 dimensions)
 README.md
 ```
 
