@@ -26,7 +26,7 @@ async def linkup_people(client,q,sem):
             try:
                 r=await client.post("https://api.linkup.so/v1/search",
                     headers={"Authorization":f"Bearer {LINKUP_KEY}","Content-Type":"application/json"},
-                    json={"q":PEOPLE_PROMPT.format(q=q),"depth":"deep","outputType":"searchResults"},timeout=120)
+                    json={"q":PEOPLE_PROMPT.format(q=q),"depth":"standard","outputType":"searchResults"},timeout=120)
                 r.raise_for_status()
                 return ([{"url":x.get("url",""),"title":x.get("name",""),"content":x.get("content","")}
                          for x in r.json().get("results",[]) if is_profile(x.get("url",""))], True)
