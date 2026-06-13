@@ -7,7 +7,6 @@
       "completeness": 2.0,
       "gtm_value": 2.0,
       "specificity": 2.0,
-      "source_quality": 5.0,
       "signal_to_noise": 4.0
     },
     "parallel": {
@@ -15,11 +14,10 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 3.17,
-    "parallel_total": 7.5
+    "linkup_total": 2.8,
+    "parallel_total": 7.6
   },
   {
     "id": "q002",
@@ -29,7 +27,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -37,11 +34,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 7.5
+    "linkup_total": 8.8,
+    "parallel_total": 7.4
   },
   {
     "id": "q003",
@@ -51,7 +47,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -59,11 +54,10 @@
       "completeness": 7.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 6.5
+    "linkup_total": 7.6,
+    "parallel_total": 7.0
   },
   {
     "id": "q004",
@@ -73,7 +67,6 @@
       "completeness": 9.0,
       "gtm_value": 7.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -81,11 +74,10 @@
       "completeness": 2.0,
       "gtm_value": 1.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 2.17
+    "linkup_total": 7.4,
+    "parallel_total": 2.4
   },
   {
     "id": "q005",
@@ -95,7 +87,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -103,11 +94,10 @@
       "completeness": 7.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 3.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 6.0
+    "linkup_total": 8.4,
+    "parallel_total": 6.6
   },
   {
     "id": "q006",
@@ -117,7 +107,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -125,12 +114,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Accurate, well-grounded indicator-by-indicator analysis correctly identifying Unity Health Care as a nonprofit health center network (clearly pointing toward SLG/0 indicators), but the answer is truncated mid-tally and never explicitly states the final classification."
     },
-    "linkup_total": 6.17,
-    "parallel_total": 7.67
+    "linkup_total": 6.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q007",
@@ -140,7 +128,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -148,12 +135,11 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0,
       "reason": "Well-sourced and specific on product launches (Economic Institute, SGX listing board, Verafin analytic), but the answer is truncated mid-sentence and never covers acquisitions, design/UX/research hires, or job postings\u2014core parts of the question\u2014and admits sources lack the hiring info."
     },
-    "linkup_total": 8.17,
-    "parallel_total": 5.67
+    "linkup_total": 8.4,
+    "parallel_total": 5.4
   },
   {
     "id": "q008",
@@ -163,7 +149,6 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -171,11 +156,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 9.17,
-    "parallel_total": 8.83
+    "linkup_total": 9.2,
+    "parallel_total": 9.0
   },
   {
     "id": "q009",
@@ -185,7 +169,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -193,12 +176,11 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer correctly identifies fetch.ly as Fetchly Labs (a dev services firm, not SaaS/AI) with grounded details and evidence-based False determinations, but it is truncated mid-answer, omitting customer_proof contents, all technical signals (SCIM, IdP, login links), fundraising data, and the required final JSON object."
     },
-    "linkup_total": 7.67,
-    "parallel_total": 6.33
+    "linkup_total": 7.8,
+    "parallel_total": 6.2
   },
   {
     "id": "q010",
@@ -208,7 +190,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -216,12 +197,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "Accurate, well-evidenced indicator-by-indicator analysis correctly identifying a consulting firm with 0/4 PLG indicators and properly disambiguating an unrelated Korean company, but the answer is truncated mid-sentence and never explicitly states the final SLG classification."
     },
-    "linkup_total": 4.83,
-    "parallel_total": 7.83
+    "linkup_total": 4.8,
+    "parallel_total": 8.0
   },
   {
     "id": "q011",
@@ -231,7 +211,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -239,11 +218,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 5.5,
-    "parallel_total": 4.83
+    "linkup_total": 5.2,
+    "parallel_total": 4.8
   },
   {
     "id": "q012",
@@ -253,7 +231,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -261,11 +238,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.83
+    "linkup_total": 6.8,
+    "parallel_total": 8.0
   },
   {
     "id": "q013",
@@ -275,7 +251,6 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 10.0
     },
     "parallel": {
@@ -283,11 +258,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 9.5,
-    "parallel_total": 9.17
+    "linkup_total": 9.6,
+    "parallel_total": 9.2
   },
   {
     "id": "q014",
@@ -297,7 +271,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -305,12 +278,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is well-grounded on the right company (even correctly excluding lookalike scoutcms.com customers) with concrete evidence for AI/B2B/Clerk/enterprise signals, but it fails to produce the required JSON output, omits several boolean fields (SCIM, SSO docs/login link), truncates the revenue figure mid-sentence, and provides no fundraising date or amount."
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.17
+    "linkup_total": 6.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q015",
@@ -320,7 +292,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -328,11 +299,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 8.83
+    "linkup_total": 9.0,
+    "parallel_total": 9.0
   },
   {
     "id": "q016",
@@ -342,7 +312,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -350,12 +319,11 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0,
       "reason": "The answer analyzes monks.com (possibly a domain mismatch with monk.com), provides reasonable findings with named customers, but the required JSON output is truncated mid-stream and fundraising/revenue fields are entirely missing, leaving the deliverable incomplete."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 5.17
+    "linkup_total": 6.4,
+    "parallel_total": 5.2
   },
   {
     "id": "q017",
@@ -365,7 +333,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -373,11 +340,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 8.67
+    "linkup_total": 8.8,
+    "parallel_total": 8.8
   },
   {
     "id": "q018",
@@ -387,7 +353,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -395,11 +360,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 8.33
+    "linkup_total": 9.0,
+    "parallel_total": 8.6
   },
   {
     "id": "q019",
@@ -409,7 +373,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -417,11 +380,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.17
+    "linkup_total": 7.6,
+    "parallel_total": 7.4
   },
   {
     "id": "q020",
@@ -431,7 +393,6 @@
       "completeness": 5.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -439,10 +400,9 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 5.83,
+    "linkup_total": 5.8,
     "parallel_total": 9.0
   },
   {
@@ -453,7 +413,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -461,11 +420,10 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 9.17
+    "linkup_total": 9.0,
+    "parallel_total": 9.2
   },
   {
     "id": "q022",
@@ -475,7 +433,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -483,11 +440,10 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 7.17
+    "linkup_total": 8.0,
+    "parallel_total": 7.4
   },
   {
     "id": "q023",
@@ -497,7 +453,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -505,10 +460,9 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.83,
+    "linkup_total": 9.0,
     "parallel_total": 9.0
   },
   {
@@ -519,7 +473,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -527,11 +480,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.83
+    "linkup_total": 8.6,
+    "parallel_total": 9.0
   },
   {
     "id": "q025",
@@ -541,7 +493,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -549,12 +500,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Correctly classifies EURid (the .eu domain registry) as NO with direct supporting quotes and clear reasoning in the required JSON format, though it leans on Wikipedia and unnamed sources rather than the prioritized eurid.eu site itself."
     },
     "linkup_total": 7.0,
-    "parallel_total": 9.0
+    "parallel_total": 9.2
   },
   {
     "id": "q026",
@@ -564,7 +514,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -572,11 +521,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.67
+    "linkup_total": 8.6,
+    "parallel_total": 8.8
   },
   {
     "id": "q027",
@@ -586,7 +534,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -594,11 +541,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.67
+    "parallel_total": 9.0
   },
   {
     "id": "q028",
@@ -608,7 +554,6 @@
       "completeness": 0,
       "gtm_value": 0,
       "specificity": 0,
-      "source_quality": 0,
       "signal_to_noise": 0
     },
     "parallel": {
@@ -616,11 +561,10 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 0.0,
-    "parallel_total": 7.83
+    "linkup_total": 0,
+    "parallel_total": 8.0
   },
   {
     "id": "q029",
@@ -630,7 +574,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -638,11 +581,10 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 10.0
     },
-    "linkup_total": 9.17,
-    "parallel_total": 9.5
+    "linkup_total": 9.2,
+    "parallel_total": 9.6
   },
   {
     "id": "q030",
@@ -652,7 +594,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -660,11 +601,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 8.83
+    "linkup_total": 8.8,
+    "parallel_total": 9.0
   },
   {
     "id": "q031",
@@ -674,7 +614,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -682,11 +621,10 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 7.83
+    "linkup_total": 9.0,
+    "parallel_total": 8.0
   },
   {
     "id": "q032",
@@ -696,7 +634,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -704,11 +641,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.83
+    "parallel_total": 6.8
   },
   {
     "id": "q033",
@@ -718,7 +654,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -726,11 +661,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.83
+    "parallel_total": 9.0
   },
   {
     "id": "q034",
@@ -740,7 +674,6 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -748,11 +681,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.67
+    "parallel_total": 6.6
   },
   {
     "id": "q035",
@@ -762,7 +694,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -770,12 +701,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Well-grounded NO classification with direct quotes from the company's official website showing an SAP/ERP system-integrator focus and no WiFi/WLAN offering, correctly mapped to exclusion criterion (2) in the required JSON format with an appropriate confidence score."
     },
-    "linkup_total": 6.5,
-    "parallel_total": 8.83
+    "linkup_total": 6.4,
+    "parallel_total": 9.0
   },
   {
     "id": "q036",
@@ -785,7 +715,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -793,12 +722,11 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "The answer correctly classifies Emporix as a digital commerce software company fitting exclusion criterion (2), provides multiple direct quotes from on-target sources, follows the required JSON format with confidence score, and contains no filler."
     },
-    "linkup_total": 5.5,
-    "parallel_total": 9.17
+    "linkup_total": 5.4,
+    "parallel_total": 9.4
   },
   {
     "id": "q037",
@@ -808,7 +736,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -816,7 +743,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "linkup_total": 9.0,
@@ -830,7 +756,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -838,12 +763,11 @@
       "completeness": 2.0,
       "gtm_value": 1.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "signal_to_noise": 3.0,
       "reason": "The answer honestly returns N/A because all retrieved sources were irrelevant (market reports, M&A platforms, analyst profiles) with zero information about GDS Srl or gdsoftware.it, providing no actionable classification or company evidence."
     },
-    "linkup_total": 6.67,
-    "parallel_total": 2.0
+    "linkup_total": 6.6,
+    "parallel_total": 2.2
   },
   {
     "id": "q039",
@@ -853,7 +777,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -861,11 +784,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 8.5
+    "linkup_total": 8.4,
+    "parallel_total": 8.8
   },
   {
     "id": "q040",
@@ -875,7 +797,6 @@
       "completeness": 4.0,
       "gtm_value": 3.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -883,11 +804,10 @@
       "completeness": 4.0,
       "gtm_value": 3.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 4.5,
-    "parallel_total": 5.0
+    "linkup_total": 4.6,
+    "parallel_total": 4.8
   },
   {
     "id": "q041",
@@ -897,7 +817,6 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 10.0
     },
     "parallel": {
@@ -905,11 +824,10 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 9.5,
-    "parallel_total": 9.33
+    "linkup_total": 9.6,
+    "parallel_total": 9.4
   },
   {
     "id": "q042",
@@ -919,7 +837,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -927,10 +844,9 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.83,
+    "linkup_total": 9.0,
     "parallel_total": 9.0
   },
   {
@@ -941,7 +857,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -949,12 +864,11 @@
       "completeness": 2.0,
       "gtm_value": 1.0,
       "specificity": 3.0,
-      "source_quality": 1.0,
       "signal_to_noise": 3.0,
       "reason": "The answer correctly and honestly returns N/A because all retrieved sources were irrelevant (job descriptions, unrelated companies), but it provides no actual information about TQG Lottery Solutions, making it useless for the screening decision despite proper formatting and reasoning."
     },
-    "linkup_total": 6.67,
-    "parallel_total": 2.33
+    "linkup_total": 6.8,
+    "parallel_total": 2.6
   },
   {
     "id": "q044",
@@ -964,7 +878,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -972,11 +885,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.83
+    "parallel_total": 9.0
   },
   {
     "id": "q045",
@@ -986,7 +898,6 @@
       "completeness": 7.0,
       "gtm_value": 5.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -994,12 +905,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "The answer correctly identifies EVcharge as an EV charging management software company with direct quotes from the official website, properly applies the exclusion criteria with a confident NO, and provides well-grounded, decision-ready output for the M&A screening task."
     },
-    "linkup_total": 5.83,
-    "parallel_total": 8.67
+    "linkup_total": 6.0,
+    "parallel_total": 8.8
   },
   {
     "id": "q046",
@@ -1009,7 +919,6 @@
       "completeness": 7.0,
       "gtm_value": 6.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1017,12 +926,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "The answer correctly classifies Gateway Digital as a digital engineering/software development firm (exclusion criterion), supports the 'NO' verdict with direct quotes from the company's site and ZoomInfo, names specific products (AutoDAP, DISMANTO, FinFacets, LEAP), and follows the required JSON format with an appropriate confidence score."
     },
-    "linkup_total": 6.17,
-    "parallel_total": 8.83
+    "linkup_total": 6.4,
+    "parallel_total": 9.0
   },
   {
     "id": "q047",
@@ -1032,7 +940,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -1040,12 +947,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer accurately identifies Gangverk as an Icelandic software consultancy with relevant findings on each signal, but it fails to deliver the required JSON output, is cut off mid-sentence on the revenue estimate, and relies partly on third-party databases (Crunchbase/Tracxn/Lusha) rather than direct site evidence."
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.5
+    "linkup_total": 6.4,
+    "parallel_total": 6.4
   },
   {
     "id": "q048",
@@ -1055,7 +961,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1063,11 +968,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.5
+    "linkup_total": 8.8,
+    "parallel_total": 8.8
   },
   {
     "id": "q049",
@@ -1077,7 +981,6 @@
       "completeness": 7.0,
       "gtm_value": 5.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1085,12 +988,11 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 9.0,
       "reason": "Correctly identifies Skaggs Appliance as a local B2C appliance retailer with all enterprise signals appropriately false per instructions, delivering a clean, complete JSON output, though only one source was actually about the company and concrete detail is inherently limited."
     },
-    "linkup_total": 5.33,
-    "parallel_total": 7.83
+    "linkup_total": 5.8,
+    "parallel_total": 8.4
   },
   {
     "id": "q050",
@@ -1100,7 +1002,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1108,12 +1009,11 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "The answer correctly identifies the domain as SFSU's Lam Family College of Business (a public university unit, not a vendor), justifiably sets all enterprise-readiness signals to false with specific supporting details (program names like the Enterprise Cybersecurity certificate explaining the 'Enterprise' keyword), and delivers a clean, well-structured JSON output, with only a minor truncation in the final explanation."
     },
-    "linkup_total": 8.17,
-    "parallel_total": 8.5
+    "linkup_total": 8.4,
+    "parallel_total": 8.6
   },
   {
     "id": "q051",
@@ -1123,7 +1023,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1131,12 +1030,11 @@
       "completeness": 2.0,
       "gtm_value": 1.0,
       "specificity": 1.0,
-      "source_quality": 1.0,
       "signal_to_noise": 3.0,
       "reason": "The answer admits the search results contained no information about posteering.com and simply defaults every signal to false/empty, providing no verified facts, no fundraising data, and no GTM-actionable insight."
     },
-    "linkup_total": 8.5,
-    "parallel_total": 1.67
+    "linkup_total": 8.6,
+    "parallel_total": 1.8
   },
   {
     "id": "q052",
@@ -1146,7 +1044,6 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1154,11 +1051,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer correctly identifies Depot Analytics as a small ML consulting firm with concrete details (3 employees, founded 2022, $330K ARR, no SSO/enterprise signals) from reasonable sources like PitchBook and Tracxn, but it is truncated mid-sentence and never delivers the required JSON output object with explicit boolean values."
     },
-    "linkup_total": 5.83,
+    "linkup_total": 5.6,
     "parallel_total": 7.0
   },
   {
@@ -1169,7 +1065,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1177,12 +1072,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The answer correctly identifies the company as a tiny consulting/services operation with plausible, specific details (founder name, offering, NAICS codes) and reasonable signal judgments, but the required JSON output is truncated mid-object, omitting identity_provider_detected, supports_scim, explicit_enterprise_plan, and the fundraising fields."
     },
-    "linkup_total": 7.33,
-    "parallel_total": 6.5
+    "linkup_total": 7.6,
+    "parallel_total": 6.6
   },
   {
     "id": "q054",
@@ -1192,7 +1086,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -1200,12 +1093,11 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The analysis is accurate, well-cited, and specific (per-user pricing, named products, SSO FAQ evidence), but the answer is truncated mid-sentence and entirely omits the required JSON output, customer proof list, technical signals, and all fundraising/revenue data."
     },
-    "linkup_total": 5.0,
-    "parallel_total": 6.17
+    "linkup_total": 4.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q055",
@@ -1215,7 +1107,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1223,11 +1114,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 3.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 7.33
+    "linkup_total": 8.0,
+    "parallel_total": 8.2
   },
   {
     "id": "q056",
@@ -1237,7 +1127,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1245,11 +1134,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 6.83
+    "linkup_total": 8.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q057",
@@ -1259,7 +1147,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -1267,11 +1154,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.0
+    "linkup_total": 7.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q058",
@@ -1281,7 +1167,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1289,11 +1174,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 7.17
+    "linkup_total": 8.4,
+    "parallel_total": 7.0
   },
   {
     "id": "q059",
@@ -1303,7 +1187,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1311,11 +1194,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 6.83
+    "linkup_total": 7.8,
+    "parallel_total": 6.8
   },
   {
     "id": "q060",
@@ -1325,7 +1207,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1333,12 +1214,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is accurate and well-sourced on Maxio's B2B SaaS nature, SSO docs, enterprise positioning, and named customers, but it is truncated and never delivers the required JSON output, the technical signals (SCIM, IdP, login link), or any of the fundraising data (date, amount, revenue) explicitly requested."
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.83
+    "linkup_total": 6.0,
+    "parallel_total": 6.6
   },
   {
     "id": "q061",
@@ -1348,7 +1228,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1356,11 +1235,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 6.5
+    "linkup_total": 8.8,
+    "parallel_total": 7.0
   },
   {
     "id": "q062",
@@ -1370,7 +1248,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1378,11 +1255,10 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 7.5
+    "linkup_total": 8.4,
+    "parallel_total": 7.6
   },
   {
     "id": "q063",
@@ -1392,7 +1268,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1400,11 +1275,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 8.83
+    "linkup_total": 8.8,
+    "parallel_total": 8.8
   },
   {
     "id": "q064",
@@ -1414,7 +1288,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1422,11 +1295,10 @@
       "completeness": 2.0,
       "gtm_value": 2.0,
       "specificity": 3.0,
-      "source_quality": 4.0,
       "signal_to_noise": 3.0
     },
     "linkup_total": 8.0,
-    "parallel_total": 3.17
+    "parallel_total": 3.0
   },
   {
     "id": "q065",
@@ -1436,7 +1308,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -1444,11 +1315,10 @@
       "completeness": 5.0,
       "gtm_value": 5.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "signal_to_noise": 4.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 5.0
+    "linkup_total": 7.4,
+    "parallel_total": 5.2
   },
   {
     "id": "q066",
@@ -1458,7 +1328,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1466,11 +1335,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 8.17
+    "linkup_total": 7.6,
+    "parallel_total": 8.8
   },
   {
     "id": "q067",
@@ -1480,7 +1348,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1488,11 +1355,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 7.17
+    "linkup_total": 8.2,
+    "parallel_total": 7.2
   },
   {
     "id": "q068",
@@ -1502,7 +1368,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1510,11 +1375,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.5
+    "linkup_total": 7.6,
+    "parallel_total": 7.2
   },
   {
     "id": "q069",
@@ -1524,7 +1388,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1532,11 +1395,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "Factually accurate and detail-rich on Hempel's value-chain position and products with concrete figures, but the answer is truncated mid-sentence and fails to cover the requested end-markets served."
     },
-    "linkup_total": 5.67,
+    "linkup_total": 5.6,
     "parallel_total": 7.0
   },
   {
@@ -1547,7 +1409,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1555,11 +1416,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 7.67
+    "linkup_total": 8.8,
+    "parallel_total": 8.0
   },
   {
     "id": "q071",
@@ -1569,7 +1429,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1577,11 +1436,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 6.83
+    "linkup_total": 8.8,
+    "parallel_total": 7.2
   },
   {
     "id": "q072",
@@ -1591,7 +1449,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1599,11 +1456,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 6.83
+    "linkup_total": 8.2,
+    "parallel_total": 7.2
   },
   {
     "id": "q073",
@@ -1613,7 +1469,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1621,10 +1476,9 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.67,
+    "linkup_total": 8.8,
     "parallel_total": 9.0
   },
   {
@@ -1635,7 +1489,6 @@
       "completeness": 4.0,
       "gtm_value": 2.0,
       "specificity": 3.0,
-      "source_quality": 4.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -1643,12 +1496,11 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "The answer correctly identifies ACE SOFTWARE as a French ERP publisher, covers value-chain positioning, products, and end-markets with concrete details (location, founding year, headcount, leadership, modules, verticals), cites on-target sources, and helpfully flags name-collision risks, with only minor format deviation (bullets vs paragraphs) and a truncated ending."
     },
-    "linkup_total": 3.67,
-    "parallel_total": 8.5
+    "linkup_total": 3.6,
+    "parallel_total": 8.6
   },
   {
     "id": "q075",
@@ -1658,7 +1510,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1666,12 +1517,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "The answer is factually grounded with strong specifics (NAICS code, Construct-X acquisition, detailed service list) and correct positioning, but it is cut off mid-sentence and never delivers the requested end-markets section, leaving the question only partially answered."
     },
-    "linkup_total": 5.17,
-    "parallel_total": 7.67
+    "linkup_total": 5.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q076",
@@ -1681,7 +1531,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -1689,12 +1538,11 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0,
       "reason": "Detailed, factual profile covering value-chain position (SaaS martech vendor), named products (Blog2Social, PR-Gateway, Assistini), and B2B/agency end-markets, though no explicit source citations are provided to verify authority."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 8.33
+    "linkup_total": 5.8,
+    "parallel_total": 8.8
   },
   {
     "id": "q077",
@@ -1704,7 +1552,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1712,12 +1559,11 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0,
       "reason": "Accurate, dense, and highly specific description of Sedex's positioning and offerings in the requested format, but the answer is truncated mid-sentence and never covers the end-markets served, and no explicit sources are cited beyond the implied company website."
     },
-    "linkup_total": 8.17,
-    "parallel_total": 7.83
+    "linkup_total": 8.4,
+    "parallel_total": 8.2
   },
   {
     "id": "q078",
@@ -1727,7 +1573,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1735,11 +1580,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 5.0
+    "linkup_total": 8.8,
+    "parallel_total": 5.2
   },
   {
     "id": "q079",
@@ -1749,7 +1593,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 2.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -1757,11 +1600,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.0
+    "linkup_total": 7.0,
+    "parallel_total": 6.2
   },
   {
     "id": "q080",
@@ -1771,7 +1613,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -1779,12 +1620,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Accurate, detailed, and well-sourced description of Abin's distributor/service positioning and product lines with concrete brand and model names, but the answer is truncated mid-sentence and never covers the end-markets served, and it uses bullets rather than the requested paragraph style."
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.83
+    "linkup_total": 6.4,
+    "parallel_total": 7.8
   },
   {
     "id": "q081",
@@ -1794,7 +1634,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1802,11 +1641,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 8.33
+    "linkup_total": 8.2,
+    "parallel_total": 8.4
   },
   {
     "id": "q082",
@@ -1816,7 +1654,6 @@
       "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1824,11 +1661,10 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "signal_to_noise": 3.0
     },
     "linkup_total": 7.0,
-    "parallel_total": 3.17
+    "parallel_total": 3.2
   },
   {
     "id": "q083",
@@ -1838,7 +1674,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1846,11 +1681,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 7.33
+    "linkup_total": 7.4,
+    "parallel_total": 7.4
   },
   {
     "id": "q084",
@@ -1860,7 +1694,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1868,11 +1701,10 @@
       "completeness": 1.0,
       "gtm_value": 1.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 1.83
+    "linkup_total": 8.8,
+    "parallel_total": 2.0
   },
   {
     "id": "q085",
@@ -1882,7 +1714,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1890,11 +1721,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 5.83
+    "linkup_total": 8.2,
+    "parallel_total": 6.4
   },
   {
     "id": "q086",
@@ -1904,7 +1734,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -1912,11 +1741,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 6.5
+    "linkup_total": 8.8,
+    "parallel_total": 7.2
   },
   {
     "id": "q087",
@@ -1926,7 +1754,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1934,11 +1761,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.67
+    "linkup_total": 8.2,
+    "parallel_total": 8.2
   },
   {
     "id": "q088",
@@ -1948,7 +1774,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1956,11 +1781,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 6.5
+    "linkup_total": 8.0,
+    "parallel_total": 6.8
   },
   {
     "id": "q089",
@@ -1970,7 +1794,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -1978,11 +1801,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.17
+    "linkup_total": 8.4,
+    "parallel_total": 7.4
   },
   {
     "id": "q090",
@@ -1992,7 +1814,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2000,11 +1821,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.0
+    "linkup_total": 7.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q091",
@@ -2014,7 +1834,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2022,11 +1841,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.5
+    "linkup_total": 8.2,
+    "parallel_total": 7.4
   },
   {
     "id": "q092",
@@ -2036,7 +1854,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2044,11 +1861,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.17
+    "linkup_total": 8.8,
+    "parallel_total": 8.6
   },
   {
     "id": "q093",
@@ -2058,7 +1874,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2066,11 +1881,10 @@
       "completeness": 1.0,
       "gtm_value": 1.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "signal_to_noise": 2.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 1.83
+    "linkup_total": 7.6,
+    "parallel_total": 2.0
   },
   {
     "id": "q094",
@@ -2080,7 +1894,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2088,11 +1901,10 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 7.33
+    "linkup_total": 7.8,
+    "parallel_total": 8.0
   },
   {
     "id": "q095",
@@ -2102,7 +1914,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2110,11 +1921,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 7.83
+    "linkup_total": 8.2,
+    "parallel_total": 7.8
   },
   {
     "id": "q096",
@@ -2124,7 +1934,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2132,11 +1941,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 7.17
+    "linkup_total": 7.6,
+    "parallel_total": 7.4
   },
   {
     "id": "q097",
@@ -2146,7 +1954,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2154,11 +1961,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.67
+    "linkup_total": 6.6,
+    "parallel_total": 6.8
   },
   {
     "id": "q098",
@@ -2168,7 +1974,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2176,11 +1981,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 5.5
+    "linkup_total": 7.0,
+    "parallel_total": 6.0
   },
   {
     "id": "q099",
@@ -2190,7 +1994,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2198,11 +2001,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.33
+    "linkup_total": 7.2,
+    "parallel_total": 7.8
   },
   {
     "id": "q100",
@@ -2212,7 +2014,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2220,11 +2021,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 6.0
+    "linkup_total": 8.8,
+    "parallel_total": 6.6
   },
   {
     "id": "q101",
@@ -2234,7 +2034,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2242,11 +2041,10 @@
       "completeness": 2.0,
       "gtm_value": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 2.5
+    "linkup_total": 7.6,
+    "parallel_total": 2.6
   },
   {
     "id": "q102",
@@ -2256,7 +2054,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2264,11 +2061,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 7.8,
+    "parallel_total": 8.0
   },
   {
     "id": "q103",
@@ -2278,7 +2074,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2286,11 +2081,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 6.67
+    "linkup_total": 8.4,
+    "parallel_total": 7.0
   },
   {
     "id": "q104",
@@ -2300,7 +2094,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2308,11 +2101,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 7.67
+    "linkup_total": 8.4,
+    "parallel_total": 7.6
   },
   {
     "id": "q105",
@@ -2322,7 +2114,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2330,11 +2121,10 @@
       "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 6.33
+    "linkup_total": 8.0,
+    "parallel_total": 7.0
   },
   {
     "id": "q106",
@@ -2344,7 +2134,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2352,11 +2141,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 6.33
+    "linkup_total": 9.0,
+    "parallel_total": 6.8
   },
   {
     "id": "q107",
@@ -2366,7 +2154,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2374,11 +2161,10 @@
       "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 6.5
+    "linkup_total": 7.4,
+    "parallel_total": 7.0
   },
   {
     "id": "q108",
@@ -2388,7 +2174,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2396,11 +2181,10 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 7.8,
+    "parallel_total": 7.8
   },
   {
     "id": "q109",
@@ -2410,7 +2194,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2418,11 +2201,10 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 4.0,
-      "source_quality": 4.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 4.33
+    "linkup_total": 7.6,
+    "parallel_total": 4.4
   },
   {
     "id": "q110",
@@ -2432,7 +2214,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2440,11 +2221,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 7.0
+    "linkup_total": 7.8,
+    "parallel_total": 7.6
   },
   {
     "id": "q111",
@@ -2454,7 +2234,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2462,11 +2241,10 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 7.83
+    "linkup_total": 8.2,
+    "parallel_total": 8.6
   },
   {
     "id": "q112",
@@ -2476,7 +2254,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2484,11 +2261,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.17
+    "linkup_total": 8.6,
+    "parallel_total": 7.2
   },
   {
     "id": "q113",
@@ -2498,7 +2274,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2506,11 +2281,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 7.5
+    "linkup_total": 8.6,
+    "parallel_total": 7.6
   },
   {
     "id": "q114",
@@ -2520,7 +2294,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2528,11 +2301,10 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 8.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q115",
@@ -2542,7 +2314,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2550,11 +2321,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 7.17
+    "linkup_total": 8.0,
+    "parallel_total": 7.0
   },
   {
     "id": "q116",
@@ -2564,7 +2334,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2572,11 +2341,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 7.0
+    "linkup_total": 8.4,
+    "parallel_total": 7.2
   },
   {
     "id": "q117",
@@ -2586,7 +2354,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2594,11 +2361,10 @@
       "completeness": 1.0,
       "gtm_value": 0.0,
       "specificity": 1.0,
-      "source_quality": 1.0,
       "signal_to_noise": 2.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 1.33
+    "linkup_total": 7.6,
+    "parallel_total": 1.4
   },
   {
     "id": "q118",
@@ -2608,7 +2374,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2616,11 +2381,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 7.17
+    "linkup_total": 8.6,
+    "parallel_total": 7.0
   },
   {
     "id": "q119",
@@ -2630,7 +2394,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2638,11 +2401,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.5
+    "linkup_total": 8.4,
+    "parallel_total": 8.2
   },
   {
     "id": "q120",
@@ -2652,7 +2414,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2660,11 +2421,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 5.33
+    "linkup_total": 8.4,
+    "parallel_total": 5.0
   },
   {
     "id": "q121",
@@ -2674,7 +2434,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2682,11 +2441,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 8.0
+    "linkup_total": 8.4,
+    "parallel_total": 8.2
   },
   {
     "id": "q122",
@@ -2696,7 +2454,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2704,11 +2461,10 @@
       "completeness": 5.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 5.5
+    "linkup_total": 7.4,
+    "parallel_total": 5.8
   },
   {
     "id": "q123",
@@ -2718,7 +2474,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2726,11 +2481,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 6.67
+    "linkup_total": 8.0,
+    "parallel_total": 6.6
   },
   {
     "id": "q124",
@@ -2740,7 +2494,6 @@
       "completeness": 9.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2748,11 +2501,10 @@
       "completeness": 1.0,
       "gtm_value": 1.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "signal_to_noise": 2.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 1.67
+    "linkup_total": 8.2,
+    "parallel_total": 1.8
   },
   {
     "id": "q125",
@@ -2762,7 +2514,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2770,11 +2521,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.83
+    "linkup_total": 6.6,
+    "parallel_total": 7.0
   },
   {
     "id": "q126",
@@ -2784,7 +2534,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2792,11 +2541,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 7.33
+    "linkup_total": 8.4,
+    "parallel_total": 7.4
   },
   {
     "id": "q127",
@@ -2806,7 +2554,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2814,11 +2561,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.0
+    "linkup_total": 8.4,
+    "parallel_total": 7.4
   },
   {
     "id": "q128",
@@ -2828,7 +2574,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2836,11 +2581,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 6.67
+    "linkup_total": 8.6,
+    "parallel_total": 6.8
   },
   {
     "id": "q129",
@@ -2850,7 +2594,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2858,11 +2601,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 7.5
+    "linkup_total": 8.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q130",
@@ -2872,7 +2614,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2880,10 +2621,9 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.5,
+    "linkup_total": 8.8,
     "parallel_total": 7.0
   },
   {
@@ -2894,7 +2634,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -2902,11 +2641,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 7.67
+    "linkup_total": 7.2,
+    "parallel_total": 7.8
   },
   {
     "id": "q132",
@@ -2916,7 +2654,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -2924,11 +2661,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 8.33
+    "linkup_total": 8.8,
+    "parallel_total": 8.4
   },
   {
     "id": "q133",
@@ -2938,7 +2674,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -2946,11 +2681,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.5
+    "linkup_total": 6.8,
+    "parallel_total": 6.4
   },
   {
     "id": "q134",
@@ -2960,7 +2694,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2968,11 +2701,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.0
+    "linkup_total": 8.2,
+    "parallel_total": 7.2
   },
   {
     "id": "q135",
@@ -2982,7 +2714,6 @@
       "completeness": 8.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -2990,11 +2721,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 7.8,
+    "parallel_total": 8.4
   },
   {
     "id": "q136",
@@ -3004,7 +2734,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3012,11 +2741,10 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.5
+    "linkup_total": 7.2,
+    "parallel_total": 7.6
   },
   {
     "id": "q137",
@@ -3026,7 +2754,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3034,11 +2761,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 5.67
+    "linkup_total": 8.4,
+    "parallel_total": 6.0
   },
   {
     "id": "q138",
@@ -3048,7 +2774,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3056,10 +2781,9 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
+    "linkup_total": 8.8,
     "parallel_total": 8.0
   },
   {
@@ -3070,7 +2794,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3078,11 +2801,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 8.33
+    "linkup_total": 8.0,
+    "parallel_total": 8.2
   },
   {
     "id": "q140",
@@ -3092,7 +2814,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3100,11 +2821,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 8.83,
-    "parallel_total": 5.5
+    "linkup_total": 9.0,
+    "parallel_total": 5.4
   },
   {
     "id": "q141",
@@ -3114,7 +2834,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3122,11 +2841,10 @@
       "completeness": 1.0,
       "gtm_value": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 2.33
+    "linkup_total": 8.2,
+    "parallel_total": 2.4
   },
   {
     "id": "q142",
@@ -3136,7 +2854,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3144,11 +2861,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.67,
-    "parallel_total": 6.83
+    "linkup_total": 8.2,
+    "parallel_total": 7.0
   },
   {
     "id": "q143",
@@ -3158,7 +2874,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3166,11 +2881,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 5.83
+    "linkup_total": 8.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q144",
@@ -3180,7 +2894,6 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3188,11 +2901,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 8.17
+    "linkup_total": 8.6,
+    "parallel_total": 8.2
   },
   {
     "id": "q145",
@@ -3202,7 +2914,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 4.0
     },
     "parallel": {
@@ -3210,11 +2921,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 5.5,
-    "parallel_total": 4.83
+    "linkup_total": 5.2,
+    "parallel_total": 5.0
   },
   {
     "id": "q146",
@@ -3224,7 +2934,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3232,11 +2941,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 7.5
+    "linkup_total": 6.6,
+    "parallel_total": 7.4
   },
   {
     "id": "q147",
@@ -3246,7 +2954,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3254,11 +2961,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.5
+    "linkup_total": 7.4,
+    "parallel_total": 7.4
   },
   {
     "id": "q148",
@@ -3268,7 +2974,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3276,11 +2981,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 7.5
+    "linkup_total": 8.8,
+    "parallel_total": 7.8
   },
   {
     "id": "q149",
@@ -3290,7 +2994,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3298,11 +3001,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.17
+    "linkup_total": 8.8,
+    "parallel_total": 8.2
   },
   {
     "id": "q150",
@@ -3312,7 +3014,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3320,11 +3021,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.17
+    "linkup_total": 8.8,
+    "parallel_total": 8.2
   },
   {
     "id": "q151",
@@ -3334,7 +3034,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3342,11 +3041,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 8.33
+    "linkup_total": 8.8,
+    "parallel_total": 8.4
   },
   {
     "id": "q152",
@@ -3356,7 +3054,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3364,11 +3061,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 5.0
+    "linkup_total": 8.8,
+    "parallel_total": 5.2
   },
   {
     "id": "q153",
@@ -3378,7 +3074,6 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3386,11 +3081,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.0
+    "linkup_total": 8.8,
+    "parallel_total": 8.2
   },
   {
     "id": "q154",
@@ -3400,7 +3094,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3408,11 +3101,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.67
+    "linkup_total": 6.4,
+    "parallel_total": 6.6
   },
   {
     "id": "q155",
@@ -3422,7 +3114,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3430,11 +3121,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 5.67
+    "linkup_total": 6.8,
+    "parallel_total": 5.6
   },
   {
     "id": "q156",
@@ -3444,7 +3134,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3452,11 +3141,10 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 8.33,
-    "parallel_total": 4.67
+    "linkup_total": 8.4,
+    "parallel_total": 4.4
   },
   {
     "id": "q157",
@@ -3466,7 +3154,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3474,11 +3161,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 8.83
+    "linkup_total": 8.0,
+    "parallel_total": 9.0
   },
   {
     "id": "q158",
@@ -3488,7 +3174,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3496,10 +3181,9 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.67,
+    "linkup_total": 9.0,
     "parallel_total": 8.0
   },
   {
@@ -3510,7 +3194,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3518,11 +3201,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 6.17
+    "linkup_total": 8.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q160",
@@ -3532,7 +3214,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -3540,11 +3221,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 8.33
+    "linkup_total": 8.2,
+    "parallel_total": 8.4
   },
   {
     "id": "q161",
@@ -3554,7 +3234,6 @@
       "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3562,11 +3241,10 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 7.67
+    "linkup_total": 6.8,
+    "parallel_total": 7.8
   },
   {
     "id": "q162",
@@ -3576,7 +3254,6 @@
       "completeness": 0,
       "gtm_value": 0,
       "specificity": 0,
-      "source_quality": 0,
       "signal_to_noise": 0
     },
     "parallel": {
@@ -3584,11 +3261,10 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 4.0,
-      "source_quality": 5.0,
       "signal_to_noise": 4.0
     },
-    "linkup_total": 0.0,
-    "parallel_total": 4.33
+    "linkup_total": 0,
+    "parallel_total": 4.2
   },
   {
     "id": "q163",
@@ -3598,7 +3274,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3606,11 +3281,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 8.5
+    "linkup_total": 8.4,
+    "parallel_total": 8.4
   },
   {
     "id": "q164",
@@ -3620,7 +3294,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -3628,11 +3301,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.83
+    "linkup_total": 6.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q165",
@@ -3642,7 +3314,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3650,11 +3321,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.17
+    "linkup_total": 6.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q166",
@@ -3664,7 +3334,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -3672,11 +3341,10 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "linkup_total": 8.0,
-    "parallel_total": 8.17
+    "parallel_total": 8.2
   },
   {
     "id": "q167",
@@ -3686,7 +3354,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -3694,11 +3361,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 4.83,
-    "parallel_total": 6.5
+    "linkup_total": 5.0,
+    "parallel_total": 6.8
   },
   {
     "id": "q168",
@@ -3708,7 +3374,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -3716,11 +3381,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.0
+    "linkup_total": 6.0,
+    "parallel_total": 5.8
   },
   {
     "id": "q169",
@@ -3730,7 +3394,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3738,11 +3401,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.5
+    "linkup_total": 6.8,
+    "parallel_total": 6.4
   },
   {
     "id": "q170",
@@ -3752,7 +3414,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3760,11 +3421,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 5.83
+    "linkup_total": 6.4,
+    "parallel_total": 5.6
   },
   {
     "id": "q171",
@@ -3774,7 +3434,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -3782,11 +3441,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.33
+    "linkup_total": 5.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q172",
@@ -3796,7 +3454,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -3804,11 +3461,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 5.67
+    "linkup_total": 6.0,
+    "parallel_total": 5.8
   },
   {
     "id": "q173",
@@ -3818,7 +3474,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -3826,11 +3481,10 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 5.67
+    "linkup_total": 6.2,
+    "parallel_total": 5.4
   },
   {
     "id": "q174",
@@ -3840,7 +3494,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3848,11 +3501,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.17
+    "linkup_total": 6.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q175",
@@ -3862,7 +3514,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -3870,10 +3521,9 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 5.5,
+    "linkup_total": 5.2,
     "parallel_total": 5.0
   },
   {
@@ -3884,7 +3534,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3892,10 +3541,9 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.17,
+    "linkup_total": 7.0,
     "parallel_total": 7.0
   },
   {
@@ -3906,7 +3554,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3914,11 +3561,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 5.83
+    "linkup_total": 6.6,
+    "parallel_total": 5.6
   },
   {
     "id": "q178",
@@ -3928,7 +3574,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -3936,11 +3581,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 5.5,
-    "parallel_total": 6.0
+    "linkup_total": 5.2,
+    "parallel_total": 5.8
   },
   {
     "id": "q179",
@@ -3950,7 +3594,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3958,11 +3601,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.67
+    "linkup_total": 6.8,
+    "parallel_total": 6.4
   },
   {
     "id": "q180",
@@ -3972,7 +3614,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -3980,11 +3621,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.83
+    "linkup_total": 6.2,
+    "parallel_total": 6.8
   },
   {
     "id": "q181",
@@ -3994,7 +3634,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4002,10 +3641,9 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.5,
+    "linkup_total": 6.4,
     "parallel_total": 6.0
   },
   {
@@ -4016,7 +3654,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4024,11 +3661,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 5.67,
-    "parallel_total": 6.67
+    "linkup_total": 5.4,
+    "parallel_total": 6.4
   },
   {
     "id": "q183",
@@ -4038,7 +3674,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -4046,11 +3681,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 8.5,
-    "parallel_total": 5.33
+    "linkup_total": 8.6,
+    "parallel_total": 5.6
   },
   {
     "id": "q184",
@@ -4060,7 +3694,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -4068,11 +3701,10 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 8.83
+    "linkup_total": 8.4,
+    "parallel_total": 8.8
   },
   {
     "id": "q185",
@@ -4082,7 +3714,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4090,11 +3721,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.17
+    "linkup_total": 6.0,
+    "parallel_total": 6.0
   },
   {
     "id": "q186",
@@ -4104,7 +3734,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4112,11 +3741,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.67
+    "linkup_total": 6.0,
+    "parallel_total": 6.4
   },
   {
     "id": "q187",
@@ -4126,7 +3754,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -4134,11 +3761,10 @@
       "completeness": 7.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 4.83,
-    "parallel_total": 7.33
+    "linkup_total": 4.6,
+    "parallel_total": 7.4
   },
   {
     "id": "q188",
@@ -4148,7 +3774,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4156,11 +3781,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.83
+    "linkup_total": 6.4,
+    "parallel_total": 6.6
   },
   {
     "id": "q189",
@@ -4170,7 +3794,6 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 10.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -4178,11 +3801,10 @@
       "completeness": 10.0,
       "gtm_value": 8.0,
       "specificity": 10.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.83
+    "parallel_total": 9.2
   },
   {
     "id": "q190",
@@ -4192,7 +3814,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4200,11 +3821,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.67
+    "linkup_total": 6.4,
+    "parallel_total": 6.4
   },
   {
     "id": "q191",
@@ -4214,7 +3834,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4222,11 +3841,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.83
+    "linkup_total": 6.4,
+    "parallel_total": 7.0
   },
   {
     "id": "q192",
@@ -4236,7 +3854,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4244,11 +3861,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.17
+    "linkup_total": 6.4,
+    "parallel_total": 6.4
   },
   {
     "id": "q193",
@@ -4258,7 +3874,6 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -4266,11 +3881,10 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 8.17,
-    "parallel_total": 8.17
+    "linkup_total": 8.4,
+    "parallel_total": 8.2
   },
   {
     "id": "q194",
@@ -4280,7 +3894,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -4288,11 +3901,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 5.83,
-    "parallel_total": 6.33
+    "linkup_total": 5.6,
+    "parallel_total": 6.4
   },
   {
     "id": "q195",
@@ -4302,7 +3914,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4310,11 +3921,10 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.0
+    "linkup_total": 6.6,
+    "parallel_total": 5.8
   },
   {
     "id": "q196",
@@ -4324,7 +3934,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4332,11 +3941,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 6.17
+    "linkup_total": 7.0,
+    "parallel_total": 6.0
   },
   {
     "id": "q197",
@@ -4346,7 +3954,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4354,11 +3961,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.5
+    "linkup_total": 6.6,
+    "parallel_total": 6.2
   },
   {
     "id": "q198",
@@ -4368,7 +3974,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4376,11 +3981,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.83
+    "linkup_total": 6.8,
+    "parallel_total": 6.6
   },
   {
     "id": "q199",
@@ -4390,7 +3994,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4398,10 +4001,9 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 7.0,
+    "linkup_total": 7.2,
     "parallel_total": 5.0
   },
   {
@@ -4412,7 +4014,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -4420,11 +4021,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 5.5,
-    "parallel_total": 5.5
+    "linkup_total": 5.2,
+    "parallel_total": 5.8
   },
   {
     "id": "q201",
@@ -4434,7 +4034,6 @@
       "completeness": 5.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0
     },
     "parallel": {
@@ -4442,11 +4041,10 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 4.67,
-    "parallel_total": 4.83
+    "linkup_total": 5.0,
+    "parallel_total": 4.8
   },
   {
     "id": "q202",
@@ -4456,7 +4054,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4464,11 +4061,10 @@
       "completeness": 7.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 7.67
+    "linkup_total": 7.4,
+    "parallel_total": 7.6
   },
   {
     "id": "q203",
@@ -4478,7 +4074,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4486,11 +4081,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "linkup_total": 6.0,
-    "parallel_total": 5.67
+    "parallel_total": 5.6
   },
   {
     "id": "q204",
@@ -4500,7 +4094,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4508,11 +4101,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 5.67
+    "linkup_total": 7.4,
+    "parallel_total": 5.6
   },
   {
     "id": "q205",
@@ -4522,7 +4114,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4530,11 +4121,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.67
+    "linkup_total": 7.2,
+    "parallel_total": 6.6
   },
   {
     "id": "q206",
@@ -4544,7 +4134,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4552,11 +4141,10 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.83
+    "linkup_total": 6.8,
+    "parallel_total": 7.8
   },
   {
     "id": "q207",
@@ -4566,7 +4154,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4574,11 +4161,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.5
+    "linkup_total": 6.8,
+    "parallel_total": 6.2
   },
   {
     "id": "q208",
@@ -4588,7 +4174,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4596,11 +4181,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.17
+    "linkup_total": 6.6,
+    "parallel_total": 7.0
   },
   {
     "id": "q209",
@@ -4610,7 +4194,6 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 4.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4618,11 +4201,10 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 5.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0
     },
-    "linkup_total": 5.33,
-    "parallel_total": 4.0
+    "linkup_total": 5.2,
+    "parallel_total": 4.2
   },
   {
     "id": "q210",
@@ -4632,7 +4214,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4640,11 +4221,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 7.0
+    "linkup_total": 7.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q211",
@@ -4654,7 +4234,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4662,11 +4241,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 6.33
+    "linkup_total": 8.2,
+    "parallel_total": 6.2
   },
   {
     "id": "q212",
@@ -4676,7 +4254,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4684,11 +4261,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 5.17
+    "linkup_total": 7.6,
+    "parallel_total": 5.0
   },
   {
     "id": "q213",
@@ -4698,7 +4274,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4706,11 +4281,10 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.33
+    "linkup_total": 6.6,
+    "parallel_total": 6.2
   },
   {
     "id": "q214",
@@ -4720,7 +4294,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4728,11 +4301,10 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "linkup_total": 7.0,
-    "parallel_total": 6.67
+    "parallel_total": 6.6
   },
   {
     "id": "q215",
@@ -4742,7 +4314,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4750,10 +4321,9 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.33,
+    "linkup_total": 7.4,
     "parallel_total": 7.0
   },
   {
@@ -4764,7 +4334,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4772,11 +4341,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.67
+    "linkup_total": 6.8,
+    "parallel_total": 6.6
   },
   {
     "id": "q217",
@@ -4786,7 +4354,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4794,11 +4361,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.17
+    "linkup_total": 6.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q218",
@@ -4808,7 +4374,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
     "parallel": {
@@ -4816,11 +4381,10 @@
       "completeness": 2.0,
       "gtm_value": 2.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "signal_to_noise": 4.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 3.17
+    "linkup_total": 6.4,
+    "parallel_total": 3.4
   },
   {
     "id": "q219",
@@ -4830,7 +4394,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4838,11 +4401,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 5.5
+    "linkup_total": 7.4,
+    "parallel_total": 5.6
   },
   {
     "id": "q220",
@@ -4852,7 +4414,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4860,10 +4421,9 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
+    "linkup_total": 7.6,
     "parallel_total": 7.0
   },
   {
@@ -4874,7 +4434,6 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 4.0
     },
     "parallel": {
@@ -4882,11 +4441,10 @@
       "completeness": 3.0,
       "gtm_value": 2.0,
       "specificity": 5.0,
-      "source_quality": 2.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 4.83,
-    "parallel_total": 3.17
+    "linkup_total": 4.6,
+    "parallel_total": 3.4
   },
   {
     "id": "q222",
@@ -4896,7 +4454,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4904,11 +4461,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.5
+    "linkup_total": 7.2,
+    "parallel_total": 6.6
   },
   {
     "id": "q223",
@@ -4918,7 +4474,6 @@
       "completeness": 0,
       "gtm_value": 0,
       "specificity": 0,
-      "source_quality": 0,
       "signal_to_noise": 0
     },
     "parallel": {
@@ -4926,11 +4481,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 0.0,
-    "parallel_total": 6.67
+    "linkup_total": 0,
+    "parallel_total": 6.6
   },
   {
     "id": "q224",
@@ -4940,7 +4494,6 @@
       "completeness": 4.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -4948,11 +4501,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 6.83
+    "linkup_total": 7.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q225",
@@ -4962,7 +4514,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4970,11 +4521,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.33
+    "linkup_total": 6.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q226",
@@ -4984,7 +4534,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -4992,11 +4541,10 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 5.83
+    "linkup_total": 7.0,
+    "parallel_total": 5.6
   },
   {
     "id": "q227",
@@ -5006,7 +4554,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5014,11 +4561,10 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 6.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 4.5
+    "linkup_total": 6.6,
+    "parallel_total": 4.8
   },
   {
     "id": "q228",
@@ -5028,7 +4574,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5036,11 +4581,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.83
+    "linkup_total": 6.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q229",
@@ -5050,7 +4594,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5058,11 +4601,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 6.5
+    "linkup_total": 8.0,
+    "parallel_total": 6.4
   },
   {
     "id": "q230",
@@ -5072,7 +4614,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -5080,11 +4621,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.83,
-    "parallel_total": 6.33
+    "linkup_total": 8.0,
+    "parallel_total": 6.2
   },
   {
     "id": "q231",
@@ -5094,7 +4634,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5102,11 +4641,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 5.5
+    "linkup_total": 7.4,
+    "parallel_total": 5.6
   },
   {
     "id": "q232",
@@ -5116,7 +4654,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0
     },
     "parallel": {
@@ -5124,11 +4661,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 8.0,
-    "parallel_total": 6.67
+    "linkup_total": 8.2,
+    "parallel_total": 6.6
   },
   {
     "id": "q233",
@@ -5138,7 +4674,6 @@
       "completeness": 5.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5146,11 +4681,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.83
+    "linkup_total": 6.8,
+    "parallel_total": 6.6
   },
   {
     "id": "q234",
@@ -5160,7 +4694,6 @@
       "completeness": 3.0,
       "gtm_value": 3.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0
     },
     "parallel": {
@@ -5168,11 +4701,10 @@
       "completeness": 2.0,
       "gtm_value": 2.0,
       "specificity": 3.0,
-      "source_quality": 3.0,
       "signal_to_noise": 3.0
     },
-    "linkup_total": 4.67,
-    "parallel_total": 2.83
+    "linkup_total": 4.6,
+    "parallel_total": 2.8
   },
   {
     "id": "q235",
@@ -5182,7 +4714,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5190,10 +4721,9 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 7.33,
+    "linkup_total": 7.4,
     "parallel_total": 7.0
   },
   {
@@ -5204,7 +4734,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5212,11 +4741,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
-    "parallel_total": 6.5
+    "linkup_total": 7.6,
+    "parallel_total": 6.4
   },
   {
     "id": "q237",
@@ -5226,7 +4754,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5234,11 +4761,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.83
+    "linkup_total": 6.6,
+    "parallel_total": 6.8
   },
   {
     "id": "q238",
@@ -5248,7 +4774,6 @@
       "completeness": 4.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5256,11 +4781,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 6.33
+    "linkup_total": 7.4,
+    "parallel_total": 6.2
   },
   {
     "id": "q239",
@@ -5270,7 +4794,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5278,10 +4801,9 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.33,
+    "linkup_total": 7.4,
     "parallel_total": 7.0
   },
   {
@@ -5292,7 +4814,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5300,11 +4821,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 6.5
+    "linkup_total": 6.6,
+    "parallel_total": 6.4
   },
   {
     "id": "q241",
@@ -5314,7 +4834,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5322,11 +4841,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 6.5
+    "linkup_total": 6.6,
+    "parallel_total": 6.4
   },
   {
     "id": "q242",
@@ -5336,7 +4854,6 @@
       "completeness": 4.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5344,11 +4861,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.67
+    "linkup_total": 7.2,
+    "parallel_total": 6.6
   },
   {
     "id": "q243",
@@ -5358,7 +4874,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5366,11 +4881,10 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.5,
-    "parallel_total": 6.17
+    "linkup_total": 7.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q244",
@@ -5380,7 +4894,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5388,11 +4901,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.33
+    "linkup_total": 7.0,
+    "parallel_total": 6.2
   },
   {
     "id": "q245",
@@ -5402,7 +4914,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5410,11 +4921,10 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.5
+    "linkup_total": 6.6,
+    "parallel_total": 7.4
   },
   {
     "id": "q246",
@@ -5424,7 +4934,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5432,11 +4941,10 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.17,
-    "parallel_total": 6.0
+    "linkup_total": 6.4,
+    "parallel_total": 5.8
   },
   {
     "id": "q247",
@@ -5446,7 +4954,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5454,11 +4961,10 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0
     },
-    "linkup_total": 6.5,
-    "parallel_total": 5.83
+    "linkup_total": 6.6,
+    "parallel_total": 5.8
   },
   {
     "id": "q248",
@@ -5468,7 +4974,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0
     },
     "parallel": {
@@ -5476,11 +4981,10 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.17
+    "linkup_total": 6.8,
+    "parallel_total": 6.0
   },
   {
     "id": "q249",
@@ -5490,7 +4994,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5498,11 +5001,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0
     },
-    "linkup_total": 7.17,
-    "parallel_total": 6.83
+    "linkup_total": 7.4,
+    "parallel_total": 6.8
   },
   {
     "id": "q250",
@@ -5512,7 +5014,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0
     },
     "parallel": {
@@ -5520,10 +5021,9 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0
     },
-    "linkup_total": 6.67,
-    "parallel_total": 7.5
+    "linkup_total": 6.8,
+    "parallel_total": 7.4
   }
 ]

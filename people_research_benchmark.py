@@ -12,7 +12,7 @@ ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 SYNTH_MODEL = "claude-opus-4-8"
 JUDGE_MODEL = "claude-fable-5"
 
-DIMS = ["accuracy","identity_match","completeness","recency","specificity","source_quality","gtm_value"]
+DIMS = ["accuracy","identity_match","completeness","recency","specificity","gtm_value"]
 
 
 def _text(resp):
@@ -80,23 +80,22 @@ async def synth(claude, query, results, sem):
         return ""
 
 
-JUDGE_SYSTEM = """You are a GTM people-research quality evaluator. A sales team asked a research question about a specific, named individual (to enrich a lead, detect a person-level signal, or find a conversation hook) and received an answer synthesized from search results. Score the answer on 7 dimensions (0-10).
+JUDGE_SYSTEM = """You are a GTM people-research quality evaluator. A sales team asked a research question about a specific, named individual (to enrich a lead, detect a person-level signal, or find a conversation hook) and received an answer synthesized from search results. Score the answer on 6 dimensions (0-10).
 
 - accuracy: are the facts grounded in the sources and correct?
 - identity_match: does the answer clearly concern the RIGHT person — matching the company, role, and identifying details in the question — rather than a namesake or a conflated profile?
 - completeness: does it address everything the question asked (e.g. title, company, prior role, education, location, funding details, recent activity)?
 - recency: for funding/signal/activity questions, is the information recent and dated? For pure enrichment, is the person's current state confirmed as current?
 - specificity: concrete names, titles, dates, numbers, and round details vs vague generalities?
-- source_quality: are the cited sources authoritative and on-target (the person's LinkedIn profile, the company's site, reputable press, funding databases) rather than random/irrelevant pages?
 - gtm_value: is the answer actionable for a sales/GTM rep — a usable hook, confirmed contact context, or a clear outreach trigger?
 
 Calibration: 9-10 = excellent, 7-8 = good, 5-6 = basic/vague, 0-4 = wrong person/empty/"sources don't contain the answer".
-Return ONLY valid JSON: {"accuracy":<0-10>,"identity_match":<0-10>,"completeness":<0-10>,"recency":<0-10>,"specificity":<0-10>,"source_quality":<0-10>,"gtm_value":<0-10>,"reason":"<one sentence>"}"""
+Return ONLY valid JSON: {"accuracy":<0-10>,"identity_match":<0-10>,"completeness":<0-10>,"recency":<0-10>,"specificity":<0-10>,"gtm_value":<0-10>,"reason":"<one sentence>"}"""
 
 @dataclass
 class Grade:
     accuracy:float=0; identity_match:float=0; completeness:float=0; recency:float=0
-    specificity:float=0; source_quality:float=0; gtm_value:float=0; reason:str=""
+    specificity:float=0; gtm_value:float=0; reason:str=""
     @property
     def total(self): return sum(getattr(self,d) for d in DIMS)/len(DIMS)
 

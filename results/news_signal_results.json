@@ -7,7 +7,6 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific, well-cited answer with exact impact count, data types, and access window grounded in Maine AG filings, but it omits the breach notification date the question explicitly requested."
     },
@@ -16,12 +15,11 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific, well-sourced confirmation of the breach with exact impacted counts (including the HHS/state-filing discrepancy) and exposed data types, but the answer is truncated and never delivers the requested unauthorized-access window or breach notification date."
     },
-    "linkup_total": 8.33,
-    "parallel_total": 8.17
+    "linkup_total": 8.4,
+    "parallel_total": 8.2
   },
   {
     "id": "s006",
@@ -31,7 +29,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The answer correctly flags the 2026 claim as unverified, provides specific verified details of the well-known 2023 TELUS incident (ransom amount, threat vector, TELUS' partial confirmation via BleepingComputer), but relies on a single secondary source (PhishProtection) rather than primary threat-intel feeds and is cut off mid-sentence before completing the status assessment."
     },
@@ -40,12 +37,11 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Well-grounded, highly specific answer naming the threat actor (ShinyHunters), claimed volume (700TB\u20131PB), and confirmed/unverified status with critical source vetting and authoritative citations (Reuters, BleepingComputer), but it is truncated mid-sentence and omits the explicit incident date and full Telus response details requested."
     },
-    "linkup_total": 7.17,
-    "parallel_total": 8.33
+    "linkup_total": 7.4,
+    "parallel_total": 8.4
   },
   {
     "id": "s007",
@@ -55,7 +51,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0,
       "reason": "Detailed and apparently accurate confirmation of the October 2025 Vietnam Airlines leak (~23M records/7.3M unique emails, data types, airline acknowledgment) with strong specifics, but the answer is truncated and cites only numbered sources without actual links or dates, failing the explicit request for source URLs."
     },
@@ -64,12 +59,11 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific and well-grounded confirmation of the 7.3M-record Salesforce-related leak with dates and data types, but the answer is truncated before addressing whether the airline acknowledged the incident and provides no actual source URLs as requested."
     },
-    "linkup_total": 7.33,
-    "parallel_total": 8.0
+    "linkup_total": 7.8,
+    "parallel_total": 8.2
   },
   {
     "id": "s002",
@@ -79,7 +73,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "Accurate, specific, and well-framed for MDR sales (SafePay ransomware, 83-day dwell time, 8.5TB exfiltrated, SEC disclosure), but the answer is cut off mid-sentence and never delivers the requested record count, SSN confirmation, full agency list, or exact disclosure date."
     },
@@ -88,12 +81,11 @@
       "completeness": 4.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0,
       "reason": "The answer accurately confirms the SafePay ransomware attack with strong specifics (dates, dwell time, 8.5TB, named clients), but it is cut off mid-sentence and never answers three explicit asks \u2014 total individuals exposed, whether SSNs were involved, and the disclosure date \u2014 and cites only opaque numbered sources without identifying them."
     },
-    "linkup_total": 7.17,
-    "parallel_total": 6.67
+    "linkup_total": 7.2,
+    "parallel_total": 7.0
   },
   {
     "id": "s009",
@@ -103,7 +95,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 7.0,
       "reason": "Rich, specific detail (dates, Epic EHR, Medusa, $800K demand) but the answer is cut off mid-sentence, never resolves the patient-data-exposure question, cites only numbered sources with no actual URLs despite the explicit request, and the 2026 dates plus Medusa attribution raise concern about fabrication or confusion with another 'UMC' entity."
     },
@@ -112,12 +103,11 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "Detailed, well-dated answer with concrete systems (Epic EHR, MED-COM) and a flagged date inconsistency, but it is truncated mid-section, never answers whether patient data was exposed, and omits the requested source URLs (citing only numbered sources like HIPAA Journal and Rescana without links)."
     },
-    "linkup_total": 5.5,
-    "parallel_total": 6.83
+    "linkup_total": 6.0,
+    "parallel_total": 7.0
   },
   {
     "id": "s001",
@@ -127,7 +117,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0,
       "reason": "Factually accurate and highly specific on breach scale, timeline, and insider root cause, but the answer is truncated before covering the requested personal data categories and cites only opaque source numbers instead of the requested URLs and dates."
     },
@@ -136,12 +125,11 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 8.0,
       "reason": "Factually strong and detailed on breach scale (33.7M accounts) and insider/stolen-key root cause, but the answer cuts off mid-sentence, omits the requested data categories and full exposure/disclosure timeline, and cites only numbered source placeholders with no actual URLs or dates as explicitly requested."
     },
-    "linkup_total": 7.5,
-    "parallel_total": 6.67
+    "linkup_total": 8.0,
+    "parallel_total": 7.4
   },
   {
     "id": "s010",
@@ -151,7 +139,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer accurately confirms the breach as the largest on record with the correct ~190M final count and good dated citations, but it cuts off mid-sentence before naming the attacking group (ALPHV/BlackCat) and never delivers the disclosure timeline or estimated financial impact, leaving roughly half the question unanswered."
     },
@@ -160,12 +147,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Accurate and highly specific on the record-setting 192.7M count, ALPHV/BlackCat attribution, Citrix/MFA root cause, and escalating disclosure timeline with dated citations, but the answer is truncated mid-sentence and omits the requested financial impact estimate entirely."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 7.83
+    "linkup_total": 6.2,
+    "parallel_total": 7.8
   },
   {
     "id": "s003",
@@ -175,7 +161,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0,
       "reason": "The answer is specific and well-grounded in its cited sources (entry point, detection date of April 14 2026, data types), but it is truncated before answering how many customers/employees were notified and provides no actual source URLs despite the question explicitly requesting links for a prospecting list."
     },
@@ -184,12 +169,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0,
       "reason": "The answer gives concrete dates, entry point, and threat actor with inline source citations, but it is truncated mid-sentence, never provides the requested number of notified customers/employees, fails to enumerate the personal data copied, and includes no actual source links or URLs as the question explicitly required."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.0
+    "linkup_total": 6.8,
+    "parallel_total": 6.4
   },
   {
     "id": "s012",
@@ -199,7 +183,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "Accurately and specifically details the March 2025 Oracle Cloud Classic/SSO breach (rose87168, 6M records, Oracle's denial-then-admission) with dates and confirmed/alleged flags, but the answer is truncated mid-sentence and only covers one of the three promised incidents, omitting the Oracle Health and E-Business Suite/Cl0p events and any 2026 coverage."
     },
@@ -208,12 +191,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "The answer accurately details the confirmed Oracle Health/Cerner breach and the disputed rose87168 Oracle Cloud incident with precise dates, scope, and confirmed-vs-alleged flags, but it cuts off mid-sentence on the second incident and omits other notable 2025 events (e.g., the Clop/E-Business Suite extortion campaign), leaving the response incomplete."
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 7.6,
+    "parallel_total": 7.8
   },
   {
     "id": "s005",
@@ -223,7 +205,6 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 8.0,
-      "source_quality": 2.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is dense and highly specific but its claims (future-dated February 2026 breach) appear fabricated/unverifiable, it cites only numbered sources with no actual URLs despite the explicit request, and it cuts off before covering regulator notification."
     },
@@ -232,12 +213,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "Well-grounded and specific on disclosure, affected counts (6.1\u20136.2M), and detection dates with honest flagging of source conflicts, but it omits two explicitly requested items (what data was accessed and regulator notification), provides no actual source URLs despite the user asking for them, and the answer cuts off mid-sentence."
     },
-    "linkup_total": 4.67,
-    "parallel_total": 6.5
+    "linkup_total": 5.2,
+    "parallel_total": 6.6
   },
   {
     "id": "s011",
@@ -247,7 +227,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0,
       "reason": "The answer delivers two well-documented 1M+ breaches with exact record counts, breach types, disclosure dates, and authoritative sources (TechCrunch, HIPAA Journal), but it is truncated mid-sentence and likely omits additional qualifying breaches, leaving the target list incomplete."
     },
@@ -256,12 +235,11 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer provides specific, well-sourced breach details (counts, dates, URLs) and correctly distinguishes timeframes, but it is truncated mid-table and the 2025 breach list lacks the requested per-item disclosure dates and source URLs."
     },
-    "linkup_total": 8.0,
-    "parallel_total": 6.83
+    "linkup_total": 7.8,
+    "parallel_total": 6.8
   },
   {
     "id": "s008",
@@ -271,7 +249,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific and well-structured with concrete numbers, PHI types, and LockBit attribution, but the answer is truncated mid-timeline (cutting off the ransom/publication threat details the question explicitly asked for), and sources are cited only as opaque numbered references without identifiable outlets, making verification of the unusual 2026 dates impossible."
     },
@@ -280,12 +257,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific, well-cited answer confirming the LockBit claim with notified counts, PHI categories, and attack date, but it cuts off mid-sentence in the ransom/publication threat timeline, leaving that requested element incomplete."
     },
-    "linkup_total": 7.67,
-    "parallel_total": 8.0
+    "linkup_total": 8.0,
+    "parallel_total": 8.2
   },
   {
     "id": "s013",
@@ -295,7 +271,6 @@
       "completeness": 2.0,
       "gtm_value": 3.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "signal_to_noise": 5.0,
       "reason": "The answer honestly admits the sources can't support the requested 90-day target list and salvages a table of older incidents, but it fails to deliver the core deliverable, cites secondary vendor blogs rather than disclosure sources, includes mostly stale incidents with missing fields, and cuts off mid-sentence."
     },
@@ -304,12 +279,11 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "signal_to_noise": 4.0,
       "reason": "The answer correctly filters out stale incidents and provides one fully detailed entry (OneDigital/Salesforce-Drift), but it is cut off mid-list, relies almost entirely on a single roundup source, leaves dates and data fields incomplete, and ultimately delivers only 1-2 usable targets for an outreach list."
     },
-    "linkup_total": 4.33,
-    "parallel_total": 4.17
+    "linkup_total": 4.4,
+    "parallel_total": 4.2
   },
   {
     "id": "s019",
@@ -319,7 +293,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 10.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0,
       "reason": "Directly confirms the appointment with the CISO's name (Dom Glavach), detailed prior experience at CyberSN and CTC, exact announcement date, and authoritative sources (PRNewswire and Black Duck's own newsroom), with only a minor flaw of a truncated second URL."
     },
@@ -328,12 +301,11 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0,
       "reason": "Detailed, specific answer naming Dom Glavach with announcement date, prior roles, and an official Black Duck newsroom source, though it promises to clarify both CISO announcements but never covers the earlier Bruce Jenkins appointment and the second source URL is truncated."
     },
-    "linkup_total": 9.17,
-    "parallel_total": 8.33
+    "linkup_total": 9.2,
+    "parallel_total": 8.2
   },
   {
     "id": "s021",
@@ -343,7 +315,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "The answer delivers a useful, well-structured list of named CRO hires with dates that directly serves the outreach use case, but it omits prior roles for 3 of 4 executives, relies mostly on LinkedIn posts rather than official announcements, and is cut off mid-entry."
     },
@@ -352,12 +323,11 @@
       "completeness": 2.0,
       "gtm_value": 4.0,
       "specificity": 5.0,
-      "source_quality": 3.0,
       "signal_to_noise": 5.0,
       "reason": "The answer honestly admits the sources contain no actual 2026 CRO/VP-of-Sales hires and pivots to open job postings as a partial substitute signal, but it fails to deliver the requested company/executive/prior-role/date data, relies on job boards rather than appointment announcements, and is cut off mid-sentence."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 4.17
+    "linkup_total": 7.2,
+    "parallel_total": 4.4
   },
   {
     "id": "s014",
@@ -367,7 +337,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "The answer delivers three concrete 2026 breach disclosures with affected counts, attack vectors, and dates that are well-suited to PCI vendor outreach, though it is truncated mid-section, one entry (BTU) is a utility rather than a retailer, and some fields (Ledger customer count, exact disclosure dates) are incomplete."
     },
@@ -376,12 +345,11 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "signal_to_noise": 5.0,
       "reason": "The answer is transparent about limitations but delivers entities that don't actually fit the ask (Ledger/Global-e lacks card data and affected counts; Powerhouse is a facilities company, not a retailer), relies on a single aggregator blog source, and is truncated mid-entry, making it weakly actionable for a retailer-focused PCI outreach list."
     },
-    "linkup_total": 7.67,
-    "parallel_total": 4.67
+    "linkup_total": 7.8,
+    "parallel_total": 4.8
   },
   {
     "id": "s015",
@@ -391,7 +359,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 9.0,
       "signal_to_noise": 6.0,
       "reason": "The answer accurately identifies real Item 1.05 8-K filings (F5's Oct 2025 breach with an EDGAR link, Inotiv's Aug 2025 ransomware) with strong specifics, but it is truncated mid-entry, covers only two companies, and opens with a lengthy hedging caveat about dates that dilutes an otherwise actionable response."
     },
@@ -400,12 +367,11 @@
       "completeness": 2.0,
       "gtm_value": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0,
       "reason": "The answer admits the sources cannot identify any companies filing cybersecurity 8-Ks in the last 3 months\u2014the core ask\u2014offering only stale 2023-2024 examples and aggregate stats, and even cuts off mid-sentence, leaving no actionable sales signal."
     },
-    "linkup_total": 7.33,
-    "parallel_total": 3.17
+    "linkup_total": 7.0,
+    "parallel_total": 3.2
   },
   {
     "id": "s017",
@@ -415,7 +381,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 9.0,
       "reason": "Well-sourced, highly specific answer naming Chaim Mazal with announcement date, primary press release, and detailed background, but it cuts off mid-sentence and never delivers the requested analysis of what the appointment signals about GitLab's security investment."
     },
@@ -424,12 +389,11 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0,
       "reason": "Confirms the appointment with the correct executive name, exact announcement date and official press-release source, rich background details (Gigamon, Kandji, ActiveCampaign, advisory boards, 8-year customer history) and clear AI-security framing highly useful for vendor outreach, though the answer is cut off mid-sentence in the strategic-signal section."
     },
-    "linkup_total": 8.33,
-    "parallel_total": 8.5
+    "linkup_total": 8.2,
+    "parallel_total": 8.4
   },
   {
     "id": "s023",
@@ -439,7 +403,6 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Delivers multiple recent CMO appointments with names, companies, dates, backgrounds, and cited sources\u2014exactly the outreach triggers requested\u2014though the answer cuts off mid-entry and one appointment lacks a precise date."
     },
@@ -448,12 +411,11 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "Provides two concrete, well-detailed CMO appointments with dates, backgrounds, and a Business Wire citation plus actionable outreach angles, but the answer is truncated mid-sentence and the second entry's source citation is cut off/missing."
     },
-    "linkup_total": 8.67,
-    "parallel_total": 8.0
+    "linkup_total": 8.8,
+    "parallel_total": 8.2
   },
   {
     "id": "s022",
@@ -463,7 +425,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0,
       "reason": "Well-structured, specific table of CFO appointments with names, prior employers, and dates, but the answer is truncated mid-entry and relies entirely on LinkedIn posts rather than official press releases or company announcements."
     },
@@ -472,12 +433,11 @@
       "completeness": 4.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "Provides concrete CFO names, prior employers, dates, and links in a useful table, but the answer is cut off mid-entry, mixes dates well outside 'last quarter' (only partially mitigated by flagging), and relies on some secondary/aggregator sources rather than official announcements."
     },
-    "linkup_total": 6.83,
-    "parallel_total": 6.5
+    "linkup_total": 7.2,
+    "parallel_total": 6.6
   },
   {
     "id": "s020",
@@ -487,7 +447,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "The answer delivers concrete, well-structured appointment details (names, roles, prior backgrounds, dates, LinkedIn URLs) that directly serve the buying signal, but it claims three appointments while listing only two security roles, is truncated mid-sentence, and relies solely on LinkedIn posts rather than official press releases."
     },
@@ -496,12 +455,11 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0,
       "reason": "Only one fully relevant security-leadership appointment (Pentagon CISO) is well-documented; the second entry is a sales hire (honestly flagged but off-target, sourced to YouTube), and the third entry is truncated mid-sentence with no role, date, or URL, leaving the question largely unanswered for commercial buyers."
     },
-    "linkup_total": 7.33,
-    "parallel_total": 5.33
+    "linkup_total": 7.4,
+    "parallel_total": 5.4
   },
   {
     "id": "s024",
@@ -511,7 +469,6 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "The answer confirms every requested deal detail (amount, valuation, lead, participants, date) with the announcement source and adds concrete expansion signals (3x headcount growth to ~900), citing authoritative outlets, with only a minor truncation at the end."
     },
@@ -520,12 +477,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 10.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Confirms every requested element (amount, valuation, lead, participants, date, announcement source) with cross-referenced authoritative citations, transparently flags two source discrepancies, and adds useful GTM context like the rapid follow-on from the Series A \u2014 only minor dings for the truncated final sentence and reliance on a few aggregator sources."
     },
-    "linkup_total": 8.83,
-    "parallel_total": 9.0
+    "linkup_total": 9.0,
+    "parallel_total": 9.2
   },
   {
     "id": "s016",
@@ -535,7 +491,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific and well-cited with CVE IDs, CVSS scores, exploitation confirmation, and dates that directly serve a vuln-management vendor's outreach, but the answer is truncated mid-way through the second company (missing Microsoft's disclosure date and any further cases), slightly undermining completeness and verifiability."
     },
@@ -544,12 +499,11 @@
       "completeness": 4.0,
       "gtm_value": 4.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "signal_to_noise": 5.0,
       "reason": "The answer is packed with specific-looking CVEs and dates, but the 2026-dated CVEs, fictional-sounding vulnerability names ('BlueHammer', 'Chaotic Eclipse'), and future disclosure dates strongly suggest fabricated/hallucinated content, it answers vendor product flaws rather than exploitation 'in a company's environment', and it cuts off mid-sentence."
     },
-    "linkup_total": 7.5,
-    "parallel_total": 4.5
+    "linkup_total": 7.6,
+    "parallel_total": 4.4
   },
   {
     "id": "s018",
@@ -559,7 +513,6 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Well-grounded, detailed answer naming Edwin Ng with date, role scope, background, and stated priorities cited to official PR sources, though the final outreach-signal section is cut off mid-sentence and the 2026 date warrants verification."
     },
@@ -568,12 +521,11 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "signal_to_noise": 8.0,
       "reason": "Strong, well-sourced answer with name (Edwin Ng), date, reporting line, background, and stated priorities from LogicGate's own press release, though it is truncated mid-sentence and the 2026 date warrants verification."
     },
-    "linkup_total": 8.33,
-    "parallel_total": 8.5
+    "linkup_total": 8.4,
+    "parallel_total": 8.4
   },
   {
     "id": "s029",
@@ -583,7 +535,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0,
       "reason": "The answer cites reputable biotech funding trackers and gives concrete amounts for several Series B+ rounds, but it is truncated mid-table, frequently lacks lead investors and precise dates, and uses vague '2026 (tracker)' placeholders, weakening completeness and actionability."
     },
@@ -592,12 +543,11 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0,
       "reason": "Delivers three fully-detailed 2026 Series B rounds with amounts, lead investors, dates, and authoritative press-release URLs, but the answer is truncated mid-table (Altesa entry incomplete), leaving the list unfinished."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 7.67
+    "linkup_total": 5.8,
+    "parallel_total": 7.6
   },
   {
     "id": "s032",
@@ -607,7 +557,6 @@
       "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 10.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Directly answers every element asked (before/after headcount, ~40% cut, AI-driven rationale, Feb 26 2026 date) with dense, well-cited specifics including exact figures and Dorsey quotes, losing minor points only for the answer cutting off mid-sentence and a slight '40% vs nearly half' framing inconsistency."
     },
@@ -616,12 +565,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 10.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Directly answers every element (before headcount 10,205, ~4,000 cut, ~40%, Feb 26 2026 date, AI-driven rationale) with cross-referenced authoritative sources (SEC filing, NYT) and explicit handling of conflicting figures, though it leans on a few weak sources (Reddit, social posts) and the final quote is truncated."
     },
-    "linkup_total": 8.83,
-    "parallel_total": 9.0
+    "linkup_total": 9.0,
+    "parallel_total": 9.2
   },
   {
     "id": "s030",
@@ -631,7 +579,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0,
       "reason": "The answer lists several concrete mega-rounds with amounts, stages, and some lead investors, but key fields (dates, lead investors) are missing for multiple entries, the 30-day freshness window is unverified, it leans on a questionable tracker (TechBible) alongside Crunchbase, and the response is cut off mid-sentence."
     },
@@ -640,12 +587,11 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 7.0,
       "reason": "Delivers a dense, well-sourced table of mega-rounds with amounts, stages, lead investors, and dates from a Crunchbase weekly, but the rounds fall outside the requested 30-day window, the date constraint is honestly flagged, and the answer cuts off mid-table."
     },
     "linkup_total": 6.0,
-    "parallel_total": 7.33
+    "parallel_total": 7.2
   },
   {
     "id": "s025",
@@ -655,7 +601,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Excellent false-premise correction (AMD Ventures/Magnetar, not Nvidia) with specific amounts, dates, valuation, and investors all cited, but the answer is truncated mid-sentence and never addresses what the capital will be used for, which was explicitly asked."
     },
@@ -664,12 +609,11 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "The answer correctly rejects the false Nvidia-led premise, provides well-cited, highly specific deal details (amount, date, valuation, co-leads, participants, funding history) in a GTM-friendly format, but is abruptly truncated mid-sentence in the use-of-capital section, leaving part of the question incompletely answered."
     },
     "linkup_total": 8.0,
-    "parallel_total": 8.17
+    "parallel_total": 8.2
   },
   {
     "id": "s033",
@@ -679,7 +623,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0,
       "reason": "The answer provides a useful table with concrete numbers, names, and rationales for three companies, but it relies on aggregator/low-authority sources (e.g., programs.com), includes vague or out-of-window dates (multi-year PayPal plan, 'earlier this month'), self-admits contradictions and reliability issues, and appears truncated before the promised warnings section."
     },
@@ -688,12 +631,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The answer provides concrete, well-sourced entries (companies, headcounts, rationale, URLs from TechCrunch/CRN) with good date-window framing, but it cuts off mid-entry on Salesforce, leaving the list incomplete and the promised caveats missing, which undermines reliability for a full outreach campaign."
     },
-    "linkup_total": 5.67,
-    "parallel_total": 6.33
+    "linkup_total": 5.8,
+    "parallel_total": 6.2
   },
   {
     "id": "s031",
@@ -703,7 +645,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "signal_to_noise": 7.0,
       "reason": "The answer provides concrete figures (20-30K cuts, TD Cowen estimates, affected divisions) with appropriate caveats, but it is truncated mid-sentence and never answers two explicit parts of the question (how cuts were communicated and the date), cites only numbered sources without verifiable names/URLs, and the headline 18%/30K figure rests on analyst speculation rather than confirmed facts."
     },
@@ -712,12 +653,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The answer provides specific layoff figures and affected divisions with critical source weighing, but it cuts off mid-sentence and never delivers the requested communication method or announcement date, leans on some low-credibility sources (elevateicons, YouTube), and contains internally inconsistent claims about what Oracle 'publicly confirmed' versus analyst estimates."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 6.33
+    "linkup_total": 6.2,
+    "parallel_total": 6.4
   },
   {
     "id": "s028",
@@ -727,7 +667,6 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Strong, well-prioritized answer with named companies, round sizes, lead investors, dates, and reputable sources (Fortune, CTech, Crunchbase), though it is truncated mid-entry and some rounds lack exact dates or investor details."
     },
@@ -736,12 +675,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "Provides multiple named 2026 rounds with stages, sizes, investors, dates, and citations, but the answer is truncated mid-list, omits the Armadin round size, flags a confusing source discrepancy, and relies on mixed-quality sources (Crunchbase/Tracxn are solid, 'New Market Pitch' less so)."
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.83
+    "parallel_total": 7.0
   },
   {
     "id": "s034",
@@ -751,7 +689,6 @@
       "completeness": 5.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "The answer delivers highly specific, well-sourced layoff details (companies, headcounts, functions, dates) that directly serve the HR-vendor targeting use case, but it cuts off mid-sentence in the Meta section, leaving the list incomplete and source authoritativeness only inferable from numbered citations."
     },
@@ -760,12 +697,11 @@
       "completeness": 7.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Dense, well-structured target list with company names, headcounts, functions, dates, and per-item citations, though the answer is truncated mid-entry (Cisco lacks date/source) and sources are referenced only by number without identifiable outlets."
     },
-    "linkup_total": 7.17,
-    "parallel_total": 8.17
+    "linkup_total": 7.4,
+    "parallel_total": 8.4
   },
   {
     "id": "s035",
@@ -775,7 +711,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 9.0,
-      "source_quality": 5.0,
       "signal_to_noise": 8.0,
       "reason": "The Epic Games section is rich with concrete figures, dates, reasons, and source citations, but the answer is truncated and entirely omits Wix (half of the question), and sources are cited only as opaque numbers without identifiable outlets or URLs."
     },
@@ -784,12 +719,11 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The Epic Games section is excellent \u2014 specific numbers, percentage, reason, date, and credible cited sources \u2014 but the answer cuts off mid-sentence and entirely omits the requested Wix details, leaving half the question unanswered."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 6.0
+    "linkup_total": 6.6,
+    "parallel_total": 5.8
   },
   {
     "id": "s036",
@@ -799,7 +733,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific and well-grounded answer with deal value, structure, date, and rationale, but it is cut off mid-sentence, never addresses whether the deal has closed, and cites numbered sources without identifying URLs or publication names for verification."
     },
@@ -808,12 +741,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific, well-cited confirmation of the deal with structure ($750M upfront, up to $300M milestones), date, and integration details, but the answer is cut off mid-sentence and never addresses whether the deal has closed, and sources are referenced only by number without identifying the actual outlets or URLs."
     },
-    "linkup_total": 7.33,
-    "parallel_total": 7.33
+    "linkup_total": 7.6,
+    "parallel_total": 7.6
   },
   {
     "id": "s027",
@@ -823,7 +755,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0,
       "reason": "The answer cites reputable sources (TechCrunch, Crunchbase) and gives concrete round sizes and some lead investors, but it's truncated mid-entry, two deals lack lead investors or exact dates, the listed dates (Feb 12 vs June 3) can't all fit a 60-day window, and the heavy hedging about source limitations reduces confidence and usability for building an outreach list."
     },
@@ -832,12 +763,11 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0,
       "reason": "The answer is heavily hedged about dates, provides only one deal with full details (Emergent, lacking exact date/URL), relies on a database lacking lead investors and source URLs, and is truncated mid-list, falling far short of the requested complete outreach-ready table."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 3.83
+    "linkup_total": 6.0,
+    "parallel_total": 4.0
   },
   {
     "id": "s026",
@@ -847,7 +777,6 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 4.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific and well-structured with amount, date, lead, participants, TCV, NRR, and customers, but it fails the explicit request for source URLs (only opaque numeric citations) and the answer is truncated mid-sentence."
     },
@@ -856,12 +785,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific and well-grounded answer covering amount ($50M), lead (Highland Europe), participants, traction ($100M TCV, 400% NRR), and date with discrepancies flagged, but it fails to provide the actual source URLs the user explicitly requested and appears truncated mid-sentence."
     },
-    "linkup_total": 7.17,
-    "parallel_total": 8.17
+    "linkup_total": 7.8,
+    "parallel_total": 8.4
   },
   {
     "id": "s038",
@@ -871,7 +799,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific and well-grounded confirmation with exact date, executive quotes, and strategic rationale, but the answer is truncated mid-sentence and omits the requested disclosed deal terms and an actual source list (only numbered citations without URLs/publication names)."
     },
@@ -880,12 +807,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Confirms the acquisition with a precise date, named executives, and detailed oncology strategy well-grounded in cited sources, but the answer cuts off mid-sentence and never delivers the disclosed deal terms or a visible source list that the question explicitly requested."
     },
-    "linkup_total": 7.5,
-    "parallel_total": 7.67
+    "linkup_total": 7.8,
+    "parallel_total": 7.8
   },
   {
     "id": "s044",
@@ -895,7 +821,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "source_quality": 8.0,
       "signal_to_noise": 6.0,
       "reason": "The answer cites authoritative FTC.gov sources and names specific companies, dates, and alleged conduct, but it is truncated mid-entry, lacks settlement amounts for both actions, and covers only two enforcement actions with confusing date caveats, limiting its usefulness as a complete buying-signal list."
     },
@@ -904,12 +829,11 @@
       "completeness": 3.0,
       "gtm_value": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0,
       "reason": "The answer cites authoritative FTC.gov sources and gives concrete names, dates, and amounts, but it is truncated mid-entry, uses generic topic-page URLs instead of specific press releases, and contains questionable details (e.g., the Kochava 'ban' was litigation relief sought, not a settlement), undermining reliability and completeness."
     },
-    "linkup_total": 5.83,
-    "parallel_total": 5.33
+    "linkup_total": 5.4,
+    "parallel_total": 5.0
   },
   {
     "id": "s037",
@@ -919,7 +843,6 @@
       "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 8.0,
       "reason": "Highly specific and well-structured answer with deal value, per-share terms, dates, financing, and close timing, but it cites only opaque numbered sources (no verifiable URLs/publication names except a passing Reuters mention) and cuts off mid-sentence in the integration section most relevant to the GTM targeting ask."
     },
@@ -928,12 +851,11 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 9.0,
       "reason": "Detailed, well-cited answer with concrete deal terms ($14.5B EV, $374/share, 73/27 cash-stock mix, Jan 15 2026 announcement) from multiple corroborating sources including the investor presentation, though the expected close is only vaguely stated as '2026' and the answer is truncated mid-sentence on closing conditions."
     },
-    "linkup_total": 7.5,
-    "parallel_total": 8.33
+    "linkup_total": 7.8,
+    "parallel_total": 8.4
   },
   {
     "id": "s042",
@@ -943,7 +865,6 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The two listed fines (TikTok \u20ac530M/Irish DPC and Google \u20ac325M/CNIL) are accurate with good detail, but the answer cuts off mid-entry, omits other qualifying 2025 fines, leaves the Google sources empty, and relies partly on aggregator sites, making it badly incomplete for a prospecting list."
     },
@@ -952,12 +873,11 @@
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 6.0,
       "reason": "The two fines listed (Free Mobile \u20ac27M and Free \u20ac15M from CNIL) are well-detailed with violations, articles, dates, and credible sources including the regulator's own site, but the answer is severely incomplete \u2014 it promises 2025 cases and never delivers them, omitting major known fines (e.g., TikTok's record 2025 DPC fine), leaving a prospect list of only two companies for a question explicitly asking for a comprehensive target market scan."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.17
+    "parallel_total": 6.0
   },
   {
     "id": "s041",
@@ -967,7 +887,6 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "Highly specific and well-grounded answer confirming X's \u20ac120M first DSA fine on Dec 5, 2025 with article-level violation detail, but it cuts off mid-sentence before the third violation and never lists the actual sources, undermining completeness and source verifiability."
     },
@@ -976,12 +895,11 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Accurately confirms the first DSA fine against X with penalty amount (\u20ac120M), date (5 Dec 2025), and detailed violations with specific DSA articles, though sources are cited only by number without identifiable names/URLs and the answer cuts off mid-citation."
     },
-    "linkup_total": 7.17,
-    "parallel_total": 8.5
+    "linkup_total": 7.4,
+    "parallel_total": 8.8
   },
   {
     "id": "s045",
@@ -991,7 +909,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is well-structured and rich in concrete details, but the cited cases (CNIL's \u20ac27M Free Mobile fine for VPN/detection failures, Garante's Intesa Sanpaolo fine) are real enforcement actions from 2024 that appear to have been re-dated to 2026, and the response cuts off mid-sentence on the third entry, making it both factually unreliable and incomplete as an outreach list."
     },
@@ -1000,12 +917,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 6.0,
       "reason": "The table offers concrete, GTM-usable detail (fines, authorities, Art. 32 failings) for three French CNIL cases, but the answer cuts off mid-caveat, relies on opaque numbered sources (roundup pages rather than authority decisions), covers only one jurisdiction, and itself flags date ambiguity that undermines confidence the fines are truly 2026."
     },
-    "linkup_total": 5.17,
-    "parallel_total": 5.83
+    "linkup_total": 5.4,
+    "parallel_total": 6.2
   },
   {
     "id": "s039",
@@ -1015,7 +931,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "signal_to_noise": 6.0,
       "reason": "The answer provides a useful table with acquirers, targets, values, and dates, but it is truncated mid-entry, relies heavily on a single aggregator source rather than official deal announcements, leaves one deal value missing, and likely omits many qualifying deals from a full-year question."
     },
@@ -1024,12 +939,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 3.0,
       "signal_to_noise": 6.0,
       "reason": "The answer is rich in concrete deal details (acquirers, targets, values, dates) but is truncated mid-table, fails to provide the per-deal source URLs the question explicitly required, cites only one vaguely-referenced source, and lists many deals that appear unverifiable or likely fabricated, undermining trust for outreach use."
     },
-    "linkup_total": 5.67,
-    "parallel_total": 5.17
+    "linkup_total": 5.8,
+    "parallel_total": 5.6
   },
   {
     "id": "s040",
@@ -1039,7 +953,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "The answer is rich in concrete, well-cited details (Feb 2, 2026 announcement, 0.70 exchange ratio, $58B EV vs ~$21.4B equity value) and helpfully disambiguates conflicting deal figures, but it is cut off mid-sentence and never delivers the combined-company rationale the question explicitly requested, while leaving the $21.4B vs $25.5B discrepancy unresolved."
     },
@@ -1048,12 +961,11 @@
       "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 9.0,
       "reason": "Highly specific, well-grounded answer with dates, deal value, exchange ratio, and ownership splits cited to multiple sources, but it is truncated mid-sentence and never delivers the combined-company rationale the question explicitly requested, and sources are cited only by number without identifying most outlets."
     },
     "linkup_total": 7.0,
-    "parallel_total": 7.83
+    "parallel_total": 8.0
   },
   {
     "id": "s047",
@@ -1063,7 +975,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is well-grounded in cited sources with concrete dates and valuation figures, but it cuts off mid-document, never covering the raise size or whether it ranks among the largest IPOs ever, and leans partly on weak sources (crypto news sites, an X post) alongside official/reputable ones."
     },
@@ -1072,12 +983,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "signal_to_noise": 8.0,
       "reason": "The answer confirms the filing date with strong sourcing and gives concrete valuation figures with appropriate caveats, but it cuts off mid-sentence, never addresses whether this would rank among the largest IPOs ever, mixes authoritative sources (Reuters, anthropic.com) with low-quality ones (explainx, indmoney), and doesn't connect findings to the SOX-readiness GTM angle."
     },
-    "linkup_total": 6.33,
-    "parallel_total": 7.17
+    "linkup_total": 6.4,
+    "parallel_total": 7.2
   },
   {
     "id": "s046",
@@ -1087,7 +997,6 @@
       "completeness": 3.0,
       "gtm_value": 2.0,
       "specificity": 6.0,
-      "source_quality": 3.0,
       "signal_to_noise": 4.0,
       "reason": "The answer asserts a SpaceX S-1 that almost certainly reflects a different/confused entity (X.AI acquisition, GPU cloud deal, computer-services SIC code are hallmarks of xAI, not SpaceX), fails to confirm the asked-for filing date, revenue figures, or roadshow timing, and is cut off mid-sentence despite containing many specific-looking but dubious details."
     },
@@ -1096,12 +1005,11 @@
       "completeness": 3.0,
       "gtm_value": 1.0,
       "specificity": 7.0,
-      "source_quality": 2.0,
       "signal_to_noise": 3.0,
       "reason": "SpaceX has never filed a public S-1 IPO prospectus, so the answer confidently fabricates filing dates, accession numbers, revenue figures, and a ticker \u2014 highly specific but factually baseless and dangerously misleading as a sales signal, and the answer is also cut off mid-sentence."
     },
-    "linkup_total": 3.33,
-    "parallel_total": 2.83
+    "linkup_total": 3.4,
+    "parallel_total": 3.0
   },
   {
     "id": "s048",
@@ -1111,7 +1019,6 @@
       "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is well-structured and rich in concrete details (dates, tickers, valuations), but key claims like a SpaceX public S-1 at a $1.5-1.75T valuation are highly implausible and all citations are low-authority aggregator blogs rather than SEC filings or reputable news, undermining trust in the facts."
     },
@@ -1120,12 +1027,11 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 4.0,
       "signal_to_noise": 7.0,
       "reason": "The answer is well-structured and rich in concrete dates/valuations, but its claims are highly dubious (e.g., a public SpaceX S-1 and an Anthropic confidential filing announced on its own news page) with likely fabricated source URLs, and it cuts off mid-entry leaving the OpenAI item and any further filings incomplete."
     },
-    "linkup_total": 5.83,
-    "parallel_total": 5.17
+    "linkup_total": 6.2,
+    "parallel_total": 5.4
   },
   {
     "id": "s043",
@@ -1135,7 +1041,6 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0,
       "reason": "The answer provides accurate, specific phase-in dates and flags the Digital Omnibus deferral usefully, but it is truncated mid-sentence and entirely omits the explicitly requested maximum penalty figures (\u20ac35M / 7% of global turnover), and cited sources are numbered references rather than named official EU sources."
     },
@@ -1144,12 +1049,11 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "signal_to_noise": 8.0,
       "reason": "Penalty details are accurate, specific, and well-cited (Article 99 tiers, the correct \u20ac15M/3% cap for high-risk vs \u20ac35M/7% for prohibited practices) with valuable Digital Omnibus context, but the answer truncates before confirming the actual enforcement dates and which obligations take effect \u2014 the core timing info the seller needs for outreach."
     },
-    "linkup_total": 5.83,
-    "parallel_total": 7.5
+    "linkup_total": 5.8,
+    "parallel_total": 7.4
   },
   {
     "id": "s050",
@@ -1159,7 +1063,6 @@
       "completeness": 5.0,
       "gtm_value": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "signal_to_noise": 7.0,
       "reason": "Names a few companies (Apple, Google, TikTok) with some concrete stats (+62% Google engineering roles) and honest caveats, but relies on a single newsletter source, lacks per-company role counts for most entries, misses non-tech functions, and the answer is cut off mid-sentence."
     },
@@ -1168,12 +1071,11 @@
       "completeness": 5.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "source_quality": 2.0,
       "signal_to_noise": 7.0,
       "reason": "Highly specific numbers and functions, but only two companies are covered and the sources are weak \u2014 a low-authority blog (ironically titled 'Databricks layoffs') and an API documentation page (likely sample data, no date), undermining trust in the figures."
     },
-    "linkup_total": 6.5,
-    "parallel_total": 5.17
+    "linkup_total": 6.6,
+    "parallel_total": 5.8
   },
   {
     "id": "s049",
@@ -1183,7 +1085,6 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "signal_to_noise": 6.0,
       "reason": "The answer surfaces three genuine expansion announcements with locations, dates, and LinkedIn source URLs, but lacks any scale figures (square footage/headcount) the question explicitly requested, relies solely on LinkedIn posts, and is cut off mid-entry on a fourth unnamed company."
     },
@@ -1192,11 +1093,10 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "signal_to_noise": 7.0,
       "reason": "The two complete entries are well-sourced with concrete scale figures, dates, and URLs, but the answer cuts off mid-list, leaving the broader sweep of expansion announcements incomplete and limiting outreach coverage."
     },
-    "linkup_total": 5.67,
-    "parallel_total": 6.67
+    "linkup_total": 5.6,
+    "parallel_total": 6.6
   }
 ]

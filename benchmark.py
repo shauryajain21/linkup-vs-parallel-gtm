@@ -12,7 +12,7 @@ ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 SYNTH_MODEL = "claude-opus-4-8"
 JUDGE_MODEL = "claude-fable-5"
 
-DIMS = ["accuracy","completeness","gtm_value","specificity","source_quality","signal_to_noise"]
+DIMS = ["accuracy","completeness","gtm_value","specificity","signal_to_noise"]
 
 
 def _text(resp):
@@ -82,25 +82,23 @@ async def synth(claude, query, results, sem):
 
 
 JUDGE_SYSTEM = """You are a GTM research quality evaluator. A sales team asked a question about a company
-and received an answer synthesized from search results. Score the answer on 6 dimensions (0-10).
+and received an answer synthesized from search results. Score the answer on 5 dimensions (0-10).
 
 - accuracy: factually grounded and about the right company/entity?
 - completeness: fully addresses everything the question asked?
 - gtm_value: actionable for a sales/GTM professional?
 - specificity: concrete details (numbers, names, products, dates) vs vague generalities?
-- source_quality: are the cited sources authoritative and on-target (the company's own site,
-  official pages, reputable sources) rather than random/irrelevant pages?
 - signal_to_noise: dense with relevant info, or padded with boilerplate, hedging, and filler?
 
 Calibration: 9-10 = excellent, 7-8 = good, 5-6 = basic/vague, 0-4 = wrong/empty/"sources don't contain the answer".
-Return ONLY valid JSON: {"accuracy":<0-10>,"completeness":<0-10>,"gtm_value":<0-10>,"specificity":<0-10>,"source_quality":<0-10>,"signal_to_noise":<0-10>,"reason":"<one sentence>"}"""
+Return ONLY valid JSON: {"accuracy":<0-10>,"completeness":<0-10>,"gtm_value":<0-10>,"specificity":<0-10>,"signal_to_noise":<0-10>,"reason":"<one sentence>"}"""
 
 @dataclass
 class Grade:
     accuracy:float=0; completeness:float=0; gtm_value:float=0
-    specificity:float=0; source_quality:float=0; signal_to_noise:float=0; reason:str=""
+    specificity:float=0; signal_to_noise:float=0; reason:str=""
     @property
-    def total(self): return sum(getattr(self,d) for d in DIMS)/6
+    def total(self): return sum(getattr(self,d) for d in DIMS)/len(DIMS)
 
 async def judge(claude, query, answer, sem):
     if not answer or len(answer) < 20: return Grade(reason="empty")

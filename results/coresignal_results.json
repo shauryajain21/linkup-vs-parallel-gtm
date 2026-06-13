@@ -7,7 +7,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies the right Thiago Alleman with matching LinkedIn URL, role, company, and location, and gives specific tenure and address details with a thoughtful data-inconsistency flag, but it cuts off mid-sentence and entirely omits the requested prior roles, education, explicit source URLs, and dates, leaving the profile reconstruction incomplete."
     },
@@ -17,12 +16,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Correctly matches the person via the LinkedIn slug and usefully flags a company/title discrepancy with direct contact details, but the answer is truncated and omits tenure, prior roles, education, location, and source dates."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 6.43
+    "linkup_total": 6.5,
+    "parallel_total": 6.5
   },
   {
     "id": "cs009",
@@ -32,7 +30,6 @@
       "completeness": 8.0,
       "recency": 9.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "gtm_value": 9.0,
       "reason": "Correct person confirmed via matching LinkedIn URL, with dated, specific role-change posts (Apr 2025 Internal Wholesaler \u2192 Dec 18, 2025 Case Design Analyst) from authoritative LinkedIn sources, providing a strong recent outreach trigger; only minor flaws are a truncated final line and slightly confusing timing phrasing."
     },
@@ -42,12 +39,11 @@
       "completeness": 8.0,
       "recency": 9.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "gtm_value": 9.0,
       "reason": "Exact LinkedIn URL match confirms the right person, a clear dated promotion signal (Sales Associate \u2192 Internal Wholesaler \u2013 Life, Apr 2025) is identified with transparent handling of the title discrepancy, though the answer is truncated at the end and full source URLs beyond LinkedIn are not listed."
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.86
+    "parallel_total": 9.0
   },
   {
     "id": "cs002",
@@ -57,7 +53,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Excellent disambiguation matching the exact LinkedIn URL and confirming title/company/location/tenure with concrete details, but the answer is truncated mid-table, omitting full prior roles, education, and the requested source URLs/dates."
     },
@@ -67,12 +62,11 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Excellent identity disambiguation (matches the exact LinkedIn URL and explicitly excludes seven namesakes) with concrete title, tenure start date, and finance-function details, but the answer is truncated mid-sentence and omits prior employers, education, and explicit source URLs/dates that the question required."
     },
-    "linkup_total": 7.29,
-    "parallel_total": 7.29
+    "linkup_total": 7.33,
+    "parallel_total": 7.33
   },
   {
     "id": "cs006",
@@ -82,7 +76,6 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly matches the person and surfaces a genuinely useful headline-vs-role discrepancy with specific tenure details, but it is truncated mid-sentence, omitting prior roles, education, explicit source URLs/dates, and relies on a single undated LinkedIn snapshot."
     },
@@ -92,12 +85,11 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer transparently flags that no source matches the exact LinkedIn URL and reasonably leans on a title/company-matched ZoomInfo record with concrete tenure and prior-role details, but it is cut off mid-sentence, omits education, fails to confirm the Atlanta location, lacks dates, and relies on a single undated aggregator source rather than authoritative confirmation."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 5.71
+    "linkup_total": 6.17,
+    "parallel_total": 5.83
   },
   {
     "id": "cs008",
@@ -107,7 +99,6 @@
       "completeness": 7.0,
       "recency": 2.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 3.0,
       "reason": "Honest, well-organized negative finding that correctly confirms the profile and explicitly states no recent activity (only 2014 posts), but it delivers no usable conversation hook for the person, leaves title/location unverified, and cuts off mid-sentence on the adjacent company activity."
     },
@@ -117,12 +108,11 @@
       "completeness": 6.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "Excellent identity confirmation with careful namesake disambiguation and solid enrichment details, but the core ask (recent activity/hook) yielded nothing, source URLs were not provided despite being requested, and the answer is truncated mid-sentence."
     },
-    "linkup_total": 5.71,
-    "parallel_total": 6.57
+    "linkup_total": 5.67,
+    "parallel_total": 6.67
   },
   {
     "id": "cs004",
@@ -132,7 +122,6 @@
       "completeness": 7.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 9.0,
       "reason": "Well-grounded, dated confirmation that Ezgi Acar remains BloomDay's founder with a strong identity check via matching LinkedIn member ID and excellent outreach hooks (Mar 25 iOS launch, recent 3D update), but it omits the requested source URLs, can't verify the Ankara location, and the answer cuts off mid-sentence."
     },
@@ -142,12 +131,11 @@
       "completeness": 7.0,
       "recency": 8.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "The answer credibly confirms via BloomDay's own press kit and App Store listings that Ezgi Acar is actively operating BloomDay (with very recent app updates as activity signals) and responsibly flags namesakes, but it could not verify the specific LinkedIn profile or pinpoint any title-change date, leaving the job-change question only indirectly answered."
     },
-    "linkup_total": 8.0,
-    "parallel_total": 7.29
+    "linkup_total": 8.33,
+    "parallel_total": 7.33
   },
   {
     "id": "cs003",
@@ -157,7 +145,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 4.0,
       "reason": "Identity is well-confirmed with dated posts and the answer correctly states no recent personal activity exists (latest Sep 2023), but it is truncated mid-sentence before delivering the company-activity outreach hook, cites only generic 'Source N' references instead of the requested URLs, and cannot verify the exact 'Financial Director' title."
     },
@@ -167,11 +154,10 @@
       "completeness": 5.0,
       "recency": 2.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly identifies the target person via ZoomInfo, flags a title discrepancy, and properly excludes a namesake professor, but it ultimately finds no recent activity, relies on a single undated aggregator source, is truncated mid-sentence, and delivers no usable conversation hook for outreach."
     },
-    "linkup_total": 6.43,
+    "linkup_total": 6.67,
     "parallel_total": 5.0
   },
   {
@@ -182,7 +168,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation with careful inference and good role/tenure detail, but the answer is truncated mid-sentence and omits prior roles, education, and the requested source URLs/dates, leaving the enrichment incomplete."
     },
@@ -192,12 +177,11 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "Strong identity verification against the exact LinkedIn slug with explicit namesake disambiguation and a clear title-discrepancy note, but the answer is truncated mid-sentence, omitting prior roles, education, location, source URLs, and dates that the question explicitly requested."
     },
-    "linkup_total": 6.57,
-    "parallel_total": 6.29
+    "linkup_total": 6.67,
+    "parallel_total": 6.33
   },
   {
     "id": "cs005",
@@ -207,7 +191,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly confirms identity via the exact LinkedIn URL, gives concrete title, location, and tenure with a flagged data discrepancy, but it cuts off mid-sentence and never delivers the requested prior roles, education, or dated source list, limiting completeness and actionable hooks."
     },
@@ -217,12 +200,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity verification (exact LinkedIn URL match, namesake explicitly excluded) with specific details like start date, legal entity, and RUT, but the answer cuts off mid-sentence and omits prior roles, education, source URLs, and access dates that the question explicitly requested."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.86
+    "linkup_total": 6.83,
+    "parallel_total": 7.0
   },
   {
     "id": "cs012",
@@ -232,7 +214,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation via exact LinkedIn URL match with specific title, tenure, and expertise details, but the answer is truncated mid-career-history, omits education, and fails to provide the requested source URLs and dates."
     },
@@ -242,12 +223,11 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation with disambiguation and a specific title ('Manager \u2013 Legal Technology' at Harbor since Aug 2023) grounded in LinkedIn/RocketReach, but the answer cuts off mid-profile and never delivers the requested prior roles detail, education, source URLs, or dates."
     },
-    "linkup_total": 7.29,
-    "parallel_total": 6.86
+    "linkup_total": 7.5,
+    "parallel_total": 6.83
   },
   {
     "id": "cs010",
@@ -257,7 +237,6 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly matches the right person and confirms the listed role with specific tenure and location, but it omits required items (prior roles, education, full name, source URLs with dates), relies on a single LinkedIn source, and the lead itself\u2014a professional athlete\u2014offers minimal GTM actionability, which the answer at least honestly flags."
     },
@@ -267,12 +246,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "The answer plausibly confirms identity (transparently flagging the inferred surname 'Becerra') and gives title, company, and approximate tenure, but it is cut off mid-sentence and omits prior roles, education, location, discrepancy analysis, and the requested source URLs and dates, with limited actionable value since the lead is a non-decision-maker athlete."
     },
-    "linkup_total": 5.29,
-    "parallel_total": 5.43
+    "linkup_total": 5.5,
+    "parallel_total": 5.33
   },
   {
     "id": "cs011",
@@ -282,7 +260,6 @@
       "completeness": 4.0,
       "recency": 8.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation via the matching LinkedIn URL with namesakes explicitly excluded, and a highly actionable discrepancy flag (she's now an SDR at Wellhub, not at Revyze), but the answer is cut off mid-sentence \u2014 missing tenure detail, prior roles, education, and the requested source URLs/dates \u2014 and the 'Jun 2026' date is questionable."
     },
@@ -292,11 +269,10 @@
       "completeness": 7.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly resolves the exact LinkedIn URL and honestly flags that the profile (a Colchester-based social media manager/student) contradicts the claimed 'Revyze UK Recruitment Lead' title, providing specific dated roles and education, but it relies on a single source, doesn't investigate Revyze itself, and yields a 'bad lead' conclusion with limited direct outreach value."
     },
-    "linkup_total": 7.0,
+    "linkup_total": 7.17,
     "parallel_total": 7.0
   },
   {
@@ -307,7 +283,6 @@
       "completeness": 6.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 9.0,
       "reason": "Strong identity confirmation and a well-dated, highly actionable discrepancy finding (Lord Elgin role ended March 2025, now at Westin Ottawa and co-owner of Buenas Noches), but the answer is truncated mid-sentence, omits the requested source URLs (only numbered citations), and doesn't fully cover education and location details."
     },
@@ -317,12 +292,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "Identity is well confirmed via the exact LinkedIn slug with namesakes properly excluded and a title discrepancy flagged, but the answer cuts off mid-sentence and never delivers tenure, prior roles, education, full source URLs, or access dates."
     },
-    "linkup_total": 7.86,
-    "parallel_total": 6.0
+    "linkup_total": 8.17,
+    "parallel_total": 5.83
   },
   {
     "id": "cs018",
@@ -332,7 +306,6 @@
       "completeness": 8.0,
       "recency": 3.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 3.0,
       "reason": "Correctly matches the person via the exact LinkedIn URL and honestly reports that the only public activity is two zero-engagement posts from January 2019 with dates and URLs, but this yields no recent signal or usable outreach hook, and the answer is cut off mid-sentence."
     },
@@ -342,12 +315,11 @@
       "completeness": 8.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 6.0,
       "reason": "Correctly matches the exact LinkedIn profile, fills in the missing company (Ciringuito Tour) and teaching role with dates, rules out namesakes, and explicitly states no recent activity was found, though the answer is truncated and yields only weak outreach hooks since the person is largely inactive online."
     },
-    "linkup_total": 6.86,
-    "parallel_total": 8.14
+    "linkup_total": 6.67,
+    "parallel_total": 8.17
   },
   {
     "id": "cs017",
@@ -357,7 +329,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies and disambiguates the right Yesenia Camargo with concrete tenure and performance details, but it is truncated mid-sentence and omits prior roles, education, location, and the requested source URLs and dates."
     },
@@ -367,12 +338,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly disambiguates the right Yesenia Camargo and gives precise role/tenure details (Senior Sales Consultant at The Circle of Greatness Academy since Aug 2024), but it is cut off mid-sentence, omitting prior roles, education, location, and the requested source URLs and dates, and the discrepancy note is left incomplete."
     },
-    "linkup_total": 6.29,
-    "parallel_total": 6.14
+    "linkup_total": 6.5,
+    "parallel_total": 6.33
   },
   {
     "id": "cs019",
@@ -382,7 +352,6 @@
       "completeness": 9.0,
       "recency": 10.0,
       "specificity": 9.0,
-      "source_quality": 9.0,
       "gtm_value": 10.0,
       "reason": "Correct person (exact LinkedIn slug), a dated job-start announcement (2025-07-23) confirming she recently began as QA Manager at Hovione, corroborated as still active via a 2025-10-21 hiring post, with quoted evidence and source URLs \u2014 an ideal new-in-role outreach trigger, with only the prior-employer inference being slightly speculative."
     },
@@ -392,12 +361,11 @@
       "completeness": 1.0,
       "recency": 0.0,
       "specificity": 2.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and correctly reports that the sources contain no information about the target person (and properly avoids conflating namesakes), but it provides no confirmation of her role, no job-change signal, and no actionable outreach timing value."
     },
-    "linkup_total": 9.43,
-    "parallel_total": 1.86
+    "linkup_total": 9.5,
+    "parallel_total": 1.83
   },
   {
     "id": "cs013",
@@ -407,7 +375,6 @@
       "completeness": 7.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 9.0,
       "reason": "Strong, well-dated summary of the right person's recent LinkedIn activity with direct post URLs and an excellent outreach hook (SFD 2026 congress attendance), though the answer is cut off mid-sentence and the older 2024 item is incomplete."
     },
@@ -417,12 +384,11 @@
       "completeness": 6.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "Strong identity verification and an honest, explicit 'no recent activity' finding with a useful Feb 2025 certification detail, but the answer is cut off mid-quote, omits the requested source URLs, and offers limited actionable outreach hooks."
     },
-    "linkup_total": 8.29,
-    "parallel_total": 6.86
+    "linkup_total": 8.33,
+    "parallel_total": 7.0
   },
   {
     "id": "cs015",
@@ -432,7 +398,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "The answer confirms the right person, location, title, and a useful headline-vs-experience discrepancy, but it is truncated/incomplete \u2014 missing prior roles, education, and actual source URLs/dates as requested \u2014 and contains a questionable date span (Oct 2025 \u2013 Present, 9 mos)."
     },
@@ -442,12 +407,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 5.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and accurately concludes that no source matches the target person (correct slug/company/location mismatch analysis), but it delivers no usable profile data for the lead, so it fails the enrichment task itself."
     },
-    "linkup_total": 6.14,
-    "parallel_total": 3.0
+    "linkup_total": 6.33,
+    "parallel_total": 3.17
   },
   {
     "id": "cs023",
@@ -457,7 +421,6 @@
       "completeness": 7.0,
       "recency": 2.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 2.0,
       "reason": "Honest, well-sourced answer drawn from the correct LinkedIn handle that explicitly confirms no recent activity (only 2019-2020 posts) and transparently flags unverified role/location, but it yields no usable outreach hook or recent signal for GTM purposes."
     },
@@ -467,12 +430,11 @@
       "completeness": 6.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 4.0,
       "reason": "Strong identity verification with namesake disambiguation and a useful new-role start date (July 2025), but the answer explicitly finds no recent activity, appears truncated mid-section, and offers no real conversation hook beyond the role change."
     },
-    "linkup_total": 5.86,
-    "parallel_total": 6.71
+    "linkup_total": 5.67,
+    "parallel_total": 6.67
   },
   {
     "id": "cs016",
@@ -482,7 +444,6 @@
       "completeness": 6.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Correctly identifies the person via the matching LinkedIn URL and fills the null company (AB Ministries) with a useful ICP-fit caveat, but the answer is truncated, omits education and explicit source URLs/dates, and relies on a single uncorroborated source."
     },
@@ -492,12 +453,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and carefully rules out multiple namesakes, but ultimately fails to identify or enrich the target Adrian Bernal (CEO in Frederick), providing no usable profile or outreach value."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 2.71
+    "linkup_total": 7.17,
+    "parallel_total": 2.83
   },
   {
     "id": "cs014",
@@ -507,7 +467,6 @@
       "completeness": 5.0,
       "recency": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "Identity is well-confirmed via the profile URL slug and the answer grounds useful details (UFPB procurement role, FPB teaching, doctorate start) in dated sources, but it relies on 2023 posts, cannot confirm any job change or current status, and appears truncated mid-conclusion, limiting recency and actionable outreach timing guidance."
     },
@@ -517,12 +476,11 @@
       "completeness": 8.0,
       "recency": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "gtm_value": 8.0,
       "reason": "Strong answer that explicitly verifies the exact LinkedIn slug, rules out namesakes, and gives dated role details (UFPB since July 2016, concurrent FPB professorship since Feb 2022) with the profile URL, though it is truncated mid-sentence and lacks an explicit 'as of' verification date for the no-change signal."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 8.43
+    "linkup_total": 6.33,
+    "parallel_total": 8.5
   },
   {
     "id": "cs022",
@@ -532,7 +490,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Identity and current role/tenure are well confirmed with a usefully flagged title discrepancy, but the answer omits prior employers, education, and location, and cites sources only as numbered references without the requested URLs and dates."
     },
@@ -542,12 +499,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer does careful identity disambiguation and confirms name/title/company with a useful note on the dubious 'entry level' tag, but it cuts off mid-profile, omitting tenure, full prior roles, education, location confirmation, source URLs, and dates that the question explicitly requested."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 5.43
+    "linkup_total": 6.67,
+    "parallel_total": 5.5
   },
   {
     "id": "cs024",
@@ -557,7 +513,6 @@
       "completeness": 7.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 8.0,
       "reason": "Well-dated, source-grounded job-change signal (founded AI Health Audit Sept 2024, still active Sept 2025) matching the LinkedIn handle, with honest caveats, but it never confirms the Molina Healthcare/CMO connection asked about and the answer is cut off mid-sentence."
     },
@@ -567,12 +522,11 @@
       "completeness": 3.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly and carefully concludes the sources contain no information about Heidi D, correctly avoiding namesake conflation (Stuart Fischer) and noting Molina's corporate CMO was Keith Wilson (2014), but it ultimately fails to confirm the target person's current role or any change signal, leaving the rep with no actionable outreach trigger."
     },
-    "linkup_total": 7.71,
-    "parallel_total": 3.14
+    "linkup_total": 7.83,
+    "parallel_total": 3.17
   },
   {
     "id": "cs020",
@@ -582,7 +536,6 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation with dated tenure, a well-explained headline/employer discrepancy, and a usable certification hook, but the answer is truncated mid-career-history, omits education, and fails to provide the requested source URLs and access dates."
     },
@@ -592,12 +545,11 @@
       "completeness": 1.0,
       "recency": 1.0,
       "specificity": 4.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and rigorously documents that no source matches the target person\u2014correctly avoiding namesake conflation\u2014but it delivers no profile data, no enrichment, and no actionable value, with off-target sources and a truncated ending."
     },
-    "linkup_total": 7.43,
-    "parallel_total": 2.71
+    "linkup_total": 7.67,
+    "parallel_total": 2.83
   },
   {
     "id": "cs029",
@@ -607,7 +559,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -617,12 +568,11 @@
       "completeness": 6.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Correctly identifies the person via the matching LinkedIn URL and surfaces a strong, well-grounded signal (promotion to President at Hooker Furniture plus a retirement announcement), but fails to pin down the date of either change, omits actual source URLs as requested, and ends without a clear outreach-timing conclusion."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 7.29
+    "linkup_total": 0,
+    "parallel_total": 7.33
   },
   {
     "id": "cs033",
@@ -632,7 +582,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -642,12 +591,11 @@
       "completeness": 7.0,
       "recency": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the exact person via LinkedIn slug, rules out namesakes, and fills the null company field (MD at Celltrion Healthcare Denmark since Nov 2024), but the core ask\u2014recent public activity\u2014returned nothing, leaving only the recent role change as a weak outreach hook."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 7.29
+    "linkup_total": 0,
+    "parallel_total": 7.33
   },
   {
     "id": "cs031",
@@ -657,7 +605,6 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 8.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the right Val\u00e9rie Deschamps via the exact LinkedIn URL and carefully disambiguates namesakes, but it is truncated mid-profile and never delivers tenure, prior roles/employers, education details, dates, or explicit source URLs that the question required."
     },
@@ -667,12 +614,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 5.0,
-      "source_quality": 7.0,
       "gtm_value": 4.0,
       "reason": "The answer correctly matches the exact LinkedIn URL and confirms name, title, company, and education with honest flagging of a minor title discrepancy, but it fails to deliver most requested fields (tenure, prior roles, location) and provides no dates, limiting both completeness and actionable GTM value."
     },
-    "linkup_total": 6.29,
-    "parallel_total": 6.14
+    "linkup_total": 6.0,
+    "parallel_total": 6.0
   },
   {
     "id": "cs030",
@@ -682,7 +628,6 @@
       "completeness": 7.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Well-grounded, identity-confirmed profile with concrete dates and a clearly flagged discrepancy (student/intern, not a corporate role-holder), though it relies on a single LinkedIn source, lacks explicit source URLs/access dates, and appears truncated before fully covering prior roles and education details."
     },
@@ -692,12 +637,11 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the right person via the LinkedIn slug, gives a dated current role (RM&C intern at CMB Monaco since Jan 2025) and explains the null/null discrepancy, but it is truncated mid-sentence, omits prior roles, education, and actual source URLs/dates as requested, and the lead being an entry-level intern limits GTM actionability."
     },
-    "linkup_total": 7.71,
-    "parallel_total": 6.57
+    "linkup_total": 7.83,
+    "parallel_total": 6.83
   },
   {
     "id": "cs025",
@@ -707,7 +651,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "Identity is well-confirmed via matching LinkedIn URL, role, and location with a careful sister-disambiguation, but the answer is truncated mid-profile, omitting prior roles, education, and the requested source URLs/dates, and leaves an unresolved tenure inconsistency."
     },
@@ -717,12 +660,11 @@
       "completeness": 1.0,
       "recency": 2.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly reports that no sources cover Juliana Da Luz and correctly avoids conflating her with a namesake ('Juliana Lucas'), but it delivers no profile enrichment, no confirmation of title/company/tenure, and no actionable GTM value."
     },
-    "linkup_total": 6.29,
-    "parallel_total": 2.57
+    "linkup_total": 6.5,
+    "parallel_total": 2.67
   },
   {
     "id": "cs034",
@@ -732,7 +674,6 @@
       "completeness": 2.0,
       "recency": 3.0,
       "specificity": 3.0,
-      "source_quality": 3.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly admits it cannot confirm Heidi E's current title, employer, or any job-change signal, offering only unverified inference from LinkedIn posts (and is cut off mid-sentence), leaving the vendor with no actionable outreach timing information."
     },
@@ -742,12 +683,11 @@
       "completeness": 8.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Well-grounded, dated career details (Owner at Innovation Life LLC since May 2024) with transparent handling of a slug mismatch (heidievanstx vs heidievansatx), but the identity is only a high-probability rather than confirmed match, slightly limiting confidence for outreach."
     },
     "linkup_total": 3.0,
-    "parallel_total": 7.29
+    "parallel_total": 7.33
   },
   {
     "id": "cs032",
@@ -757,7 +697,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms the right person via her LinkedIn profile with specific tenure dates and a thoughtful title-seniority caveat, but it is truncated mid-document, omitting the requested prior roles, education, and full source/date listing, and relies almost entirely on a single source."
     },
@@ -767,12 +706,11 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Correctly identifies the subject (explicitly distinguishing a namesake) and confirms title, company, start date, and location with grounded details, but the answer is truncated mid-caveat and omits requested prior roles, education, and explicit source URLs/dates."
     },
-    "linkup_total": 6.57,
-    "parallel_total": 6.86
+    "linkup_total": 6.5,
+    "parallel_total": 7.0
   },
   {
     "id": "cs036",
@@ -782,7 +720,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Identity is well-confirmed against the exact LinkedIn URL with careful namesake disambiguation and concrete details (title, tenure start, headline, location), but the answer cuts off mid-tenure and never delivers the requested prior roles, education, full discrepancy analysis, or source URLs/dates."
     },
@@ -792,12 +729,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies the right Mohamed Farag with confirmed title, company, tenure start (Aug 2021), and location, with explicit disambiguation from namesakes, but it is truncated mid-sentence and omits the requested education, prior roles detail, discrepancy analysis, and explicit source URLs/dates."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 6.71
+    "linkup_total": 6.67,
+    "parallel_total": 6.67
   },
   {
     "id": "cs035",
@@ -807,7 +743,6 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer carefully confirms the right person via the exact LinkedIn URL and disambiguates namesakes with concrete title, company, and tenure details, but it is cut off mid-sentence and never delivers the requested prior roles, education, location, source URLs, or dates, limiting completeness and actionability."
     },
@@ -817,12 +752,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly anchors identity via the exact LinkedIn slug and resolves the null title/company with specific details (MD/CEO at Globus Trust Alliance Insurance Brokers since Feb 2011), but it is cut off before covering prior roles, education, location, the promised disambiguation note, and explicit source URLs/dates, leaving the requested profile substantially incomplete."
     },
-    "linkup_total": 6.29,
-    "parallel_total": 6.71
+    "linkup_total": 6.33,
+    "parallel_total": 6.83
   },
   {
     "id": "cs028",
@@ -832,7 +766,6 @@
       "completeness": 6.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Identity is well-confirmed via an R Systems-specific post and the answer gives dated, URL-backed April 2025 LinkedIn activity with concrete details, but it is truncated (promises three posts, lists only two, second cut off mid-URL) and never delivers an explicit outreach hook recommendation."
     },
@@ -842,12 +775,11 @@
       "completeness": 6.0,
       "recency": 4.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 4.0,
       "reason": "The answer correctly confirms the right person with rich, specific profile detail (including a useful title correction) and honestly states no recent public activity exists, but it delivers no actual conversation hook from recent activity, relies on a single LinkedIn source, and is cut off mid-sentence."
     },
-    "linkup_total": 7.71,
-    "parallel_total": 6.57
+    "linkup_total": 7.67,
+    "parallel_total": 6.5
   },
   {
     "id": "cs026",
@@ -857,7 +789,6 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "The answer correctly matches the person via the exact LinkedIn slug and grounds claims in his own posts with dates and quotes, but it is truncated and relies entirely on 2015\u20132016 self-posted content, leaving tenure, prior roles, education, location, and current-state confirmation unaddressed and offering limited actionable GTM value."
     },
@@ -867,12 +798,11 @@
       "completeness": 2.0,
       "recency": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and methodically explains that none of the sources contain information about Mohamed Daif or his company, but it delivers zero profile enrichment, no confirmed identity, and no actionable GTM value, with all cited sources being irrelevant to the lead."
     },
-    "linkup_total": 5.71,
-    "parallel_total": 2.43
+    "linkup_total": 5.67,
+    "parallel_total": 2.5
   },
   {
     "id": "cs027",
@@ -882,7 +812,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Identity is well-confirmed with specific, grounded details (title, tenure, headline credentials that make good hooks), but the answer cuts off mid-sentence and omits prior roles, education, explicit source URLs/dates, and the requested discrepancy analysis."
     },
@@ -892,12 +821,11 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation with explicit namesake disambiguation and specific tenure details, but the answer is truncated mid-sentence, omits education and full prior-role history, and references sources only by number without the requested URLs and dates."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 7.14
+    "linkup_total": 6.83,
+    "parallel_total": 7.33
   },
   {
     "id": "cs044",
@@ -907,7 +835,6 @@
       "completeness": 2.0,
       "recency": 0.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and accurately reports that the provided sources (irrelevant LGG Advisors award posts) contain nothing about Maria Guimaraes, but it confirms no role, no change, no dates, and provides zero actionable outreach value."
     },
@@ -917,12 +844,11 @@
       "completeness": 7.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Excellent identity verification via exact LinkedIn slug and a genuinely useful signal (headline says 'Former Director', resolving the null company to IPO-Porto), but it cannot date the change, names no new employer, and omits explicit source URLs/dates as requested."
     },
-    "linkup_total": 1.86,
-    "parallel_total": 7.14
+    "linkup_total": 2.0,
+    "parallel_total": 7.17
   },
   {
     "id": "cs043",
@@ -932,7 +858,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -942,12 +867,11 @@
       "completeness": 6.0,
       "recency": 3.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Correctly identifies the right Jeff Greer (Pinnacle Fitness, Fairfield CA) and honestly states no dated recent posts exist, salvaging a usable HYROX/Instagram outreach hook, but it lacks any dated recent activity and the answer is truncated mid-sentence."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 6.71
+    "linkup_total": 0,
+    "parallel_total": 6.67
   },
   {
     "id": "cs037",
@@ -957,7 +881,6 @@
       "completeness": 3.0,
       "recency": 5.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms identity, current role, and transparently flags the implausible Mar-2026 date anomaly, but it is truncated mid-table \u2014 prior roles, education, and source URLs/dates are missing \u2014 and relies on a single vaguely-cited LinkedIn source."
     },
@@ -967,12 +890,11 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 8.0,
       "reason": "Correctly identifies the right person via matching LinkedIn slug and surfaces a valuable discrepancy (current role is Executivo de Contas at Sancor Seguros, not Mapfre) with a dated start, but the answer is truncated and omits prior roles, education, and the requested source URLs/dates."
     },
-    "linkup_total": 5.71,
-    "parallel_total": 7.0
+    "linkup_total": 5.83,
+    "parallel_total": 7.17
   },
   {
     "id": "cs038",
@@ -982,7 +904,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -992,12 +913,11 @@
       "completeness": 8.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 3.0,
       "reason": "The answer carefully confirms the right Jun Feng at iCONECT (via The Org), flags namesakes, and explicitly states no recent activity was found as the question requested, but the negative result leaves no dated recent content and only a weak tenure-based outreach hook."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 6.14
+    "linkup_total": 0,
+    "parallel_total": 6.17
   },
   {
     "id": "cs045",
@@ -1007,7 +927,6 @@
       "completeness": 5.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 3.0,
       "gtm_value": 6.0,
       "reason": "The answer convincingly confirms the right person and usefully flags title/tenure discrepancies with concrete dates, but it omits education, full prior-role detail, and\u2014critically\u2014the requested source URLs and access dates, leaving claims (including the odd 'May 2026' end date) unverifiable."
     },
@@ -1017,12 +936,11 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 6.0,
-      "source_quality": 4.0,
       "gtm_value": 4.0,
       "reason": "The answer correctly isolates the one ZoomInfo record matching the lead's title/company and transparently flags conflated data, but it relies on a single unreliable source, is cut off mid-sentence, and never delivers confirmed education, location, prior roles, or an actionable profile."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 5.29
+    "linkup_total": 6.5,
+    "parallel_total": 5.5
   },
   {
     "id": "cs039",
@@ -1032,7 +950,6 @@
       "completeness": 3.0,
       "recency": 5.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly identifies posts from the right LinkedIn profile and honestly flags namesake sources, but it cannot confirm the person's title, employer, or any job-change signal, leaving the core question unanswered and offering only weak hashtag-based hints with limited outreach value."
     },
@@ -1042,12 +959,11 @@
       "completeness": 1.0,
       "recency": 0.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and correctly refuses to conflate the target with several namesakes (good anti-hallucination discipline), but ultimately provides no information about the actual person, no job-change signal, no dates, and is cut off mid-sentence, making it useless for outreach timing."
     },
-    "linkup_total": 5.29,
-    "parallel_total": 2.57
+    "linkup_total": 5.33,
+    "parallel_total": 2.67
   },
   {
     "id": "cs042",
@@ -1057,7 +973,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation via the exact LinkedIn URL and a useful, specific title/entity discrepancy analysis with tenure dates, but the answer is truncated mid-sentence and omits prior roles, education, and the requested source URLs/dates."
     },
@@ -1067,11 +982,10 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms the right person's full name, exact title, and company with multiple corroborating sources, but it cuts off mid-sentence and never delivers tenure, prior employers, education, location, source URLs, or dates as requested, relying mainly on aggregator databases (ZoomInfo/RocketReach/SignalHire) without dated citations."
     },
-    "linkup_total": 6.57,
+    "linkup_total": 6.67,
     "parallel_total": 6.0
   },
   {
@@ -1082,7 +996,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation with explicit namesake disambiguation and a dated tenure for the current role, but the answer is truncated and omits prior roles, education, and explicit source URLs/dates that the question required."
     },
@@ -1092,12 +1005,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms the exact LinkedIn slug match and carefully rules out namesakes, but it omits most of the requested enrichment (tenure, prior roles, education, seniority), provides no dates, and appears to cut off mid-analysis, limiting actionable GTM context."
     },
-    "linkup_total": 6.57,
-    "parallel_total": 5.86
+    "linkup_total": 6.67,
+    "parallel_total": 5.67
   },
   {
     "id": "cs040",
@@ -1107,7 +1019,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity disambiguation and a valuable job-change discrepancy flag (move to H&H Insurance Brokers), but the answer is truncated mid-career-history, omits education/full tenure/actual source URLs and dates as requested, and contains unreconciled forward-dated timeline inconsistencies (May 2026) it only partially explains."
     },
@@ -1117,12 +1028,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer rigorously confirms identity via the exact LinkedIn URL and usefully flags the company discrepancy (C&C Insurance Brokers vs Direct Corporate Risks), but it cuts off abruptly and never delivers tenure, prior roles, education, or any dated sourcing, leaving most of the requested profile unanswered."
     },
-    "linkup_total": 6.57,
-    "parallel_total": 6.29
+    "linkup_total": 6.67,
+    "parallel_total": 6.17
   },
   {
     "id": "cs048",
@@ -1132,7 +1042,6 @@
       "completeness": 8.0,
       "recency": 2.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 3.0,
       "reason": "Honest, well-sourced answer that correctly matches the LinkedIn URL and explicitly states no recent activity exists, but only surfaces 7-year-old 2017 posts, leaving no usable recent outreach hook and no verification of current role/employer."
     },
@@ -1142,12 +1051,11 @@
       "completeness": 3.0,
       "recency": 2.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly identifies and richly enriches the right Faraz Hussain via his LinkedIn profile and carefully flags namesakes, but it cuts off before answering the core question \u2014 it never summarizes (or explicitly rules out) any recent posts, articles, or quotes with dates/URLs, leaving the rep without the requested conversation hook."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 5.29
+    "linkup_total": 6.33,
+    "parallel_total": 5.17
   },
   {
     "id": "cs047",
@@ -1157,7 +1065,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly identifies the right Lon Hawkins at Burlington in Houston with confirmed tenure and a useful title discrepancy (Store Manager vs. General Manager headline), but it is truncated mid-table, omitting prior roles, education, and source URLs/access dates the question explicitly requested, and relies solely on the LinkedIn profile."
     },
@@ -1167,12 +1074,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly reports that none of the sources mention Lon Hawkins, providing only generic Burlington store/career context, so it fails to enrich the lead with any person-level information."
     },
     "linkup_total": 7.0,
-    "parallel_total": 2.57
+    "parallel_total": 2.67
   },
   {
     "id": "cs046",
@@ -1182,7 +1088,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation with concrete title, tenure dates, practice focus and a usable hook (Games Industry Law Summit), but the answer is truncated mid-profile and omits education, full prior-employer history, and the explicitly requested source URLs and dates."
     },
@@ -1192,12 +1097,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies Sonia Hamshaw as Partner at Harneys in Limassol with specific tenure (Jan 2023), contact details, and good source grounding, but it is truncated mid-document, omitting the requested prior roles, education, and explicit source URLs/dates."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.86
+    "linkup_total": 7.17,
+    "parallel_total": 6.83
   },
   {
     "id": "cs056",
@@ -1207,7 +1111,6 @@
       "completeness": 3.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "The answer correctly matches the exact LinkedIn profile and confirms the title/company with careful namesake disambiguation, but it cuts off abruptly mid-tenure and never delivers the requested prior roles, education, location, or source dates, limiting completeness and actionable GTM value."
     },
@@ -1217,12 +1120,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the right Maneesh Kumar via an exact LinkedIn URL match and does excellent namesake disambiguation, but it is truncated mid-sentence, omitting tenure, prior roles, education, source URLs, and dates that the question explicitly requested."
     },
-    "linkup_total": 5.43,
-    "parallel_total": 6.14
+    "linkup_total": 5.33,
+    "parallel_total": 6.0
   },
   {
     "id": "cs054",
@@ -1232,7 +1134,6 @@
       "completeness": 6.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 8.0,
       "reason": "Finds a dated, first-person job-start announcement (Manager at HSBC India, Oct 2024) matching the queried title/company with honest caveats, providing a strong outreach-timing signal, but cannot confirm location or current status, cites sources by number without actual URLs, and the answer is truncated."
     },
@@ -1242,12 +1143,11 @@
       "completeness": 2.0,
       "recency": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly admits the sources contain nothing about Hunny Khatnani (only namesakes and generic HSBC pages) and correctly avoids conflating a different person, but it provides no confirmation of role, no change signal, no dates, and no actionable outreach timing for the rep."
     },
-    "linkup_total": 7.14,
-    "parallel_total": 2.57
+    "linkup_total": 7.33,
+    "parallel_total": 2.67
   },
   {
     "id": "cs055",
@@ -1257,7 +1157,6 @@
       "completeness": 5.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Excellent identity discipline (matches the exact LinkedIn URL and explicitly excludes namesakes) with grounded title, company, tenure, and location, but the answer is truncated and omits prior roles, education, an explicit discrepancy note on the 'null' company, and source capture dates."
     },
@@ -1267,12 +1166,11 @@
       "completeness": 6.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly matches the exact LinkedIn URL and fills the null company (Genocares Life Solution) with a clear discrepancy note, but relies on a single undated source, lacks tenure/prior roles/education depth, is truncated mid-sentence, and provides no dated or corroborating evidence."
     },
-    "linkup_total": 7.29,
-    "parallel_total": 6.43
+    "linkup_total": 7.17,
+    "parallel_total": 6.5
   },
   {
     "id": "cs049",
@@ -1282,7 +1180,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -1292,12 +1189,11 @@
       "completeness": 8.0,
       "recency": 7.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Correct person confirmed via exact LinkedIn URL match, resolves the null company as Best Made Local with concrete dates and a clear no-change verdict, though the answer is truncated mid-caveat and lacks an explicit data-freshness date for the profile snapshot."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 8.29
+    "linkup_total": 0,
+    "parallel_total": 8.33
   },
   {
     "id": "cs052",
@@ -1307,7 +1203,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the right person via the matching LinkedIn URL and gives dated, specific role details with useful discrepancy notes, but it is cut off mid-sentence and omits prior roles, education, explicit source URLs/access dates, and relies on a single LinkedIn source."
     },
@@ -1317,12 +1212,11 @@
       "completeness": 5.0,
       "recency": 4.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer carefully disambiguates the right Pouya Jafari via LinkedIn slug and location and surfaces a useful title discrepancy (Full-Stack Developer vs IT Support Specialist), but it appears truncated\u2014missing current-role tenure, named prior employers, full education details, retrieval dates, and a complete source list."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 6.57
+    "linkup_total": 6.5,
+    "parallel_total": 6.5
   },
   {
     "id": "cs053",
@@ -1332,7 +1226,6 @@
       "completeness": 7.0,
       "recency": 2.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 3.0,
       "reason": "Honest, well-organized answer that correctly matches the LinkedIn handle, explicitly states no recent activity exists (latest item is March 2021), and dates each older post with sources, but the lack of any recent content and unconfirmed current employer means there is no usable outreach hook beyond stale Rovio-era posts."
     },
@@ -1342,12 +1235,11 @@
       "completeness": 6.0,
       "recency": 3.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the right Zs\u00f3fia Kecsk\u00e9s (matching the exact LinkedIn slug and disambiguating namesakes) and provides accurate, specific profile enrichment, but it finds no recent activity as the question primarily asked, the most recent dated item is from late 2022, the response appears truncated, and the GTM hooks (Angry Birds/Stranger Things work, ArtStation) are background-based rather than tied to any recent trigger."
     },
-    "linkup_total": 5.71,
-    "parallel_total": 6.43
+    "linkup_total": 5.67,
+    "parallel_total": 6.33
   },
   {
     "id": "cs057",
@@ -1357,7 +1249,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Correctly resolves the null company to Verve Culture with matching LinkedIn URL, location, and title, plus useful hooks (mother-daughter founders, women-owned), but the answer is truncated mid-section, omitting prior roles, education, and source dates, and relies on a single source."
     },
@@ -1367,12 +1258,11 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation with explicit namesake disambiguation and concrete role/tenure details, but the answer is truncated and omits prior roles, education, explicit source URLs/dates, and relies on aggregator sources (RocketReach, Whitepages) rather than LinkedIn or the company site."
     },
-    "linkup_total": 6.86,
-    "parallel_total": 6.86
+    "linkup_total": 7.0,
+    "parallel_total": 7.0
   },
   {
     "id": "cs051",
@@ -1382,7 +1272,6 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "Excellent identity disambiguation against multiple namesakes and grounded title confirmation, but the answer cuts off mid-profile, omitting tenure, prior roles, education, location confirmation, actual source URLs, and dates, leaving limited actionable enrichment."
     },
@@ -1392,12 +1281,11 @@
       "completeness": 3.0,
       "recency": 2.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "gtm_value": 3.0,
       "reason": "The answer honestly admits it cannot verify the specific LinkedIn profile and offers only a speculative, unconfirmed Fiverr seller match with no education, tenure, prior roles, or dates, leaving the lead essentially unenriched despite transparent caveats about namesake risk."
     },
-    "linkup_total": 5.57,
-    "parallel_total": 3.71
+    "linkup_total": 5.5,
+    "parallel_total": 3.67
   },
   {
     "id": "cs050",
@@ -1407,7 +1295,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "The answer carefully confirms the right person (excluding namesakes) and grounds the current KPMG title, tenure, and seniority in sources, but it is truncated and omits prior roles, education, full location detail, and explicit source URLs/dates, with a slightly inconsistent tenure calculation."
     },
@@ -1417,12 +1304,11 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly confirms the right person at KPMG Nigeria with a precise May 2024 start date and useful headline details, but it is truncated mid-sentence and never covers prior roles, education, or explicit source URLs/dates as the question required."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 6.86
+    "linkup_total": 6.5,
+    "parallel_total": 6.83
   },
   {
     "id": "cs058",
@@ -1432,7 +1318,6 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Well-grounded, dated activity summary with strong identity confirmation and an honest caveat about the unverified title, but the answer is truncated mid-sentence, omits the requested source URLs (citing only 'Source N' references), and never delivers the explicit conversation hook the rep asked for."
     },
@@ -1442,12 +1327,11 @@
       "completeness": 4.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 4.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly confirms the right person via aggregator listings and honestly states no recent posts, articles, or talks were found, but it delivers no dated activity or personal hook, relies solely on ZoomInfo/RocketReach-type sources, and the fallback company context is cut off mid-sentence."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 4.57
+    "linkup_total": 7.33,
+    "parallel_total": 4.67
   },
   {
     "id": "cs059",
@@ -1457,7 +1341,6 @@
       "completeness": 7.0,
       "recency": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "gtm_value": 9.0,
       "reason": "Strong, well-grounded answer that confirms identity via the matching LinkedIn handle, fills in the missing employer (RASHER), and surfaces a dated, high-value outreach trigger (BMS Group acquisition completed 2025-03-20), though it cites source numbers rather than actual URLs and is cut off mid-sentence."
     },
@@ -1467,12 +1350,11 @@
       "completeness": 2.0,
       "recency": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and carefully rules out numerous namesakes rather than conflating identities, but ultimately provides no information about the target Ra\u00fal Lozano's current role or any job-change signal, leaving the vendor with nothing actionable."
     },
-    "linkup_total": 8.29,
-    "parallel_total": 2.57
+    "linkup_total": 8.5,
+    "parallel_total": 2.67
   },
   {
     "id": "cs060",
@@ -1482,7 +1364,6 @@
       "completeness": 8.0,
       "recency": 8.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "gtm_value": 8.0,
       "reason": "Correct person fully confirmed with concrete dates (Director since Jan 2025 via internal promotion, prior advisor role 2018\u20132025, Universit\u00e9 Laval master's), giving a usable outreach hook, though it relies on a single LinkedIn source, omits access dates, and trails off mid-sentence."
     },
@@ -1492,12 +1373,11 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Identity is rigorously confirmed with namesakes explicitly ruled out, the title/company match is verified with a dated Jan 2025 start (a usable promotion hook), and sources are on-target, but the answer cuts off mid-role-history and never delivers the requested education, location, or full prior-role details."
     },
-    "linkup_total": 8.43,
-    "parallel_total": 7.71
+    "linkup_total": 8.67,
+    "parallel_total": 7.67
   },
   {
     "id": "cs065",
@@ -1507,7 +1387,6 @@
       "completeness": 3.0,
       "recency": 8.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies the person and confirms her current title with a dated self-announcement (Sept 2024) and flags a namesake risk, but it cuts off mid-sentence and omits prior roles, education, location, and explicit source URLs that the question requested."
     },
@@ -1517,12 +1396,11 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Identity, title, company, location, and tenure are well-confirmed with a useful discrepancy note, but the answer cuts off mid-sentence and omits prior roles, education, and explicit source URLs/dates, relying mainly on aggregator sources (RocketReach, The Org)."
     },
-    "linkup_total": 6.57,
-    "parallel_total": 6.43
+    "linkup_total": 6.67,
+    "parallel_total": 6.67
   },
   {
     "id": "cs062",
@@ -1532,7 +1410,6 @@
       "completeness": 5.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly matches the LinkedIn profile and resolves the 'null' company as Health Risk Screening, Inc. with specific tenure details (2010 start, 1998 HRST involvement), but it is truncated mid-sentence, omitting the requested prior roles, education, and a full source list with dates, and lacks current-as-of confirmation."
     },
@@ -1542,12 +1419,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly and carefully disambiguates several namesakes and flags a plausible Norfolk OTR/L candidate, but ultimately fails to confirm the lead's identity, title, company, tenure, education, or any actionable enrichment, leaving the GTM question unanswered."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 3.14
+    "linkup_total": 6.83,
+    "parallel_total": 3.17
   },
   {
     "id": "cs069",
@@ -1557,7 +1433,6 @@
       "completeness": 3.0,
       "recency": 5.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "gtm_value": 3.0,
       "reason": "The answer honestly grounds its claims in sources and partially confirms identity via SGGSC hashtags and recent (Jan\u2013Feb 2026) posts, but it fails to answer the core question \u2014 it cannot confirm the current title, employer status, or any job-change date \u2014 leaving the vendor without an actionable outreach signal, and it cuts off mid-sentence."
     },
@@ -1567,12 +1442,11 @@
       "completeness": 1.0,
       "recency": 1.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and accurately determines that none of the sources match the target individual and correctly avoids conflating several namesakes, but it provides no information about Narahari Naveen's current role, any job-change signal, or outreach timing, leaving the GTM question entirely unanswered."
     },
-    "linkup_total": 5.0,
-    "parallel_total": 2.57
+    "linkup_total": 4.83,
+    "parallel_total": 2.67
   },
   {
     "id": "cs063",
@@ -1582,7 +1456,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -1592,12 +1465,11 @@
       "completeness": 5.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "gtm_value": 3.0,
       "reason": "Excellent identity disambiguation (correct LinkedIn slug, location, and Genworth\u2192Enact rebrand noted) but the core ask\u2014recent activity\u2014yields nothing, the answer cuts off mid-sentence, no source URLs/dates are listed for activity, and no actionable outreach hook is provided."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 5.57
+    "linkup_total": 0,
+    "parallel_total": 5.67
   },
   {
     "id": "cs066",
@@ -1607,7 +1479,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation (full name, vanity URL, email, location) and a valuable discrepancy finding (headline shows 'Junior Cloud Engineer' rather than Co-Founder as primary role), but the answer is truncated mid-sentence and omits education, prior employers, and the requested source URLs and dates."
     },
@@ -1617,11 +1488,10 @@
       "completeness": 5.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly matches the LinkedIn slug and location, valuably flags that sources show a Telkom University CS student rather than a Cliche Digital co-founder, but it is cut off mid-profile, omits tenure/prior roles/dates, lacks dated sources, and offers limited actionable outreach value beyond lead disqualification."
     },
-    "linkup_total": 6.71,
+    "linkup_total": 6.83,
     "parallel_total": 6.0
   },
   {
@@ -1632,7 +1502,6 @@
       "completeness": 2.0,
       "recency": 3.0,
       "specificity": 3.0,
-      "source_quality": 2.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly reports that the sources (two 'undefined' LinkedIn posts and unrelated company posts) cannot confirm Joel Mewton's current role or any job-change signal, leaving the core question unanswered and providing no actionable outreach timing guidance."
     },
@@ -1642,11 +1511,10 @@
       "completeness": 7.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Correct person confirmed via the exact LinkedIn URL with corroborating sources showing Joel Mewton remains CTO at Bitscopic since June 2013 with no change detected, but the answer is truncated mid-sentence, lacks explicit verification/access dates for sources, and offers no specific outreach trigger beyond confirming role stability."
     },
-    "linkup_total": 3.29,
+    "linkup_total": 3.5,
     "parallel_total": 8.0
   },
   {
@@ -1657,7 +1525,6 @@
       "completeness": 3.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer carefully confirms the right person via the exact LinkedIn URL and flags namesakes, but it cuts off mid-sentence and omits required elements \u2014 prior roles, education, location, source URLs/dates \u2014 leaving the profile reconstruction substantially incomplete."
     },
@@ -1667,12 +1534,11 @@
       "completeness": 3.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 4.0,
       "gtm_value": 5.0,
       "reason": "The answer carefully confirms identity via the email/vanity-URL match and commendably disambiguates namesakes, but it relies solely on RocketReach, provides no dates, and omits most requested fields (tenure, prior roles, education), appearing truncated."
     },
-    "linkup_total": 5.71,
-    "parallel_total": 5.0
+    "linkup_total": 5.67,
+    "parallel_total": 5.17
   },
   {
     "id": "cs067",
@@ -1682,7 +1548,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly identifies the person via their LinkedIn profile and resolves the 'null' company to GEDD with title and tenure details, but it is truncated mid-sentence and omits requested items like prior roles, education, location confirmation, and actual source URLs/dates, relying on a single relevant source amid mostly irrelevant ones."
     },
@@ -1692,12 +1557,11 @@
       "completeness": 5.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Excellent identity disambiguation (exact slug match, namesakes explicitly ruled out) and resolves the null company to GEDD with a start date, but the answer cuts off mid-profile, omitting prior roles, education, source URLs/dates, and any currency confirmation."
     },
-    "linkup_total": 6.86,
-    "parallel_total": 6.86
+    "linkup_total": 7.0,
+    "parallel_total": 6.83
   },
   {
     "id": "cs068",
@@ -1707,7 +1571,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer responsibly flags that the name/title in the question doesn't match the provided LinkedIn profile and summarizes dated, sourced activity from that profile, but the identity remains unresolved (possible namesake/conflation), the summary is cut off mid-entry, and the unverified person makes the hooks risky for outreach."
     },
@@ -1717,12 +1580,11 @@
       "completeness": 4.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly and accurately flags an unresolvable identity conflict (name, LinkedIn slug, and employer point to different people) and carefully rules out namesakes, but it ultimately finds no activity for the target person, is truncated mid-list, and provides no usable outreach hook."
     },
-    "linkup_total": 6.0,
-    "parallel_total": 3.86
+    "linkup_total": 5.83,
+    "parallel_total": 4.0
   },
   {
     "id": "cs071",
@@ -1732,7 +1594,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation with correct person, title verification, tenure, and a useful title discrepancy note, but the answer is truncated and omits prior roles, education, source URLs, and dates that the question explicitly requested."
     },
@@ -1742,12 +1603,11 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies the right David Orozco via the LinkedIn slug and confirms title, company, start date, and location with no discrepancy, but it is cut off mid-sentence and never delivers prior roles, education, or the requested source URLs and access dates, limiting completeness and verifiability."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 6.43
+    "linkup_total": 6.83,
+    "parallel_total": 6.67
   },
   {
     "id": "cs072",
@@ -1757,7 +1617,6 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms the full name, partner title, and firm with good namesake disambiguation, but it is truncated mid-sentence and omits tenure, prior roles, education, location, source URLs, and dates that the question explicitly requested."
     },
@@ -1767,12 +1626,11 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation (full name Jos\u00e9 Francisco Le\u00f3n Pacheco, matching LinkedIn slug) with dated tenure and a useful title discrepancy note, but the answer is truncated and omits prior roles, education, location, and actual source URLs/dates that the question explicitly required."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.71
+    "parallel_total": 6.83
   },
   {
     "id": "cs061",
@@ -1782,7 +1640,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "The answer matches the exact LinkedIn profile and fills the null title/company with specific role, tenure, and duties, but it is truncated mid-way, omitting education and complete prior-role history, relies on a single undated source, and the odd 'Apr 2026' tenure is flagged but unresolved."
     },
@@ -1792,12 +1649,11 @@
       "completeness": 4.0,
       "recency": 8.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly matches the exact LinkedIn slug, carefully excludes namesakes, and gives dated role details (Sales Support Executive at PT. Flow Force Indonesia, May\u2013Aug 2025) with a useful flag that the role has ended, but it cuts off mid-sentence and never covers prior roles, education, tenure history, or full source URLs/dates, leaving the enrichment incomplete."
     },
-    "linkup_total": 7.14,
-    "parallel_total": 6.71
+    "linkup_total": 7.17,
+    "parallel_total": 6.83
   },
   {
     "id": "cs081",
@@ -1807,7 +1663,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly matches the exact LinkedIn URL, confirms identity, current role (CTO at National Lottery/VTB subsidiary, Dec 2021\u2013present), and flags useful discrepancies in the company and location fields, but it cuts off mid-sentence and never delivers the requested prior roles, education, or dated source citations, relying on a single LinkedIn source without access dates."
     },
@@ -1817,12 +1672,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies Ivan Sbruev as CTO at National Lottery in Bangkok and properly filters out namesakes, but it is truncated mid-sentence and omits tenure, prior roles, education, source URLs, and dates that the question explicitly requested, with no recency confirmation."
     },
-    "linkup_total": 7.14,
-    "parallel_total": 5.43
+    "linkup_total": 7.17,
+    "parallel_total": 5.33
   },
   {
     "id": "cs076",
@@ -1832,7 +1686,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "The answer confirms the right person via the matching LinkedIn URL with specific tenure, team, and discrepancy check, but it is truncated mid-sentence \u2014 prior roles, education, and full source URLs/dates are missing \u2014 and relies on a single LinkedIn source."
     },
@@ -1842,12 +1695,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly matches the exact LinkedIn slug and carefully excludes namesakes, with concrete details grounded in the profile, but it is truncated mid-sentence and omits required elements \u2014 tenure dates, prior roles/employers, education, source URLs with dates \u2014 limiting completeness, recency verification, and actionable GTM context."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 5.71
+    "linkup_total": 6.83,
+    "parallel_total": 5.67
   },
   {
     "id": "cs080",
@@ -1857,7 +1709,6 @@
       "completeness": 6.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation with specific role details (Wells Fargo Private Bank, tenure, NMLSR ID) and a useful discrepancy note resolving the 'null' company, but it omits the requested education section, provides no source access dates, and relies on a single LinkedIn source without independent verification that the role is still current."
     },
@@ -1867,12 +1718,11 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Correctly identifies the right Matt Roffers via the matching LinkedIn URL and resolves the null company to Wells Fargo Private Bank with concrete tenure (Feb 2017) and NMLSR ID, but the answer is cut off before covering prior roles, education, and explicit source URLs/dates that were requested."
     },
-    "linkup_total": 7.29,
-    "parallel_total": 7.29
+    "linkup_total": 7.5,
+    "parallel_total": 7.33
   },
   {
     "id": "cs075",
@@ -1882,7 +1732,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation via matching LinkedIn URL and a well-structured, dated breakdown of concurrent roles with a useful discrepancy note, but the answer is cut off mid-sentence and omits education, prior roles, and explicit source URLs/dates that the question required."
     },
@@ -1892,12 +1741,11 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly identifies the right person with detailed, grounded facts from the LinkedIn profile (including a smart flag on the CxO data artifact), but it is truncated mid-sentence, omitting education, full prior-role history, discrepancy summary, and explicit source dates."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 7.14
+    "linkup_total": 7.17,
+    "parallel_total": 7.17
   },
   {
     "id": "cs077",
@@ -1907,7 +1755,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly disambiguates the lead from an Apple namesake and confirms title, company, and tenure with concrete details ($15M P&L, Jul 2021 start), but it is truncated mid-sentence and never delivers the requested prior roles, education, resolved location discrepancy (Pune vs Paris), or actual source URLs and dates."
     },
@@ -1917,12 +1764,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "Strong identity disambiguation and title/company confirmation from multiple aggregators, but the answer is truncated mid-sentence and omits tenure, prior roles, education, source URLs/dates, and any currency verification, leaving the requested full profile incomplete."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 5.71
+    "linkup_total": 6.67,
+    "parallel_total": 5.67
   },
   {
     "id": "cs079",
@@ -1932,7 +1778,6 @@
       "completeness": 6.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 8.0,
       "reason": "Correctly identifies the person via exact LinkedIn slug and surfaces a strong, dated job-change signal (left NHS after 26 years on 2026-05-29) with a direct post URL, but cannot confirm the questioned 'Business Relationship Manager' title or his new current position, and the answer is cut off mid-sentence."
     },
@@ -1942,12 +1787,11 @@
       "completeness": 1.0,
       "recency": 0.0,
       "specificity": 2.0,
-      "source_quality": 1.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and carefully rules out multiple namesakes (including a historic gunmaking firm) rather than conflating profiles, but ultimately provides no information about the target John Rigby's current role or any job-change signal, leaving the vendor with no actionable outreach timing."
     },
     "linkup_total": 8.0,
-    "parallel_total": 2.14
+    "parallel_total": 2.33
   },
   {
     "id": "cs074",
@@ -1957,7 +1801,6 @@
       "completeness": 6.0,
       "recency": 9.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 8.0,
       "reason": "Well-evidenced, dated job-change signal (move to The Milk Bank ~Aug 2025) tied to the correct LinkedIn profile with source URLs, but the new title is unconfirmed and the answer cuts off mid-sentence, leaving the current-position confirmation incomplete."
     },
@@ -1967,12 +1810,11 @@
       "completeness": 6.0,
       "recency": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Excellent identity disambiguation via exact LinkedIn slug and resolution of the 'null' company to Favorite Part of My Day, LLC with concrete role details, but the answer is truncated mid-sentence, lacks explicit source URLs/dates, and doesn't clearly date-stamp or confirm recency of the no-change finding for outreach timing."
     },
-    "linkup_total": 7.86,
-    "parallel_total": 7.14
+    "linkup_total": 8.0,
+    "parallel_total": 7.17
   },
   {
     "id": "cs083",
@@ -1982,7 +1824,6 @@
       "completeness": 6.0,
       "recency": 2.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "gtm_value": 3.0,
       "reason": "The answer correctly matches the LinkedIn profile and honestly reports that no recent activity exists (latest post is Jan 2023 with content 'undefined'), but it yields only a thin hashtag-based signal, cannot verify title/company, and is truncated mid-hook, leaving little actionable GTM value."
     },
@@ -1992,12 +1833,11 @@
       "completeness": 7.0,
       "recency": 3.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 4.0,
       "reason": "Correct person confirmed via exact LinkedIn slug with rich enrichment details (company UNITECH, title, tenure, industry), and the answer explicitly and honestly reports no recent public activity, but this leaves the rep without a timely conversation hook and the response appears truncated."
     },
-    "linkup_total": 5.43,
-    "parallel_total": 6.71
+    "linkup_total": 5.5,
+    "parallel_total": 6.67
   },
   {
     "id": "cs084",
@@ -2007,7 +1847,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -2017,12 +1856,11 @@
       "completeness": 3.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and correctly flags that all sources concern a different David Starck (Denver/ProMach, slug /in/david-starck) rather than the Israel-based target (-838aa516), so it cannot confirm the requested job-change signal, leaving no actionable outreach intelligence for the actual lead, and the response is also cut off mid-sentence."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 2.86
+    "linkup_total": 0,
+    "parallel_total": 2.83
   },
   {
     "id": "cs082",
@@ -2032,7 +1870,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 6.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Correct person confirmed via matching LinkedIn URL and location with a useful flag that she is an entry-level student/job-seeker, but the answer is truncated mid-table, omitting education, full prior roles, and the requested source URLs and dates."
     },
@@ -2042,12 +1879,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 4.0,
       "gtm_value": 2.0,
       "reason": "The answer responsibly avoids conflating namesakes and clearly documents why no match exists, but ultimately fails to confirm any profile details for the actual lead, leaving the rep with no enrichment data or actionable hook."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 3.14
+    "linkup_total": 6.67,
+    "parallel_total": 3.0
   },
   {
     "id": "cs078",
@@ -2057,7 +1893,6 @@
       "completeness": 6.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation (Westpac email, Napier/Hawke's Bay context) and several dated, specific LinkedIn posts that make good outreach hooks, but the answer is truncated, uses placeholder citations instead of the requested source URLs, and reports questionable 2026 timestamps without resolving them."
     },
@@ -2067,12 +1902,11 @@
       "completeness": 7.0,
       "recency": 3.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "Identity is well-confirmed with detailed tenure history and the answer honestly reports that no recent activity exists (with a dated ~year-old post as the only find), but it ends truncated, the lone post's content is unverified, and it ultimately delivers no usable conversation hook for outreach."
     },
-    "linkup_total": 7.0,
-    "parallel_total": 6.29
+    "linkup_total": 7.33,
+    "parallel_total": 6.33
   },
   {
     "id": "cs073",
@@ -2082,7 +1916,6 @@
       "completeness": 6.0,
       "recency": 3.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "Correct person confirmed via Wallingford/Reiki content and the answer honestly states no recent activity with well-dated older posts, but everything is 3+ years stale, actual source URLs are missing (only [Source N] placeholders), and the outreach hook is cut off mid-sentence."
     },
@@ -2092,12 +1925,11 @@
       "completeness": 8.0,
       "recency": 3.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 4.0,
       "reason": "Correctly confirms the exact LinkedIn profile and enriches with useful identity details (The Elbow Room, tenure, location), and honestly states no recent activity exists \u2014 but that means no dated activity, no hook beyond static profile facts, and the non-LinkedIn sources were irrelevant noise, limiting GTM actionability."
     },
-    "linkup_total": 6.29,
-    "parallel_total": 6.71
+    "linkup_total": 6.33,
+    "parallel_total": 6.83
   },
   {
     "id": "cs092",
@@ -2107,7 +1939,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 7.0,
       "reason": "The answer correctly confirms Randy Valleroy as Owner/President of Valtec Hydraulics with concrete details (address, ~1976 tenure, decision-maker flag) and carefully disambiguates namesakes, but it appears truncated \u2014 missing the requested education, prior roles, and actual source URLs/dates, citing only opaque source numbers."
     },
@@ -2117,12 +1948,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 7.0,
-      "source_quality": 8.0,
       "gtm_value": 6.0,
       "reason": "The answer correctly confirms the right Randy Valleroy at Valtec Hydraulics with well-corroborated sources (LinkedIn, D&B, RocketReach) and flags the title variation, but it is truncated and never delivers tenure, prior roles, education, or access/check dates that the question explicitly requested."
     },
-    "linkup_total": 6.71,
-    "parallel_total": 6.86
+    "linkup_total": 7.0,
+    "parallel_total": 6.67
   },
   {
     "id": "cs086",
@@ -2132,7 +1962,6 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Correctly identifies Monia Swaans as President/Founder of Silk Road International (MONYA FLORA brand) in Florida with tenure dates and resolves the null fields, but the answer is truncated mid-sentence, omits education, relies solely on a single LinkedIn source without access dates or corroborating URLs as requested."
     },
@@ -2142,11 +1971,10 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 6.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "Correctly identifies Monia Swaans as President of Silk Road International with location and tenure details, but the answer is cut off mid-sentence, omits requested education, prior roles, source URLs and dates, and relies on ZoomInfo/LinkedIn without explicit links or dating."
     },
-    "linkup_total": 6.43,
+    "linkup_total": 6.67,
     "parallel_total": 6.0
   },
   {
@@ -2157,7 +1985,6 @@
       "completeness": 4.0,
       "recency": 9.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation and a valuable, well-dated discrepancy finding (#OpenToWork posts from Jan-Feb 2025 suggesting he left ECCC), but the answer is truncated mid-sentence and omits education, full prior-role history, and actual source URLs that were explicitly requested."
     },
@@ -2167,12 +1994,11 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "Strong identity confirmation with careful namesake disambiguation and a dated current role, but the answer cuts off mid-profile, omitting prior roles, education, location, and explicit source URLs/dates that the question required."
     },
-    "linkup_total": 7.14,
-    "parallel_total": 6.57
+    "linkup_total": 7.33,
+    "parallel_total": 6.67
   },
   {
     "id": "cs090",
@@ -2182,7 +2008,6 @@
       "completeness": 6.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Correctly identifies the person, fixes the Moscow Idaho ambiguity, and gives dated tenure details (CEO of Appaloosa Horse Club 2006-2019, retired since Jun 2019), but the answer is truncated mid-sentence, omits education and explicit source URLs/dates beyond the LinkedIn profile, and the lead's retired status limits direct GTM actionability."
     },
@@ -2192,12 +2017,11 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "Correctly matches the person via the distinctive 'temporarily retired' + Moscow, Idaho combination and gives dated tenure details (CEO of Appaloosa Horse Club 2006\u20132019), but relies on aggregator sources (SignalHire/Datanyze) rather than LinkedIn/press, omits education, lacks explicit URLs, is cut off mid-sentence, and offers limited GTM actionability since the lead is retired."
     },
-    "linkup_total": 7.57,
-    "parallel_total": 6.57
+    "linkup_total": 7.67,
+    "parallel_total": 6.83
   },
   {
     "id": "cs093",
@@ -2207,7 +2031,6 @@
       "completeness": 7.0,
       "recency": 9.0,
       "specificity": 9.0,
-      "source_quality": 7.0,
       "gtm_value": 9.0,
       "reason": "Strong, dated, identity-confirmed findings (SOC Lead Auditor award and ISO 42001 certification posts) with excellent outreach hooks, but the answer is cut off mid-URL, one source link is incomplete, and it doesn't explicitly confirm whether press/conference activity beyond LinkedIn was searched."
     },
@@ -2217,12 +2040,11 @@
       "completeness": 4.0,
       "recency": 4.0,
       "specificity": 5.0,
-      "source_quality": 7.0,
       "gtm_value": 4.0,
       "reason": "Identity is rigorously verified via the exact LinkedIn slug with namesakes correctly disqualified and a useful title correction, but the answer truncates mid-way through the recent-activity section, leaving the promised dated posts/award details, source URLs, and the actionable outreach hook incomplete."
     },
-    "linkup_total": 8.29,
-    "parallel_total": 6.0
+    "linkup_total": 8.5,
+    "parallel_total": 5.83
   },
   {
     "id": "cs091",
@@ -2232,7 +2054,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Identity is confirmed precisely with namesakes explicitly ruled out, and the discrepancy insight (Red Panda Games is a self-employed solo venture, not primary employment) is specific and well-grounded, but the answer cuts off mid-sentence, omitting his second current role, prior employers, education, and the requested source URLs/dates."
     },
@@ -2242,12 +2063,11 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation (LinkedIn slug, matching trademark/company address) and a valuable discrepancy finding (Red Panda Games is a 3-person side venture and his day job is a system administrator role), but the answer is truncated mid-sentence, leaving prior roles, education, tenure details, and full source dates incomplete."
     },
     "linkup_total": 7.0,
-    "parallel_total": 7.57
+    "parallel_total": 7.5
   },
   {
     "id": "cs087",
@@ -2257,7 +2077,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation with careful namesake disambiguation, current role/tenure/location and even an email, but the answer cuts off mid-sentence and never delivers the requested prior roles, education, discrepancy analysis, or explicit source URLs/dates."
     },
@@ -2267,12 +2086,11 @@
       "completeness": 5.0,
       "recency": 6.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 6.0,
       "reason": "Strong identity confirmation with explicit disambiguation from a namesake, grounded details (title, tenure start Feb 2024, contact email) from the correct LinkedIn profile, but the answer is truncated mid-sentence and omits prior roles, education, location confirmation, and full source dating that the question explicitly requested."
     },
-    "linkup_total": 7.14,
-    "parallel_total": 6.86
+    "linkup_total": 7.17,
+    "parallel_total": 6.83
   },
   {
     "id": "cs095",
@@ -2282,7 +2100,6 @@
       "completeness": 4.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 6.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly confirms the right Ben Vogt with dated role details and flags a title discrepancy (Mulberry vs Penguin Random House), but it cuts off mid-sentence, omitting prior roles, education, source URLs, and a resolved conclusion, leaving the profile reconstruction incomplete."
     },
@@ -2292,12 +2109,11 @@
       "completeness": 0.0,
       "recency": 0.0,
       "specificity": 1.0,
-      "source_quality": 1.0,
       "gtm_value": 0.0,
       "reason": "The answer is a garbled fragment of irrelevant salary-page snippets that never mentions Ben Vogt, confirms no identity details, and cuts off before providing any profile information."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 0.43
+    "linkup_total": 6.5,
+    "parallel_total": 0.33
   },
   {
     "id": "cs094",
@@ -2307,7 +2123,6 @@
       "completeness": 6.0,
       "recency": 9.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 8.0,
       "reason": "The answer convincingly confirms identity and that Villsen remains at Bagg\u00e5rdTeatret with recent dated post evidence, but it omits the explicitly requested source URLs, relies solely on her own posts rather than profile/company confirmation, and appears truncated at the end."
     },
@@ -2317,12 +2132,11 @@
       "completeness": 8.0,
       "recency": 8.0,
       "specificity": 9.0,
-      "source_quality": 8.0,
       "gtm_value": 9.0,
       "reason": "Well-grounded answer that confirms no job change, carefully excludes a namesake, corrects the location to Svendborg, provides direct contact details (email/phone) and forward-dated 2026-27 production pages as currency evidence, though it's slightly truncated and lacks LinkedIn-side confirmation of the current role."
     },
-    "linkup_total": 7.43,
-    "parallel_total": 8.57
+    "linkup_total": 7.83,
+    "parallel_total": 8.67
   },
   {
     "id": "cs088",
@@ -2332,7 +2146,6 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation and two dated, well-sourced LinkedIn activities that make excellent outreach hooks (MathWorks Model-Based Design talk, colleague recognition), but the answer is truncated mid-item ('**3.') leaving the activity summary incomplete and lacking a closing synthesis."
     },
@@ -2342,12 +2155,11 @@
       "completeness": 6.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "The answer rigorously confirms the correct person and explicitly disambiguates four namesakes, and honestly reports no recent public activity, but it truncates mid-sentence, omits the requested source URLs, and never converts the one usable signal (a September 1, 2025 job start at Fedegari) into an explicit outreach hook."
     },
-    "linkup_total": 7.57,
-    "parallel_total": 7.29
+    "linkup_total": 7.5,
+    "parallel_total": 7.33
   },
   {
     "id": "cs096",
@@ -2357,7 +2169,6 @@
       "completeness": 5.0,
       "recency": 7.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 7.0,
       "reason": "Correctly identifies the right person via the LinkedIn URL and smartly explains the 'null' title as job-seeking status with dated role details, but the answer is truncated mid-list, omits education and explicit source URLs/dates, and relies on a single un-linked LinkedIn source."
     },
@@ -2367,12 +2178,11 @@
       "completeness": 4.0,
       "recency": 3.0,
       "specificity": 5.0,
-      "source_quality": 5.0,
       "gtm_value": 5.0,
       "reason": "The answer correctly identifies the person via an exact LinkedIn slug match and provides location, headline, education (CMU Heinz), and company (Attack Theatre), but it is truncated \u2014 the employment history table is empty, no current title or tenure is confirmed, and no source URLs or access dates are included as requested."
     },
-    "linkup_total": 6.86,
-    "parallel_total": 5.43
+    "linkup_total": 7.17,
+    "parallel_total": 5.5
   },
   {
     "id": "cs089",
@@ -2382,7 +2192,6 @@
       "completeness": 3.0,
       "recency": 2.0,
       "specificity": 5.0,
-      "source_quality": 3.0,
       "gtm_value": 2.0,
       "reason": "The answer honestly and correctly flags that the sources concern a different LinkedIn profile (an HR consultant, not an RBC Reserve Officer), but it cannot confirm the target person's current role, relies on stale 2019-2020 posts about a likely namesake, is truncated mid-sentence, and provides no actionable outreach signal."
     },
@@ -2392,11 +2201,10 @@
       "completeness": 8.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 7.0,
       "reason": "Correctly confirms the target person via the exact LinkedIn URL, flags a namesake, and gives concrete tenure dates showing no job change, but the answer is truncated, lacks a verification/scrape date for the 'is_current' claim, and offers only a passive no-trigger outcome for outreach timing."
     },
-    "linkup_total": 3.43,
+    "linkup_total": 3.5,
     "parallel_total": 8.0
   },
   {
@@ -2407,7 +2215,6 @@
       "completeness": 5.0,
       "recency": 8.0,
       "specificity": 8.0,
-      "source_quality": 6.0,
       "gtm_value": 7.0,
       "reason": "Strong identity confirmation and a well-dated, specific reconstruction of the most recent role (L&D Manager at OKX) plus a useful explanation of the 'null' title (career break), but the answer cuts off mid-section, omitting prior roles, education, and explicit source URLs/dates as requested."
     },
@@ -2417,12 +2224,11 @@
       "completeness": 2.0,
       "recency": 2.0,
       "specificity": 4.0,
-      "source_quality": 3.0,
       "gtm_value": 1.0,
       "reason": "The answer honestly and correctly refuses to conflate namesake profiles (good diligence), but it delivers no confirmed profile, no enrichment data for the actual lead, and cuts off mid-sentence, leaving the rep with nothing actionable."
     },
-    "linkup_total": 7.29,
-    "parallel_total": 3.43
+    "linkup_total": 7.5,
+    "parallel_total": 3.5
   },
   {
     "id": "cs099",
@@ -2432,7 +2238,6 @@
       "completeness": 0,
       "recency": 0,
       "specificity": 0,
-      "source_quality": 0,
       "gtm_value": 0,
       "reason": "empty"
     },
@@ -2442,12 +2247,11 @@
       "completeness": 8.0,
       "recency": 5.0,
       "specificity": 8.0,
-      "source_quality": 7.0,
       "gtm_value": 7.0,
       "reason": "Correct person confirmed via matching LinkedIn profile with concrete role history and dates, and an honest 'no change detected' assessment, but the profile snapshot is undated so current status can't be verified, and the answer is truncated mid-sentence."
     },
-    "linkup_total": 0.0,
-    "parallel_total": 7.43
+    "linkup_total": 0,
+    "parallel_total": 7.5
   },
   {
     "id": "cs100",
@@ -2457,7 +2261,6 @@
       "completeness": 4.0,
       "recency": 6.0,
       "specificity": 6.0,
-      "source_quality": 7.0,
       "gtm_value": 5.0,
       "reason": "Excellent identity disambiguation (correctly filtering locksmith-occupation noise and namesakes) and dated corroboration of the title via her own posts, but the answer cuts off mid-sentence and never delivers tenure, prior roles, education, or the full source URL list the question required."
     },
@@ -2467,12 +2270,11 @@
       "completeness": 4.0,
       "recency": 5.0,
       "specificity": 7.0,
-      "source_quality": 5.0,
       "gtm_value": 6.0,
       "reason": "Correctly identifies the right Sonia \u015alusarz at Premium Solutions Polska with title, tenure, location, and email, and flags a namesake, but relies on a single RocketReach source, omits prior roles and education, lacks dated/current verification, and the answer is truncated mid-sentence."
     },
-    "linkup_total": 6.43,
-    "parallel_total": 6.29
+    "linkup_total": 6.33,
+    "parallel_total": 6.5
   },
   {
     "id": "cs098",
@@ -2482,7 +2284,6 @@
       "completeness": 6.0,
       "recency": 7.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 8.0,
       "reason": "Strong identity confirmation via the exact LinkedIn URL and role announcement, a concrete dated LinkedIn post with quote and a clear outreach hook, though the suspicious future-dated timestamp (flagged appropriately) and the answer being cut off mid-sentence in the career timeline reduce completeness and confidence."
     },
@@ -2492,11 +2293,10 @@
       "completeness": 8.0,
       "recency": 6.0,
       "specificity": 8.0,
-      "source_quality": 8.0,
       "gtm_value": 5.0,
       "reason": "The answer rigorously confirms the correct individual (matching LinkedIn URL, role, dates, location), carefully excludes namesakes, and explicitly and honestly reports no recent public activity as the question allowed, but the truncated ending and absence of any content-based hook limit GTM actionability beyond the Sept 2024 role-change signal."
     },
-    "linkup_total": 7.71,
-    "parallel_total": 7.71
+    "linkup_total": 7.67,
+    "parallel_total": 7.67
   }
 ]
