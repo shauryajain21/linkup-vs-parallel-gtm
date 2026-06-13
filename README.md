@@ -10,7 +10,7 @@ Every benchmark compares the two products' **search APIs** (Linkup `/search`, Pa
 | --- | --- | --- | --- | --- | --- |
 | 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.2** vs Parallel 6.7 — wins all 6 dimensions | Linkup **2.73s** vs Parallel 2.84s |
 | 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **6.9** vs Parallel 6.7 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.72s |
-| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **70%** vs Parallel 53% top-result hit | Linkup **2.23s** vs Parallel 2.82s |
+| 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **0.95** vs Parallel 0.91 nDCG@10 (73% vs 52% top-result hit) | Linkup **2.23s** vs Parallel 2.82s |
 | 4 | **People Research** | Enrich / activity / signal for a named person (LinkedIn URL given) | 100 | Linkup **6.1** vs Parallel 5.9 — leads, enrichment-driven | Linkup **2.95s** vs Parallel 3.08s |
 
 Details, methodology, and reproduce steps for each are below.
@@ -115,30 +115,31 @@ The 50 signal queries are a hand-built set of GTM buying-signal questions, phras
 
 | Metric | Linkup | Parallel |
 | --- | --- | --- |
-| **Top-Result Hit** | **70%** | 53% |
-| Quality Score | 55% | **58%** |
+| **nDCG@10** (overall ranking quality) | **0.95** | 0.91 |
+| **MRR** (how high the right person ranks) | **0.78** | 0.68 |
+| **Top-Result Hit (P@1)** | **73%** | 52% |
+| Quality Score (mean relevance, top-10) | 57% | **60%** |
 
-- **Top-Result Hit** — is the #1 returned result the right person (graded relevance ≥ 2)? **Linkup's first result is right 70% of the time vs Parallel's 53%** — Linkup puts the correct prospect at the top more often.
-- **Quality Score** — mean graded relevance across the top-10 (0–3 normalized). Roughly even.
+**Linkup ranks the right person higher; Parallel returns a slightly broader list.** Linkup leads every precision/ranking metric — nDCG@10, MRR, and Top-Result Hit — while Parallel edges mean relevance across the full top-10 (it casts a wider net). For outbound prospecting, where the job is the right person first, the ranking metrics are what matter.
 
 ### Top-Result Hit by GTM persona
 
 | Segment | Linkup | Parallel |
 | --- | --- | --- |
-| Engineering | 80% | 50% |
-| Marketing | 60% | 65% |
-| Product | 74% | 53% |
-| Ops / People | 65% | 40% |
+| Engineering | 80% | 70% |
+| Marketing | 65% | 55% |
+| Product | 85% | 50% |
+| Ops / People | 65% | 30% |
 | Revenue | 70% | 55% |
 
-Linkup leads Top-Result Hit in **four of the five** persona segments.
+Linkup leads Top-Result Hit in **every** persona segment.
 
 ### What this measures
 
-- **Top-Result Hit** rewards precision — putting the right person first. This is where Linkup wins.
-- **Quality Score** rewards breadth/relevance across the whole list — roughly a tie.
+- **nDCG@10 / MRR / Top-Result Hit** reward precision — the right person ranked at or near the top. Linkup wins all three.
+- **Quality Score** rewards relevance across the whole top-10 (breadth). Parallel a touch higher.
 
-Read together: **Linkup is more precise at the top of the list; Parallel returns a comparably relevant list overall.** If "right person, first result" is what matters for outreach, Linkup leads.
+Read together: **Linkup is more precise at the top; Parallel returns a comparably relevant but broader list.** If "right person, first result" is what matters for outreach, Linkup leads.
 
 ### Example queries
 
