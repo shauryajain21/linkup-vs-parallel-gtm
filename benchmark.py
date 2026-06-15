@@ -47,7 +47,7 @@ async def parallel_search(client, query, sem):
                 r = await client.post("https://api.parallel.ai/v1beta/search",
                     headers={"x-api-key": PARALLEL_KEY, "Content-Type":"application/json",
                              "parallel-beta":"search-extract-2025-10-10"},
-                    json={"objective": query[:5000], "search_queries":[query], "max_results":10, "excerpts":{}}, timeout=60)
+                    json={"objective": query[:5000], "search_queries":[query], "max_results":20, "excerpts":{}}, timeout=60)
                 r.raise_for_status()
                 out=[]
                 for x in r.json().get("results", []):

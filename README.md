@@ -8,8 +8,8 @@ Every benchmark compares the two products' **search APIs** (Linkup `/search`, Pa
 
 | # | Benchmark | What it tests | Queries | Headline | Latency (avg) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.3** vs Parallel 6.8 — wins all 5 dimensions | Linkup **2.73s** vs Parallel 2.84s |
-| 2 | **Signal** | Real-time GTM buying signals | 50 | Linkup **7.0** vs Parallel 6.9 — leads/ties every dimension | Linkup **1.91s** vs Parallel 2.72s |
+| 1 | **Company Research** | Enrichment & prospecting on a company | 250 | Linkup **7.3** vs Parallel 7.1 — leads 4 of 5 dimensions | Linkup **2.73s** vs Parallel 2.84s |
+| 2 | **Signal** | Real-time GTM buying signals | 100 | Linkup **6.5** vs Parallel 6.3 | Linkup **1.91s** vs Parallel 2.72s |
 | 3 | **People Search** | Right person's LinkedIn by role/seniority/location | 100 | Linkup **0.95** vs Parallel 0.91 nDCG@10 (73% vs 52% top-result hit) | Linkup **2.23s** vs Parallel 2.82s |
 | 4 | **People Research** | Enrich / activity / signal for a named person (LinkedIn URL given) | 100 | Linkup **6.2** vs Parallel 5.9 — leads, enrichment-driven | Linkup **2.95s** vs Parallel 3.08s |
 
@@ -19,30 +19,30 @@ Details, methodology, and reproduce steps for each are below.
 
 # 1. Company Research Benchmark
 
-250 GTM company-research queries — the enrichment and prospecting questions sales/growth teams run at scale. Both APIs are tested at their comparable search tier and the same price point, and the answers are judged by an independent LLM (Claude Fable 5) on six GTM-relevant quality dimensions, scored 0–10.
+250 GTM company-research queries — the enrichment and prospecting questions sales/growth teams run at scale. Both APIs are tested at their comparable search tier and the same price point, and the answers are judged by an independent LLM (Claude Fable 5) on five GTM-relevant quality dimensions, scored 0–10.
 
 ## Results — 250 queries
 
 | Dimension | Linkup | Parallel |
 | --- | --- | --- |
-| Accuracy | **8.3** | 8.0 |
-| Completeness | **6.1** | 5.4 |
-| GTM Value | **6.8** | 6.2 |
-| Specificity | **7.8** | 7.5 |
-| Signal-to-Noise | **7.5** | 7.0 |
-| **Overall** | **7.3** | **6.8** |
+| Accuracy | 8.3 | 8.3 |
+| Completeness | **6.1** | 5.6 |
+| GTM Value | **6.8** | 6.4 |
+| Specificity | **7.8** | 7.7 |
+| Signal-to-Noise | **7.5** | 7.4 |
+| **Overall** | **7.3** | **7.1** |
 
-**Linkup outperforms Parallel on all five dimensions**, winning **157 / 250** queries head-to-head (20 ties).
+**Linkup leads on four of five dimensions**, winning **138 / 250** queries head-to-head (15 ties).
 
 ### By query category
 
 | Category | Linkup | Parallel | n |
 | --- | --- | --- | --- |
-| Company profile | **7.5** | 6.5 | 76 |
-| Company enrichment | 7.4 | 7.4 | 63 |
-| Company identification | **6.7** | 6.2 | 49 |
-| Financial lookup | **6.7** | 6.5 | 36 |
-| Website analysis | **7.5** | 6.9 | 25 |
+| Company profile | **7.9** | 7.4 | 76 |
+| Company enrichment | **7.5** | 7.1 | 63 |
+| Company identification | **6.8** | 6.5 | 49 |
+| Financial lookup | 6.6 | **6.8** | 36 |
+| Website analysis | 7.6 | 7.6 | 25 |
 
 Per-category rows cover 249 of 250 queries; 1 query in a miscellaneous `gtm_model` category is included in the overall score but omitted from this breakdown.
 
@@ -62,46 +62,42 @@ The 250 queries were randomly sampled from real Linkup production traffic — an
 
 # 2. Signal Benchmark
 
-A separate run on **real-time GTM "buying signal" queries** — breach disclosures, executive appointments, funding rounds, layoffs, M&A, compliance actions, IPO filings, and geographic expansion. These are the event-detection questions sales and security teams run for outbound timing: the trigger that says *reach out to this account now.* It uses the same pipeline as the company benchmark (identical query → shared Opus 4.8 synthesis → blind Fable 5 judge).
+A separate run on **real-time GTM "buying signal" queries** — executive appointments, M&A, security-breach disclosures, and list-building roundups. These are the event-detection questions sales and security teams run for outbound timing: the trigger that says *reach out to this account now.* It uses the same pipeline as the company benchmark (identical query → shared Opus 4.8 synthesis → blind independent judge, Claude Opus 4.8).
 
-## Results — 50 queries
+## Results — 100 queries
 
 | Dimension | Linkup | Parallel |
 | --- | --- | --- |
-| Accuracy | **7.2** | 7.1 |
-| Completeness | **5.5** | 5.3 |
-| GTM Value | **6.7** | 6.5 |
-| Specificity | 8.1 | 8.1 |
-| Signal-to-Noise | **7.4** | 7.2 |
-| **Overall** | **7.0** | **6.9** |
+| Accuracy | **6.4** | 5.9 |
+| Completeness | **6.4** | 6.2 |
+| GTM Value | **6.0** | 5.9 |
+| Specificity | 7.5 | **7.6** |
+| Signal-to-Noise | **6.2** | 6.0 |
+| **Overall** | **6.5** | **6.3** |
 
-Linkup leads or ties on every dimension. The two are closely matched on this workload overall, with Linkup's clearest edge on the largest categories.
+Linkup leads on four of five dimensions. The two are closely matched on this workload overall, with Linkup's clearest edge on the largest categories.
 
 ### By signal category
 
 | Category | Linkup | Parallel | n |
 | --- | --- | --- | --- |
-| Security / breach | **6.9** | 6.5 | 16 |
-| Leadership change | **8.0** | 7.0 | 7 |
-| IPO | **5.2** | 5.1 | 3 |
-| Expansion | **6.1** | 5.9 | 2 |
-| Funding | 7.2 | **7.3** | 7 |
-| Layoff | 6.8 | **7.2** | 5 |
-| M&A | 7.0 | **7.3** | 5 |
-| Compliance | 6.0 | **6.7** | 5 |
+| Leadership change | **7.6** | 7.2 | 25 |
+| M&A | **6.2** | 5.9 | 24 |
+| Security / breach | **6.7** | 6.4 | 19 |
+| List-building | 5.8 | 5.8 | 32 |
 
-Linkup's strongest edge is on **security-breach** and **leadership-change** detection — the two largest categories. Parallel edges ahead on funding, layoff, M&A, and compliance signals, mostly by thin margins.
+Linkup leads on **leadership-change**, **M&A**, and **security-breach** detection — the single-entity verification signals. **List-building** (broad sector roundups, the largest category) is a dead heat.
 
 ### Query selection
 
-The 50 signal queries are a hand-built set of GTM buying-signal questions, phrased the way a sales or security vendor would actually run them for outreach timing — naming a specific company and domain, the facts to confirm (numbers, dates, root cause), and the sales context.
+The 100 signal queries span four GTM buying-signal types — leadership changes, M&A, security breaches, and list-building roundups — phrased the way a sales or security vendor would run them for outreach timing. Most name a specific company and the facts to confirm (numbers, dates, root cause); the list-building queries ask for a roundup of recent events in a sector.
 
 ### Example queries
 
-- **Leadership:** Which companies announced a new CISO, CIO, or VP of Security in the last 60 days? List each company, the executive, their prior employer, and the announcement date with a source URL.
-- **Funding:** Has any company raised a mega-round (over $100M) in the last 30 days? List the company, amount, round stage, lead investor, and date with sources.
-- **M&A:** Which mergers or acquisitions over $1B were announced in 2026? For each, list the acquirer, target, deal value, and announcement date with a source URL.
-- **Security:** Did Coupang (coupang.com) disclose a data breach exposing customer accounts? Confirm whether a breach occurred, how many accounts were affected, the root cause, the exposure and disclosure dates, and the data categories involved — with source URLs.
+- **Leadership:** Verify a single leadership-change signal: Was Bo Berlas appointed CISO at CSBS (Conference of State Bank Supervisors) in 2026? Confirm exact title, announcement/effective date, prior role, and who they succeeded — with sources.
+- **M&A:** Verify a single M&A signal: Did Blackstone and EQT agree to acquire Urbaser (environmental services, from Platinum Equity, ~$6.6B) in 2026? Confirm the deal structure, value, and announcement date with sources.
+- **Security:** Verify a single security-incident signal: Did Change Healthcare disclose a ransomware breach in 2026 (reportedly ~192.7M records)? Confirm the number affected, data types, root cause, and disclosure dates — with source URLs.
+- **List-building:** Are there any notable data breaches in the retail sector lately? Provide entities, details, and dates with source URLs.
 
 ---
 
@@ -119,6 +115,10 @@ The 50 signal queries are a hand-built set of GTM buying-signal questions, phras
 | Quality Score (mean relevance, top-10) | 57% | **60%** |
 
 **Linkup ranks the right person higher; Parallel returns a slightly broader list.** Linkup leads every precision/ranking metric — nDCG@10, MRR, and Top-Result Hit — while Parallel edges mean relevance across the full top-10 (it casts a wider net). For outbound prospecting, where the job is the right person first, the ranking metrics are what matter.
+
+### Configuration
+
+Each product is run in its **own vendor-recommended configuration** for people search — Linkup with a people-targeting prompt, Parallel with a people objective and a LinkedIn source filter. Prompts are not transplanted between the two; each uses its native best-practice, which is how a team would actually deploy each API. Results from both are post-filtered to `linkedin.com/in/` profiles before grading.
 
 ### Top-Result Hit by GTM persona
 
@@ -186,14 +186,16 @@ Linkup leads overall, driven by **enrichment** (the largest bucket) plus recency
 **Company & Signal** - designed so the only variable is retrieval quality:
 1. **Retrieval.** Both APIs receive the identical query and return raw search results (Linkup `/search` depth=standard outputType=searchResults; Parallel `/search`).
 2. **Synthesis (shared).** Each result set is passed to the same model (Claude Opus 4.8), with an identical prompt and no truncation, instructed to answer using only the provided results. Any answer difference comes purely from what each API retrieved.
-3. **Judging (independent).** Each answer is scored blind by a different model (Claude Fable 5) — a different family from the synthesizer, to avoid self-preference. The judge never sees which API produced an answer. Dimensions: accuracy, completeness, gtm_value, specificity, signal_to_noise. Final score = mean of the five.
+3. **Judging (independent).** Each answer is scored blind — the judge never sees which API produced it (Company: Claude Fable 5; Signal: Claude Opus 4.8). Scoring is head-to-head off the same synthesizer, so any judge self-preference applies equally to both sides and cancels. Dimensions: accuracy, completeness, gtm_value, specificity, signal_to_noise. Final score = mean of the five.
 
-**People Search** - both products in best people config (symmetric, neither vanilla):
+**People Search** - each product in its own vendor-recommended people config (no prompt transplant):
 1. Linkup `/v1/search` depth=standard + people-targeting prompt; Parallel `/v1beta/search` + people objective + linkedin source filter; both post-filtered to `linkedin.com/in/` profiles.
 2. Graded relevance 0–3, judged by an independent model (Claude Fable 5): 3 = exact fit (function + seniority + location), 2 = right person minor mismatch, 1 = real person wrong role, 0 = not a real personal profile.
-3. Metrics: Top-Result Hit (rank-1 grade ≥ 2) and Quality Score (mean grade / 3). What makes it distinct from prior people benchmarks: our own GTM-outbound query set, graded relevance instead of binary match, an independent judge from a different model family, and both products tuned to their best config.
+3. Metrics: nDCG@10 and MRR (ranking quality), Top-Result Hit / P@1 (rank-1 grade ≥ 2), and Quality Score (mean grade / 3). What makes it distinct from prior people benchmarks: our own GTM-outbound query set, graded relevance instead of binary match, an independent judge from a different model family, and both products tuned to their best config.
 
 **People Research** - same search→synth→judge pipeline as Company & Signal, with a people-tuned synthesis prompt (confirm the right person, don't conflate namesakes) and a 6-dimension judge: accuracy, identity_match, completeness, recency, specificity, gtm_value. Final score = mean of the six.
+
+> **Note on judge availability:** The judge models named above (Claude Fable 5 for Company, People Search, and People Research; Claude Opus 4.8 for Signal) are the exact models used. Since Claude Fable 5 is not publicly available, it can be substituted with the model one tier below — scoring is head-to-head off a shared synthesizer, so any judge self-preference applies equally to both sides and cancels.
 
 # Pricing
 
@@ -226,7 +228,7 @@ export PARALLEL_API_KEY=...    # https://parallel.ai
 export ANTHROPIC_API_KEY=...   # https://console.anthropic.com
 
 python benchmark.py data/company_research_queries.jsonl --out results/company_results.json   # 1. Company Research (250)
-python benchmark.py data/news_signal_queries.jsonl --out results/news_signal_results.json   # 2. Signal (50)
+python benchmark.py data/signal_bench_100.jsonl --out results/signal_bench_100_opus.json   # 2. Signal (100)
 python people_benchmark.py data/people_queries.jsonl                                         # 3. People Search (100) → results/people_results.json
 python people_research_benchmark.py data/coresignal_people_queries.jsonl --out results/coresignal_results.json   # 4. People Research (100)
 
@@ -237,15 +239,15 @@ python latency_benchmark.py   # Latency: sequential retrieval-only timing across
 
 ```
 data/company_research_queries.jsonl   250 company-research queries (id, category, query)
-data/news_signal_queries.jsonl     50 signal queries (id, category, query)
+data/signal_bench_100.jsonl        100 signal queries (id, category, query)
 data/people_queries.jsonl          100 people-search queries (id, segment, query)
 data/coresignal_people_queries.jsonl  100 people-research queries (id, category, query; LinkedIn URL provided)
 benchmark.py                       company & signal runner (retrieval → shared synthesis → independent judge)
 people_benchmark.py                people runner (best-config retrieval → graded-relevance judge)
-people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 7-dim judge)
+people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 6-dim judge)
 latency_benchmark.py               latency runner (sequential, retrieval-only timing across all 4 benchmarks)
 results/company_results.json       250 company-research scores (id, category, linkup, parallel, totals)
-results/news_signal_results.json   50 signal scores
+results/signal_bench_100_opus.json 100 signal scores
 results/people_results.json        100 people-search scores (graded relevance + top-result hit)
 results/coresignal_results.json    100 people-research scores (6 dimensions)
 results/latency_results.json       per-benchmark latency stats (p50/p90/p95/p99/mean)
