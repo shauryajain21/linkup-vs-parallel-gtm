@@ -10,14 +10,15 @@
       "signal_to_noise": 4.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 8.0,
-      "gtm_value": 7.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 4.0,
+      "reason": "A careful, well-grounded negative finding that correctly distinguishes individual testimonials from logo sections and flags unrelated sources, but ultimately fails to deliver the requested list of customer logos, providing little actionable GTM value."
     },
     "linkup_total": 2.8,
-    "parallel_total": 7.6
+    "parallel_total": 3.8
   },
   {
     "id": "q002",
@@ -31,13 +32,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 6.0,
+      "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "A well-grounded negative answer that correctly disambiguates similarly-named AI companies, cites specific team roles, company size, and business focus, though it cannot confirm via an actual careers page so the hiring question remains only inferentially answered."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.4
+    "parallel_total": 7.8
   },
   {
     "id": "q003",
@@ -50,14 +52,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 7.0,
-      "gtm_value": 6.0,
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "A well-sourced, entity-verified negative finding that correctly concludes RipplePoint has no disclosed funding, explicitly rules out lookalike companies (ripple.com, rippleventures.com), and cites multiple corroborating sources\u2014though the inherent answer is a null result, limiting actionable GTM value."
     },
     "linkup_total": 7.6,
-    "parallel_total": 7.0
+    "parallel_total": 8.2
   },
   {
     "id": "q004",
@@ -70,14 +73,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 2.0,
-      "gtm_value": 1.0,
-      "specificity": 2.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Intelligently resolves the company-name/URL mismatch, provides explicit sourced revenue figures for both entities in full numerical form ($36,100,000 for Skeepers, $7M-$9M for GUNNAR), with only minor truncation at the end and some explanatory overhead."
     },
     "linkup_total": 7.4,
-    "parallel_total": 2.4
+    "parallel_total": 8.6
   },
   {
     "id": "q005",
@@ -90,14 +94,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
-      "gtm_value": 6.0,
-      "specificity": 6.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies Unity Health Care as a DC nonprofit community health center with concrete cited figures (69k-76k patients, 27+ sites, sliding fee scale), appropriately flags the B2B framework mismatch, and gives a reasoned Small TAM call, though the final explanation is truncated mid-sentence."
     },
     "linkup_total": 8.4,
-    "parallel_total": 6.6
+    "parallel_total": 8.2
   },
   {
     "id": "q006",
@@ -110,15 +115,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0,
-      "reason": "Accurate, well-grounded indicator-by-indicator analysis correctly identifying Unity Health Care as a nonprofit health center network (clearly pointing toward SLG/0 indicators), but the answer is truncated mid-tally and never explicitly states the final classification."
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "signal_to_noise": 0,
+      "reason": "empty"
     },
     "linkup_total": 6.2,
-    "parallel_total": 7.6
+    "parallel_total": 0.0
   },
   {
     "id": "q007",
@@ -131,15 +136,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
+      "accuracy": 7.0,
+      "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
       "signal_to_noise": 6.0,
-      "reason": "Well-sourced and specific on product launches (Economic Institute, SGX listing board, Verafin analytic), but the answer is truncated mid-sentence and never covers acquisitions, design/UX/research hires, or job postings\u2014core parts of the question\u2014and admits sources lack the hiring info."
+      "reason": "Provides concrete, dated product/initiative details with named executives, but is truncated mid-answer and fails to cover acquisitions, funding, design/UX/research hires, or job postings, with only vague source citations instead of actual URLs."
     },
     "linkup_total": 8.4,
-    "parallel_total": 5.4
+    "parallel_total": 5.8
   },
   {
     "id": "q008",
@@ -152,14 +157,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Correctly identifies zerow.it as a B2C fashion marketplace with concrete details (founder, founding year, revenue estimate, employee count) and properly disqualifies B2B/SSO/enterprise signals, but fails to deliver the required structured JSON output and is truncated mid-sentence, leaving fundraising fields incompletely addressed."
     },
     "linkup_total": 9.2,
-    "parallel_total": 9.0
+    "parallel_total": 7.0
   },
   {
     "id": "q009",
@@ -175,12 +181,12 @@
       "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 7.0,
+      "specificity": 6.0,
       "signal_to_noise": 7.0,
-      "reason": "The answer correctly identifies fetch.ly as Fetchly Labs (a dev services firm, not SaaS/AI) with grounded details and evidence-based False determinations, but it is truncated mid-answer, omitting customer_proof contents, all technical signals (SCIM, IdP, login links), fundraising data, and the required final JSON object."
+      "reason": "The answer correctly identifies fetch.ly as Fetchly Labs (a services agency, not B2B SaaS) with sound reasoning and even catches a wrong-entity source, but it is truncated mid-sentence, never delivers the required JSON object, and omits the fundraising/revenue signals entirely."
     },
     "linkup_total": 7.8,
-    "parallel_total": 6.2
+    "parallel_total": 6.0
   },
   {
     "id": "q010",
@@ -197,11 +203,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0,
-      "reason": "Accurate, well-evidenced indicator-by-indicator analysis correctly identifying a consulting firm with 0/4 PLG indicators and properly disambiguating an unrelated Korean company, but the answer is truncated mid-sentence and never explicitly states the final SLG classification."
+      "signal_to_noise": 9.0,
+      "reason": "Correctly disambiguates the right entity and evaluates all 4 indicators with cited evidence (all NO, clearly a consultancy), but omits the explicit final classification statement (Sales-Led/SLG) that the question required."
     },
     "linkup_total": 4.8,
-    "parallel_total": 8.0
+    "parallel_total": 8.2
   },
   {
     "id": "q011",
@@ -214,14 +220,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 8.0,
+      "reason": "The analysis correctly identifies Salute as a data center lifecycle services company (not SaaS/AI) with well-reasoned signal determinations, but it is truncated and missing the required JSON output, several technical signals (SCIM, IdP, docs links), and all fundraising/revenue data."
     },
     "linkup_total": 5.2,
-    "parallel_total": 4.8
+    "parallel_total": 6.8
   },
   {
     "id": "q012",
@@ -234,14 +241,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "accuracy": 3.0,
+      "completeness": 2.0,
+      "gtm_value": 1.0,
+      "specificity": 1.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer correctly follows the output format and avoids hallucination, but it provides no revenue estimate or any company-specific information, delivering zero actionable value for GTM purposes."
     },
     "linkup_total": 6.8,
-    "parallel_total": 8.0
+    "parallel_total": 2.0
   },
   {
     "id": "q013",
@@ -254,14 +262,15 @@
       "signal_to_noise": 10.0
     },
     "parallel": {
-      "accuracy": 10.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Delivers a clear, well-evidenced SLG verdict with specific service details, tool names, and sourced findings, though the answer is truncated mid-table and never completes the full signal-by-signal evaluation of subpages like /pricing or /signup."
     },
     "linkup_total": 9.6,
-    "parallel_total": 9.2
+    "parallel_total": 8.0
   },
   {
     "id": "q014",
@@ -275,14 +284,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
       "specificity": 6.0,
-      "signal_to_noise": 7.0,
-      "reason": "The answer is well-grounded on the right company (even correctly excluding lookalike scoutcms.com customers) with concrete evidence for AI/B2B/Clerk/enterprise signals, but it fails to produce the required JSON output, omits several boolean fields (SCIM, SSO docs/login link), truncates the revenue figure mid-sentence, and provides no fundraising date or amount."
+      "signal_to_noise": 5.0,
+      "reason": "The answer correctly identifies Scout OS as an AI agent platform with solid evidence and customer names (Statsig, Dagster, Common Room, etc.), but it cuts off mid-analysis and never delivers the required JSON output, leaving most signals (SSO, SCIM, enterprise plan, fundraising) unanswered."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.2
+    "parallel_total": 5.2
   },
   {
     "id": "q015",
@@ -295,14 +304,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 9.0,
-      "gtm_value": 9.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly preserves the JS score of 25 with sound no-override logic, valid schema-compliant JSON, and signal-specific reasoning naming actual data points (is_b2b_saas, headcount, SSO fields, customer logos), though it slightly undermines accuracy by citing fabricated source numbers ('Source 12', 'Sources 15-16') not present in the inputs."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 8.4
   },
   {
     "id": "q016",
@@ -315,15 +325,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
+      "accuracy": 7.0,
+      "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
       "signal_to_noise": 6.0,
-      "reason": "The answer analyzes monks.com (possibly a domain mismatch with monk.com), provides reasonable findings with named customers, but the required JSON output is truncated mid-stream and fundraising/revenue fields are entirely missing, leaving the deliverable incomplete."
+      "reason": "The answer correctly identifies monk.com as an AI-native B2B AR automation platform and grounds key boolean signals in cited sources, but it is truncated mid-sentence, omits the required JSON output, several technical signals (SCIM, login links, IdP), and all fundraising/revenue data, leaving the deliverable substantially incomplete."
     },
     "linkup_total": 6.4,
-    "parallel_total": 5.2
+    "parallel_total": 5.6
   },
   {
     "id": "q017",
@@ -336,14 +346,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer provides sourced, concrete evidence for is_b2b_saas, is_ai_company, and has_enterprise_plan (ZADIG XDR, SHIELD/INSPECTOR tiers), but is truncated mid-sentence, omits the required JSON output, and never addresses SSO, SCIM, login/docs links, identity provider, customer proof, or fundraising signals\u2014leaving the majority of the requested deliverable missing."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.8
+    "parallel_total": 4.8
   },
   {
     "id": "q018",
@@ -356,14 +367,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 8.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Enate as a B2B SaaS AI company with strong customer proof and specific pricing details, but it's truncated mid-sentence, missing the required JSON output, technical signals (sso_login_link_found, SCIM, IdP), and all fundraising data."
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.6
+    "parallel_total": 6.4
   },
   {
     "id": "q019",
@@ -377,13 +389,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies RipplePoint as a B2B SaaS AI expense analytics company and carefully disambiguates it from Rippling, but it is cut off mid-sentence, never delivers the required JSON object, and omits the fundraising/revenue signals entirely."
     },
     "linkup_total": 7.6,
-    "parallel_total": 7.4
+    "parallel_total": 6.4
   },
   {
     "id": "q020",
@@ -396,14 +409,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is well-grounded with accurate, sourced details about CreditRiskMonitor's SaaS model, FRISK\u00ae/PAYCE\u00ae scores, SOC2, and Fortune 1000 reach, but it cuts off mid-sentence and never delivers the required JSON object, customer_proof array, technical signals, or fundraising data, leaving the structured objective unfulfilled."
     },
     "linkup_total": 5.8,
-    "parallel_total": 9.0
+    "parallel_total": 6.4
   },
   {
     "id": "q021",
@@ -420,7 +434,8 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "The answer delivers a well-evidenced 'NO' classification with multiple direct source quotes showing anyRM is a SaaS provider for regulated industries (pharma/life sciences) with no WiFi/connectivity offering, correctly applying exclusion criterion 2 in the required JSON format."
     },
     "linkup_total": 9.0,
     "parallel_total": 9.2
@@ -436,14 +451,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
-      "gtm_value": 7.0,
-      "specificity": 7.0,
-      "signal_to_noise": 8.0
+      "accuracy": 9.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly classifies FlossLab (an Italian software house) as NO under exclusion criterion 2, with multiple direct quotes from official site, ISO scope, Crunchbase, and product names, proper JSON format, and a well-calibrated confidence score."
     },
     "linkup_total": 8.0,
-    "parallel_total": 7.4
+    "parallel_total": 9.2
   },
   {
     "id": "q023",
@@ -460,7 +476,8 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "Correctly classifies GlobalLogic as a digital engineering/software development firm (clear NO under the exclusion criteria), with direct quoted evidence including Swedish registry data, explicit handling of potentially conflicting Wi-Fi mentions, proper JSON format, and a well-calibrated confidence score."
     },
     "linkup_total": 9.0,
     "parallel_total": 9.0
@@ -480,7 +497,8 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "The answer delivers a well-evidenced 'NO' classification with direct quotes from the official site, LinkedIn, and Bloomberg showing SDC is a BPO/contact-center software firm with no WiFi/WLAN offering, correctly applying the exclusion criteria in the required JSON format with appropriate confidence."
     },
     "linkup_total": 8.6,
     "parallel_total": 9.0
@@ -497,14 +515,14 @@
     },
     "parallel": {
       "accuracy": 10.0,
-      "completeness": 9.0,
+      "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
       "signal_to_noise": 9.0,
-      "reason": "Correctly classifies EURid (the .eu domain registry) as NO with direct supporting quotes and clear reasoning in the required JSON format, though it leans on Wikipedia and unnamed sources rather than the prioritized eurid.eu site itself."
+      "reason": "Correctly identifies EURid as the .eu domain registry (not a WiFi/connectivity provider), delivers a well-evidenced NO with direct source quotes, proper JSON format, and an appropriate confidence score, fully satisfying the screening task."
     },
     "linkup_total": 7.0,
-    "parallel_total": 9.2
+    "parallel_total": 9.4
   },
   {
     "id": "q026",
@@ -521,10 +539,11 @@
       "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "The answer delivers a clear NO classification with direct Italian-language quotes from the company's official site and directories showing Ethica System Srl is a Qlik-focused Business Intelligence/data visualization firm with no WiFi/WLAN offering, correctly applies exclusion criterion (2), flags a potentially confusing unrelated 'Ethica SD-WAN' source, and follows the required JSON format with a calibrated confidence score."
     },
     "linkup_total": 8.6,
-    "parallel_total": 8.8
+    "parallel_total": 9.0
   },
   {
     "id": "q027",
@@ -538,13 +557,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded analysis with direct source quotes correctly identifying Sysman as an IoT/CRM platform company (WiFi only a marginal protocol, fitting exclusion criteria), but it fails to deliver the required JSON output with explicit 'NO' label, comment, and confidence score."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 8.2
   },
   {
     "id": "q028",
@@ -558,13 +578,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 8.0,
-      "gtm_value": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly identifies ONEXP as a superyacht/luxury-residence AV-IT integrator, delivers the required JSON verdict with multiple direct source quotes, and reasons soundly that bespoke project-based AV integration for UHNW clients fits exclusion criteria, though the case that WiFi is 'marginal' relies partly on interpretation rather than explicit text."
     },
     "linkup_total": 0,
-    "parallel_total": 8.0
+    "parallel_total": 8.6
   },
   {
     "id": "q029",
@@ -577,14 +598,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 10.0,
-      "completeness": 10.0,
-      "gtm_value": 9.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 10.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded NO classification with multiple direct source quotes correctly identifying Lutech as a broad ICT/system integrator with no WiFi/WLAN evidence, matching exclusion criteria, though the JSON output is truncated and missing the required confidence_score field."
     },
     "linkup_total": 9.2,
-    "parallel_total": 9.6
+    "parallel_total": 8.2
   },
   {
     "id": "q030",
@@ -597,14 +619,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly identifies Pay Reply as a payments-focused Reply subsidiary with no WiFi/WLAN evidence and reasonably leans N/A with cited snippets, but the required JSON output is truncated mid-comment with no confidence score, and an arguable 'NO' (payments consulting fits exclusion criteria) is not fully weighed."
     },
     "linkup_total": 8.8,
-    "parallel_total": 9.0
+    "parallel_total": 6.2
   },
   {
     "id": "q031",
@@ -618,13 +641,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 6.0,
+      "completeness": 8.0,
       "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "Well-organized, source-cited list of concrete criticisms (no code export, small template library, not for consumer apps) that correctly disambiguates the entity, though it transparently notes most criticism comes from Zite's own comparison posts with only one independent reviewer, limiting depth."
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.0
+    "parallel_total": 8.4
   },
   {
     "id": "q032",
@@ -637,14 +661,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 9.0,
+      "reason": "Well-sourced, quote-rich compilation of negative Adalo feedback with ratings, dates, and recurring themes across G2, Capterra, Product Hunt, and Reddit, though the answer is cut off mid-sentence and likely missing additional complaint themes (e.g., pricing, support, TrustRadius details)."
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.8
+    "parallel_total": 8.4
   },
   {
     "id": "q033",
@@ -658,13 +683,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "What's present is excellent\u2014well-grouped themes with named reviewers, ratings, quotes, sources, severity and frequency tags\u2014but the answer cuts off after only two of the many requested categories (pricing, support, feature gaps, UX all missing), leaving the question substantially unaddressed."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 7.8
   },
   {
     "id": "q034",
@@ -677,14 +703,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly identifies Spikes BE as a Microsoft-focused cloud/digital transformation consultancy with no WiFi/WLAN offering, applies the exclusion rule with direct quoted evidence, follows the required JSON format, and gives a decisive, well-calibrated NO."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.6
+    "parallel_total": 9.0
   },
   {
     "id": "q035",
@@ -698,14 +725,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
+      "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
       "signal_to_noise": 9.0,
-      "reason": "Well-grounded NO classification with direct quotes from the company's official website showing an SAP/ERP system-integrator focus and no WiFi/WLAN offering, correctly mapped to exclusion criterion (2) in the required JSON format with an appropriate confidence score."
+      "reason": "The answer delivers a well-evidenced 'NO' classification with direct quotes from the official website and multiple sources showing Ribes Solutions is an SAP/ERP consultancy with no WiFi/WLAN offering, fully complying with the requested JSON format, quoting requirements, and confidence scoring."
     },
     "linkup_total": 6.4,
-    "parallel_total": 9.0
+    "parallel_total": 9.2
   },
   {
     "id": "q036",
@@ -722,11 +749,11 @@
       "completeness": 10.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0,
-      "reason": "The answer correctly classifies Emporix as a digital commerce software company fitting exclusion criterion (2), provides multiple direct quotes from on-target sources, follows the required JSON format with confidence score, and contains no filler."
+      "signal_to_noise": 10.0,
+      "reason": "Correctly classifies Emporix as a NO with explicit, well-sourced quotes (ACE Platform, composable commerce, SIC code 62012) directly mapping to the exclusion criterion of software development with WiFi absent, in the exact required JSON format."
     },
     "linkup_total": 5.4,
-    "parallel_total": 9.4
+    "parallel_total": 9.6
   },
   {
     "id": "q037",
@@ -739,14 +766,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
+      "accuracy": 10.0,
+      "completeness": 10.0,
       "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "specificity": 10.0,
+      "signal_to_noise": 10.0,
+      "reason": "The answer correctly classifies Communicativ as 'NO' under exclusion criterion (2), with abundant direct quotes from multiple sources (website, Kemp partner profile, LinkedIn) confirming a Microsoft Teams telephony/UC focus with no WiFi/WLAN offering, delivered in the exact required JSON format with a well-calibrated confidence score."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 9.8
   },
   {
     "id": "q038",
@@ -759,15 +787,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 3.0,
-      "completeness": 2.0,
-      "gtm_value": 1.0,
-      "specificity": 2.0,
-      "signal_to_noise": 3.0,
-      "reason": "The answer honestly returns N/A because all retrieved sources were irrelevant (market reports, M&A platforms, analyst profiles) with zero information about GDS Srl or gdsoftware.it, providing no actionable classification or company evidence."
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies GDS Srl as a software/IT consulting firm with no WiFi/WLAN offering and supports the 'NO' classification with abundant direct quotes from multiple sources, but the JSON output is truncated and omits the required confidence_score field."
     },
     "linkup_total": 6.6,
-    "parallel_total": 2.2
+    "parallel_total": 8.0
   },
   {
     "id": "q039",
@@ -784,7 +812,8 @@
       "completeness": 9.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "The answer delivers a well-supported 'NO' classification in the required JSON format, citing multiple direct source quotes showing the company focuses on ERP software, cybersecurity, and IT consulting with no WiFi/WLAN evidence, correctly mapping to exclusion criterion (2) with an appropriate confidence score."
     },
     "linkup_total": 8.4,
     "parallel_total": 8.8
@@ -800,14 +829,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 3.0,
-      "specificity": 5.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Correctly identifies Regola S.r.l. (Turin) as a public safety software vendor (CAD, PWS, Frequentis Group member) with direct quoted evidence, properly applying the exclusion criterion for software development with no WiFi/managed connectivity offering, in the required JSON format with appropriate confidence."
     },
     "linkup_total": 4.6,
-    "parallel_total": 4.8
+    "parallel_total": 9.0
   },
   {
     "id": "q041",
@@ -820,14 +850,15 @@
       "signal_to_noise": 10.0
     },
     "parallel": {
-      "accuracy": 10.0,
-      "completeness": 10.0,
+      "accuracy": 9.0,
+      "completeness": 9.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "Correctly classifies PAIX as a colocation/data centre operator (not WiFi/WLAN managed services) with direct quoted evidence, proper JSON format, sound confidence scoring, and a clear NO that directly serves the screening task."
     },
     "linkup_total": 9.6,
-    "parallel_total": 9.4
+    "parallel_total": 9.0
   },
   {
     "id": "q042",
@@ -842,12 +873,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly identifies DXC Field Delivery Belgium as a generic IT/break-fix services entity, follows the required JSON format, cites direct source quotes, appropriately distinguishes the local entity from the parent's network services, and delivers a well-justified 'NO' with calibrated confidence."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 8.6
   },
   {
     "id": "q043",
@@ -860,15 +892,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 2.0,
-      "gtm_value": 1.0,
-      "specificity": 3.0,
-      "signal_to_noise": 3.0,
-      "reason": "The answer correctly and honestly returns N/A because all retrieved sources were irrelevant (job descriptions, unrelated companies), but it provides no actual information about TQG Lottery Solutions, making it useless for the screening decision despite proper formatting and reasoning."
+      "accuracy": 9.0,
+      "completeness": 10.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly classifies TQG Lottery Solutions as a lottery software developer falling under the explicit exclusion criteria, supports the 'NO' verdict with multiple direct quoted snippets (including German corporate purpose text), follows the required JSON format with a confidence score, and contains no filler or wrong-entity confusion."
     },
     "linkup_total": 6.8,
-    "parallel_total": 2.6
+    "parallel_total": 9.2
   },
   {
     "id": "q044",
@@ -883,12 +915,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 9.0,
-      "gtm_value": 9.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "Delivers a well-evidenced 'NO' classification with direct quotes from the company site, ZoomInfo, and LinkedIn showing Reverse IT is an MDM/rugged device firm with no WiFi/WLAN offering, in correct JSON format with appropriate confidence."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.0
+    "parallel_total": 8.8
   },
   {
     "id": "q045",
@@ -904,12 +937,12 @@
       "accuracy": 9.0,
       "completeness": 9.0,
       "gtm_value": 9.0,
-      "specificity": 8.0,
+      "specificity": 9.0,
       "signal_to_noise": 9.0,
-      "reason": "The answer correctly identifies EVcharge as an EV charging management software company with direct quotes from the official website, properly applies the exclusion criteria with a confident NO, and provides well-grounded, decision-ready output for the M&A screening task."
+      "reason": "The answer correctly identifies EVcharge as an EV charging software company, delivers a confident 'NO' classification with direct supporting quotes, explicitly addresses the marginal WiFi mention, and follows the required JSON format precisely."
     },
     "linkup_total": 6.0,
-    "parallel_total": 8.8
+    "parallel_total": 9.0
   },
   {
     "id": "q046",
@@ -923,14 +956,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
+      "completeness": 8.0,
       "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0,
-      "reason": "The answer correctly classifies Gateway Digital as a digital engineering/software development firm (exclusion criterion), supports the 'NO' verdict with direct quotes from the company's site and ZoomInfo, names specific products (AutoDAP, DISMANTO, FinFacets, LEAP), and follows the required JSON format with an appropriate confidence score."
+      "signal_to_noise": 8.0,
+      "reason": "Well-evidenced 'NO' classification with direct quotes from multiple sources confirming Gateway Digital is a software/digital transformation firm with no WiFi/WLAN offering, though the JSON is truncated mid-comment and missing the required confidence_score field."
     },
     "linkup_total": 6.4,
-    "parallel_total": 9.0
+    "parallel_total": 8.6
   },
   {
     "id": "q047",
@@ -944,11 +977,11 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 5.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
-      "specificity": 6.0,
+      "specificity": 7.0,
       "signal_to_noise": 7.0,
-      "reason": "The answer accurately identifies Gangverk as an Icelandic software consultancy with relevant findings on each signal, but it fails to deliver the required JSON output, is cut off mid-sentence on the revenue estimate, and relies partly on third-party databases (Crunchbase/Tracxn/Lusha) rather than direct site evidence."
+      "reason": "The answer correctly identifies Gangverk as an Icelandic software consultancy with grounded reasoning and concrete details (Basta, Dala-Care, Sotheby's, Play Airlines), but it is truncated and never delivers the required JSON object, customer_proof array, technical signals (SCIM, login links, IdP), or fundraising data."
     },
     "linkup_total": 6.4,
     "parallel_total": 6.4
@@ -964,14 +997,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is well-grounded with concrete company details (products, location, founding year, NAICS code) and correct entity focus, but it is truncated mid-sentence, never delivers the required JSON object, and omits most requested fields (customer_proof, technical signals, SCIM, fundraising data)."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.8
+    "parallel_total": 5.2
   },
   {
     "id": "q049",
@@ -985,14 +1019,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 7.0,
-      "signal_to_noise": 9.0,
-      "reason": "Correctly identifies Skaggs Appliance as a local B2C appliance retailer with all enterprise signals appropriately false per instructions, delivering a clean, complete JSON output, though only one source was actually about the company and concrete detail is inherently limited."
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurately identifies Skaggs Appliance as a small local B2C appliance repair business with concrete details (address, employee count, revenue range) and correctly reasons through the signals, but the JSON output is truncated mid-object, omitting supports_scim, explicit_enterprise_plan, and all fundraising fields."
     },
     "linkup_total": 5.8,
-    "parallel_total": 8.4
+    "parallel_total": 7.6
   },
   {
     "id": "q050",
@@ -1006,14 +1040,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 8.0,
-      "signal_to_noise": 9.0,
-      "reason": "The answer correctly identifies the domain as SFSU's Lam Family College of Business (a public university unit, not a vendor), justifiably sets all enterprise-readiness signals to false with specific supporting details (program names like the Enterprise Cybersecurity certificate explaining the 'Enterprise' keyword), and delivers a clean, well-structured JSON output, with only a minor truncation in the final explanation."
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies cob.sfsu.edu as SFSU's business college (not a SaaS company) with well-reasoned, evidence-cited determinations, but it is truncated mid-sentence and omits the required JSON output, technical signals (SCIM, login links, IdP), and fundraising fields."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.6
+    "parallel_total": 6.8
   },
   {
     "id": "q051",
@@ -1026,15 +1060,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 2.0,
+      "accuracy": 3.0,
       "completeness": 2.0,
       "gtm_value": 1.0,
-      "specificity": 1.0,
+      "specificity": 2.0,
       "signal_to_noise": 3.0,
-      "reason": "The answer admits the search results contained no information about posteering.com and simply defaults every signal to false/empty, providing no verified facts, no fundraising data, and no GTM-actionable insight."
+      "reason": "The answer found no information about posteering.com and defaulted all signals to false/empty per instructions\u2014honest and well-formatted, but it provides zero actual evidence or insight about the target company, making it useless for GTM purposes."
     },
     "linkup_total": 8.6,
-    "parallel_total": 1.8
+    "parallel_total": 2.2
   },
   {
     "id": "q052",
@@ -1047,15 +1081,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0,
-      "reason": "The answer correctly identifies Depot Analytics as a small ML consulting firm with concrete details (3 employees, founded 2022, $330K ARR, no SSO/enterprise signals) from reasonable sources like PitchBook and Tracxn, but it is truncated mid-sentence and never delivers the required JSON output object with explicit boolean values."
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly identifies Depot Analytics as a Gainesville-based ML/analytics consulting firm with cited evidence for is_b2b_saas and is_ai_company, but it cuts off mid-analysis and never delivers the required JSON object, SSO/enterprise/SCIM signals, customer proof, or fundraising data, leaving the majority of the question unanswered."
     },
     "linkup_total": 5.6,
-    "parallel_total": 7.0
+    "parallel_total": 5.2
   },
   {
     "id": "q053",
@@ -1068,15 +1102,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0,
-      "reason": "The answer correctly identifies the company as a tiny consulting/services operation with plausible, specific details (founder name, offering, NAICS codes) and reasonable signal judgments, but the required JSON output is truncated mid-object, omitting identity_provider_detected, supports_scim, explicit_enterprise_plan, and the fundraising fields."
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded analysis correctly identifying a solo consulting business with specific details (founder name, LLC formation date, tools used, named testimonial customers) and sound reasoning for false signals, but the answer is truncated and omits the requested final JSON object."
     },
     "linkup_total": 7.6,
-    "parallel_total": 6.6
+    "parallel_total": 8.0
   },
   {
     "id": "q054",
@@ -1089,15 +1123,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 7.0,
       "completeness": 3.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
       "signal_to_noise": 7.0,
-      "reason": "The analysis is accurate, well-cited, and specific (per-user pricing, named products, SSO FAQ evidence), but the answer is truncated mid-sentence and entirely omits the required JSON output, customer proof list, technical signals, and all fundraising/revenue data."
+      "reason": "The evidence cited (SSO docs with Okta/OneLogin/Entra, enterprise.monotype.com, Monotype Connect platform) is specific and plausible, but the answer is truncated mid-sentence and never delivers the required JSON object, customer_proof array, SCIM check, login-link check, or any fundraising/revenue data."
     },
     "linkup_total": 4.8,
-    "parallel_total": 6.0
+    "parallel_total": 5.8
   },
   {
     "id": "q055",
@@ -1110,14 +1144,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
+      "accuracy": 9.0,
+      "completeness": 9.0,
       "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "Correctly identifies donmamino.com as a Peruvian bakery (Grupo Once SAC, founded 2002), appropriately sets all enterprise-readiness signals to false with grounded reasoning, notes the B2B plant expansion nuance, and addresses fundraising status, delivering a clean and well-justified disqualification."
     },
     "linkup_total": 8.0,
-    "parallel_total": 8.2
+    "parallel_total": 8.6
   },
   {
     "id": "q056",
@@ -1130,11 +1165,12 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 5.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Correctly identifies Titan Casket as a DTC physical-goods retailer with no SaaS/AI/SSO/enterprise signals and supports findings with concrete details (pricing, account behavior), but fails to deliver the required JSON object and is truncated mid-sentence before completing the fundraising/revenue data."
     },
     "linkup_total": 8.4,
     "parallel_total": 6.8
@@ -1150,14 +1186,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The analysis is factually plausible and well-sourced for the signals it covers, but it is truncated mid-answer, omits the required JSON output, all fundraising/revenue fields, and most technical signals (SCIM, IdP detection, login/docs links), making it substantially incomplete against the question's explicit requirements."
     },
     "linkup_total": 7.2,
-    "parallel_total": 7.6
+    "parallel_total": 5.4
   },
   {
     "id": "q058",
@@ -1170,14 +1207,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 5.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 6.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Yonder Materials as an AI materials-discovery company with evidence-based reasoning on core signals, but omits the required JSON output, the technical signals (sso_login_link_found, supports_scim, identity_provider_detected, etc.), and all fundraising fields (date, amount, revenue), leaving the response substantially incomplete against the question's full specification."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.0
+    "parallel_total": 6.4
   },
   {
     "id": "q059",
@@ -1190,14 +1228,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 3.0,
+      "completeness": 3.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer admits no sources contain any information about sansigns.com and simply defaults all signals to false/empty per fallback rules, providing zero verified research or actionable GTM insight about the company."
     },
     "linkup_total": 7.8,
-    "parallel_total": 6.8
+    "parallel_total": 2.4
   },
   {
     "id": "q060",
@@ -1210,15 +1249,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
       "specificity": 7.0,
-      "signal_to_noise": 7.0,
-      "reason": "The answer is accurate and well-sourced on Maxio's B2B SaaS nature, SSO docs, enterprise positioning, and named customers, but it is truncated and never delivers the required JSON output, the technical signals (SCIM, IdP, login link), or any of the fundraising data (date, amount, revenue) explicitly requested."
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly identifies Maxio as a B2B SaaS billing platform with cited specifics (2,300 customers, $599/Grow, Scale tier), but is truncated mid-sentence, omits the required JSON output, customer_proof list, all technical signals (SCIM, IdP, login/docs links), and fundraising data, and its is_ai_company=TRUE call contradicts the rubric since AI (MCP) is a minor feature, not Maxio's core product."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.6
+    "parallel_total": 5.2
   },
   {
     "id": "q061",
@@ -1231,14 +1270,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 7.0,
+      "accuracy": 8.0,
       "completeness": 5.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies ebisu.co.uk as a tiny UK consultancy with concrete registry details (Companies House number, director, assets) and rightly distinguishes it from unrelated 'Ebisu' entities, but the required JSON output is truncated mid-object, leaving most requested boolean fields and the customer_proof array undelivered."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.0
+    "parallel_total": 6.6
   },
   {
     "id": "q062",
@@ -1251,14 +1291,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 8.0,
-      "gtm_value": 7.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The analysis correctly identifies Dapper Labs' consumer-focused NFT/Flow business with cited evidence, but the answer is truncated mid-sentence, never delivers the required JSON object, and omits customer_proof, technical signals, and all fundraising data."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.6
+    "parallel_total": 5.0
   },
   {
     "id": "q063",
@@ -1271,14 +1312,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Homecare Homebase as B2B SaaS with concrete AI product names (Curate: Scribe, Intelligence Suite) and real customer logos, but it is truncated mid-sentence and entirely omits the required JSON output, all SSO/SCIM/identity-provider signals, and the fundraising/revenue data the question explicitly requested."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.8
+    "parallel_total": 6.0
   },
   {
     "id": "q064",
@@ -1291,14 +1333,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 5.0,
-      "completeness": 2.0,
-      "gtm_value": 2.0,
-      "specificity": 3.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, dense, and highly specific coverage of Banook's value-chain position and services (cardiac safety core lab, central imaging, adjudication, Atrium/Imagys platforms), but the answer is truncated mid-sentence and never delivers the requested end-markets section."
     },
     "linkup_total": 8.0,
-    "parallel_total": 3.0
+    "parallel_total": 8.2
   },
   {
     "id": "q065",
@@ -1311,14 +1354,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
+      "accuracy": 8.0,
       "completeness": 5.0,
-      "gtm_value": 5.0,
-      "specificity": 5.0,
-      "signal_to_noise": 4.0
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is well-grounded and rich in concrete details (founder, founding year, ESOP, offices, headcount, explicit value-chain positioning), but it cuts off mid-sentence, never covers the requested end-markets served, and deviates from the requested paragraph-style format."
     },
     "linkup_total": 7.4,
-    "parallel_total": 5.2
+    "parallel_total": 7.2
   },
   {
     "id": "q066",
@@ -1332,13 +1376,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies the French IT outsourcing company and gives solid detail on value-chain positioning and services with concrete facts (founded 1983, Nanterre, managed services scope), but it is truncated mid-sentence and never fully covers end-markets served, with some noise from source citations and disambiguation commentary."
     },
     "linkup_total": 7.6,
-    "parallel_total": 8.8
+    "parallel_total": 7.4
   },
   {
     "id": "q067",
@@ -1351,14 +1396,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific and well-grounded answer covering value-chain positioning and products with concrete details (CVR number, Geomatikk ownership, KeyAqua/Keypro partnership), but it cuts off mid-sentence and never finishes the products list or fully addresses end-markets served."
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.2
+    "parallel_total": 8.0
   },
   {
     "id": "q068",
@@ -1371,14 +1417,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded, detail-rich answer correctly covering Velden GmbH's value chain position and services with concrete facts (founded 1945, 8,000 sqm, 100t crane capacity), but it is truncated mid-sentence and never addresses the explicitly requested end-markets served."
     },
     "linkup_total": 7.6,
-    "parallel_total": 7.2
+    "parallel_total": 7.8
   },
   {
     "id": "q069",
@@ -1396,7 +1443,7 @@
       "gtm_value": 6.0,
       "specificity": 8.0,
       "signal_to_noise": 7.0,
-      "reason": "Factually accurate and detail-rich on Hempel's value-chain position and products with concrete figures, but the answer is truncated mid-sentence and fails to cover the requested end-markets served."
+      "reason": "Factually accurate and detailed on Hempel's ownership, value-chain position, R&D, and technical services with concrete figures, but the answer is truncated mid-sentence and never covers the requested products portfolio and end-markets served."
     },
     "linkup_total": 5.6,
     "parallel_total": 7.0
@@ -1412,14 +1459,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, fact-dense answer with strong specifics (founding, HQ, legal entity, pricing tiers, revenue, user counts) covering value chain, product, and end-markets, but it is truncated mid-sentence before fully describing the second and third end-market segments (education detail and presumably enterprise)."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.0
+    "parallel_total": 8.4
   },
   {
     "id": "q071",
@@ -1432,14 +1480,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Primeum as a French incentive-compensation consulting and software firm with good specifics (founded 1994, Incentive Manager product, value-chain positioning) and helpfully disambiguates entities, but it is truncated mid-sentence and never addresses the requested end-markets served."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.2
+    "parallel_total": 7.4
   },
   {
     "id": "q072",
@@ -1452,14 +1501,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Highly specific, well-grounded answer covering value-chain positioning (owner's representative), all three service divisions, and end-markets with concrete details (founding year, KCI program, division names, 50 airports), though it is truncated mid-sentence and deviates from the requested paragraph-only format with bullets/headers."
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.2
+    "parallel_total": 8.6
   },
   {
     "id": "q073",
@@ -1473,13 +1523,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly disambiguates OpenFire SAS from the XMPP server and provides accurate, specific details on its value-chain position (editor/integrator) and ERP product, but it cuts off mid-sentence and never covers the products list or end-markets served, leaving the question partially unanswered."
     },
     "linkup_total": 8.8,
-    "parallel_total": 9.0
+    "parallel_total": 7.2
   },
   {
     "id": "q074",
@@ -1493,11 +1544,11 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
+      "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0,
-      "reason": "The answer correctly identifies ACE SOFTWARE as a French ERP publisher, covers value-chain positioning, products, and end-markets with concrete details (location, founding year, headcount, leadership, modules, verticals), cites on-target sources, and helpfully flags name-collision risks, with only minor format deviation (bullets vs paragraphs) and a truncated ending."
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, detail-rich profile correctly identifying ACE SOFTWARE as a French ISV publishing the WO-NETT ERP suite for the cleaning industry, covering value-chain position, products, and end-markets with concrete names and locations, though the final sentence is truncated."
     },
     "linkup_total": 3.6,
     "parallel_total": 8.6
@@ -1516,12 +1567,12 @@
       "accuracy": 9.0,
       "completeness": 6.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
+      "specificity": 9.0,
       "signal_to_noise": 8.0,
-      "reason": "The answer is factually grounded with strong specifics (NAICS code, Construct-X acquisition, detailed service list) and correct positioning, but it is cut off mid-sentence and never delivers the requested end-markets section, leaving the question only partially answered."
+      "reason": "Accurate and detail-rich answer correctly describing PTAG's owner-side capital project management positioning and service lines with concrete facts (founding year, offices, Construct-X acquisition), but it is truncated mid-sentence and never covers the end-markets served, a key part of the question."
     },
     "linkup_total": 5.2,
-    "parallel_total": 7.6
+    "parallel_total": 7.8
   },
   {
     "id": "q076",
@@ -1535,14 +1586,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0,
-      "reason": "Detailed, factual profile covering value-chain position (SaaS martech vendor), named products (Blog2Social, PR-Gateway, Assistini), and B2B/agency end-markets, though no explicit source citations are provided to verify authority."
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detail-rich answer correctly identifying ADENION's SaaS positioning and products (PR-Gateway, Blog2Social) with concrete facts, but it is truncated mid-sentence and never finishes the product portfolio or addresses end-markets served."
     },
     "linkup_total": 5.8,
-    "parallel_total": 8.8
+    "parallel_total": 7.8
   },
   {
     "id": "q077",
@@ -1557,13 +1608,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 6.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0,
-      "reason": "Accurate, dense, and highly specific description of Sedex's positioning and offerings in the requested format, but the answer is truncated mid-sentence and never covers the end-markets served, and no explicit sources are cited beyond the implied company website."
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detailed description of Sedex's positioning and offerings (platform, SMETA, SAQs), but the answer is truncated mid-sentence and omits the requested end-markets served."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.2
+    "parallel_total": 7.6
   },
   {
     "id": "q078",
@@ -1576,14 +1627,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detailed coverage of Affilae's value-chain positioning, pricing model, and product features with concrete specifics, but the answer is truncated mid-sentence and never addresses the end-markets served as requested."
     },
     "linkup_total": 8.8,
-    "parallel_total": 5.2
+    "parallel_total": 8.2
   },
   {
     "id": "q079",
@@ -1596,14 +1648,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, detailed, and well-structured coverage of the company's distributor/service positioning, brands, and product lines, but the answer is truncated mid-sentence and never covers the end-markets served as explicitly requested."
     },
     "linkup_total": 7.0,
-    "parallel_total": 6.2
+    "parallel_total": 8.4
   },
   {
     "id": "q080",
@@ -1617,14 +1670,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
       "signal_to_noise": 8.0,
-      "reason": "Accurate, detailed, and well-sourced description of Abin's distributor/service positioning and product lines with concrete brand and model names, but the answer is truncated mid-sentence and never covers the end-markets served, and it uses bullets rather than the requested paragraph style."
+      "reason": "Well-grounded, detailed answer covering value chain position (distributor of brands like Trelawny, GroundGuards, Smith & Loveless), specific products with model names, and end-markets, though the final sentence on end-markets is truncated and could be more developed."
     },
     "linkup_total": 6.4,
-    "parallel_total": 7.8
+    "parallel_total": 8.4
   },
   {
     "id": "q081",
@@ -1638,13 +1691,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 8.0,
+      "completeness": 6.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate and detail-rich coverage of MOCA Systems' value-chain position and products (Touchplan, MOCAPlan, founding, divisions), but the answer is cut off mid-sentence and never addresses the requested end-markets served."
     },
     "linkup_total": 8.2,
-    "parallel_total": 8.4
+    "parallel_total": 8.0
   },
   {
     "id": "q082",
@@ -1657,14 +1711,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 3.0,
-      "completeness": 3.0,
-      "gtm_value": 3.0,
-      "specificity": 4.0,
-      "signal_to_noise": 3.0
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded with concrete details (address, brand partnerships like Selwood and Trelawny, specific product models) and clearly explains the distributor positioning, but it is cut off mid-sentence and never covers the end-markets served, leaving one of the three requested dimensions unaddressed."
     },
     "linkup_total": 7.0,
-    "parallel_total": 3.2
+    "parallel_total": 7.2
   },
   {
     "id": "q083",
@@ -1677,14 +1732,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded, detailed answer covering positioning and the Clonos product suite with concrete module names, founders, and location, but it is truncated mid-sentence and never fully addresses the end-markets served as the question required."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.4
+    "parallel_total": 8.0
   },
   {
     "id": "q084",
@@ -1697,14 +1753,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 3.0,
-      "completeness": 1.0,
-      "gtm_value": 1.0,
-      "specificity": 2.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies the entity behind mecanhidra.es (disambiguating from the Canadian M\u00e9can-Hydro), with strong detail on value-chain positioning and service offerings, but the answer is cut off mid-sentence and end-markets are only implicitly covered."
     },
     "linkup_total": 8.8,
-    "parallel_total": 2.0
+    "parallel_total": 8.0
   },
   {
     "id": "q085",
@@ -1717,14 +1774,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-structured paragraph answer covering value-chain positioning, products (app, daily pay, Clara AI, 2,500+ client companies) and blue-collar end-markets with concrete details, but the text is cut off mid-sentence in the end-markets section, slightly hurting completeness."
     },
     "linkup_total": 8.2,
-    "parallel_total": 6.4
+    "parallel_total": 8.0
   },
   {
     "id": "q086",
@@ -1738,13 +1796,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 5.0,
+      "completeness": 7.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 7.0,
+      "reason": "Well-structured, fact-grounded profile of Excelerate Health Ventures covering value-chain position, services, and end-markets with concrete examples (OrbitalRx, Health Decisions, dates, fund names), though the answer is truncated mid-sentence and includes some less-relevant team bio detail."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.2
+    "parallel_total": 7.4
   },
   {
     "id": "q087",
@@ -1757,14 +1816,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 2.0,
+      "reason": "The answer eventually identifies the correct Equisafe (Paris fintech using blockchain for tokenized securities issuance) with some concrete details, but it is cluttered with raw search-result fragments in French/Portuguese, redundant disambiguation notes, and is cut off mid-sentence before covering value-chain positioning and end-markets as requested."
     },
     "linkup_total": 8.2,
-    "parallel_total": 8.2
+    "parallel_total": 4.6
   },
   {
     "id": "q088",
@@ -1777,14 +1837,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Factually grounded and rich in concrete details (founding year, funding, investors, revenue, NAF code, value-chain positioning, client examples like TF1/M6), but the answer cuts off mid-sentence in the products/services section and never fully covers end-markets served."
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.8
+    "parallel_total": 8.2
   },
   {
     "id": "q089",
@@ -1797,14 +1858,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "accuracy": 3.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "signal_to_noise": 2.0,
+      "reason": "The answer is essentially a non-answer admitting the sources lack information, offering only a weak inference from an individual's LinkedIn profile that likely refers to a different Combe entity (US CPG firm vs. COMBE industrie), providing no value chain positioning, products, or end-markets as requested."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.4
+    "parallel_total": 1.8
   },
   {
     "id": "q090",
@@ -1818,13 +1880,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 5.0
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer provides specific, well-sourced detail on Solaya's value-chain position and products (founders, dates, 80% cost claim, Gaussian Splats tech), but it is truncated mid-sentence and never delivers the requested end-markets section, leaving the question only partially answered."
     },
     "linkup_total": 7.4,
-    "parallel_total": 6.2
+    "parallel_total": 7.6
   },
   {
     "id": "q091",
@@ -1841,7 +1904,8 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded with concrete details on Combe Industrie's value-chain position (distributor/service provider), product range, and services, but it is truncated mid-sentence and omits the explicitly requested end-markets section."
     },
     "linkup_total": 8.2,
     "parallel_total": 7.4
@@ -1858,13 +1922,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detailed coverage of Stockly's positioning and platform mechanics with concrete founder/model details, but the answer is cut off mid-sentence, leaving the explicitly requested end-markets section essentially unanswered."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.6
+    "parallel_total": 7.6
   },
   {
     "id": "q093",
@@ -1877,14 +1942,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 1.0,
-      "gtm_value": 1.0,
-      "specificity": 2.0,
-      "signal_to_noise": 2.0
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Factually grounded and rich in concrete detail (founding year, locations, headcount, service lifecycle, platforms), but the answer is cut off mid-sentence, leaving the third service area incomplete and the requested end-markets section entirely missing."
     },
     "linkup_total": 7.6,
-    "parallel_total": 2.0
+    "parallel_total": 7.6
   },
   {
     "id": "q094",
@@ -1899,12 +1965,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 6.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies the right Sentry Software (not Sentry.io) with strong specifics on value-chain positioning as a BMC ecosystem add-on vendor and named products, but the answer is truncated mid-sentence and never covers the end-markets served as requested."
     },
     "linkup_total": 7.8,
-    "parallel_total": 8.0
+    "parallel_total": 7.6
   },
   {
     "id": "q095",
@@ -1917,14 +1984,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 4.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 3.0,
+      "signal_to_noise": 2.0,
+      "reason": "The answer is a refusal that provides no information about the target company kairos-data.com; while it commendably avoids conflating similarly-named entities, it delivers zero actionable GTM content on positioning, products, or end-markets."
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.8
+    "parallel_total": 2.2
   },
   {
     "id": "q096",
@@ -1939,12 +2007,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer is highly specific and factually grounded on the correct company (funding, integrations, model partners, value-chain positioning), but it is cut off mid-sentence and never covers the requested end-markets section, leaving the response incomplete."
     },
     "linkup_total": 7.6,
-    "parallel_total": 7.4
+    "parallel_total": 8.2
   },
   {
     "id": "q097",
@@ -1958,13 +2027,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded with concrete registry data, facility size, and clear value-chain positioning, but it is truncated mid-sentence and never addresses the end-markets served, leaving one of the three requested focus areas unanswered."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.8
+    "parallel_total": 7.4
   },
   {
     "id": "q098",
@@ -1977,14 +2047,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-grounded overview of Vitale Produkter's group structure, subsidiaries, and value-chain positioning with concrete names and addresses, but the answer is truncated mid-sentence, doesn't fully cover end-markets served, and deviates from the requested paragraph-style format."
     },
     "linkup_total": 7.0,
-    "parallel_total": 6.0
+    "parallel_total": 7.6
   },
   {
     "id": "q099",
@@ -1997,14 +2068,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is factually grounded with strong specifics (founding history, ownership, permits, certifications) and addresses value-chain positioning well, but it cuts off abruptly before detailing products/services and never covers end-markets served, and the $21.1M revenue figure is questionable for a guide service of this size."
     },
     "linkup_total": 7.2,
-    "parallel_total": 7.8
+    "parallel_total": 6.8
   },
   {
     "id": "q100",
@@ -2018,13 +2090,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, fact-rich profile with concrete figures, services, and value-chain positioning, but the answer is truncated mid-sentence and fails to cover the explicitly requested end-markets section."
     },
     "linkup_total": 8.8,
-    "parallel_total": 6.6
+    "parallel_total": 7.4
   },
   {
     "id": "q101",
@@ -2037,14 +2110,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 2.0,
-      "gtm_value": 1.0,
-      "specificity": 3.0,
-      "signal_to_noise": 3.0
+      "accuracy": 3.0,
+      "completeness": 0.0,
+      "gtm_value": 0.0,
+      "specificity": 1.0,
+      "signal_to_noise": 2.0,
+      "reason": "The answer explicitly fails to provide any information about the company, offering only an explanation of why the sources are insufficient, which has no actionable GTM value."
     },
     "linkup_total": 7.6,
-    "parallel_total": 2.6
+    "parallel_total": 1.2
   },
   {
     "id": "q102",
@@ -2057,14 +2131,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced and detailed coverage of Commsworld's value chain position and product lines, but the answer is truncated mid-sentence and omits the requested end-markets served."
     },
     "linkup_total": 7.8,
-    "parallel_total": 8.0
+    "parallel_total": 7.6
   },
   {
     "id": "q103",
@@ -2077,14 +2152,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 5.0,
+      "accuracy": 7.0,
+      "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 6.0,
+      "reason": "Correctly identifies NICO Corporation with strong concrete details (founding, HQ, funding, products like Myriad SPECTRA, Viz.ai and Imedcare partnerships), but the answer is truncated mid-sentence, lacks a complete end-markets section, and includes likely-erroneous noise about Terason veterinary ultrasound."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.0
+    "parallel_total": 6.8
   },
   {
     "id": "q104",
@@ -2098,13 +2174,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded, detailed profile of Utelisys covering value-chain position and services with concrete specifics (speeds, vendors, deployment times), but the answer cuts off mid-sentence and the end-markets dimension is only implicitly addressed via hospitality references rather than explicitly covered."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.6
+    "parallel_total": 8.2
   },
   {
     "id": "q105",
@@ -2117,14 +2194,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 6.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-structured, fact-dense answer covering value-chain position (SaaS WiFi management layer), products (CT WiFi white-label cloud platform on GCE) and B2B end-markets (telcos, integrators, resellers) with concrete details, though it cuts off mid-sentence and some technical claims would need verification."
     },
     "linkup_total": 8.0,
-    "parallel_total": 7.0
+    "parallel_total": 8.2
   },
   {
     "id": "q106",
@@ -2137,14 +2215,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 5.0,
-      "gtm_value": 7.0,
+      "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 8.0,
+      "reason": "Factually grounded and detailed on Tanaza's value chain position and product (TanazaOS, cloud platform, hardware disaggregation vs Cisco/Aruba), but the answer cuts off mid-sentence and never covers the requested end-markets served."
     },
     "linkup_total": 9.0,
-    "parallel_total": 6.8
+    "parallel_total": 7.2
   },
   {
     "id": "q107",
@@ -2157,14 +2236,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is factually grounded and rich in concrete details (company numbers, SIC codes, partnerships, revenue) with clear value-chain positioning, but it is truncated mid-sentence and omits the explicitly requested end-markets section."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.0
+    "parallel_total": 7.6
   },
   {
     "id": "q108",
@@ -2178,10 +2258,11 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
+      "completeness": 6.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific, factually grounded profile with strong value-chain and product detail (company number, address, revenue, vendor partners, CWNE, Ekahau), but the answer is truncated mid-sentence and never covers the end-markets served, which the question explicitly requested."
     },
     "linkup_total": 7.8,
     "parallel_total": 7.8
@@ -2197,14 +2278,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 4.0,
-      "specificity": 4.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detail-rich answer covering value chain positioning (vertically integrated via Texas Book Company acquisition), named products and publisher partners, but it cuts off mid-sentence before fully covering the product suite and end-markets, leaving the requested structure incomplete."
     },
     "linkup_total": 7.6,
-    "parallel_total": 4.4
+    "parallel_total": 7.8
   },
   {
     "id": "q110",
@@ -2218,13 +2300,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detailed profile of Seae Ventures covering value chain position, investment focus, and end-markets with concrete names and themes, though the answer is cut off mid-sentence and the end-market coverage could be slightly more explicit."
     },
     "linkup_total": 7.8,
-    "parallel_total": 7.6
+    "parallel_total": 8.4
   },
   {
     "id": "q111",
@@ -2238,13 +2321,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 8.0,
-      "specificity": 8.0,
-      "signal_to_noise": 9.0
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced and detail-rich answer covering value chain positioning and services, but it cuts off mid-sentence and never addresses the requested end-markets served, leaving the question partially unanswered."
     },
     "linkup_total": 8.2,
-    "parallel_total": 8.6
+    "parallel_total": 7.8
   },
   {
     "id": "q112",
@@ -2261,10 +2345,11 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-structured answer covering value chain position, products/services with concrete facts (founders, funding, Stanford partnership, 12-week program), but it is truncated mid-sentence and fails to complete the end-markets section explicitly requested."
     },
     "linkup_total": 8.6,
-    "parallel_total": 7.2
+    "parallel_total": 7.4
   },
   {
     "id": "q113",
@@ -2278,13 +2363,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detail-rich profile of Moving Analytics (Movn) covering value-chain position, product, and customers with concrete names and partners, but the answer is cut off mid-sentence and end-markets coverage is slightly incomplete."
     },
     "linkup_total": 8.6,
-    "parallel_total": 7.6
+    "parallel_total": 8.2
   },
   {
     "id": "q114",
@@ -2297,14 +2383,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 7.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "signal_to_noise": 0,
+      "reason": "judge failed"
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.6
+    "parallel_total": 0.0
   },
   {
     "id": "q115",
@@ -2318,13 +2405,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Factually grounded and detailed on Nomadix's value-chain position (channel-only vendor) and products with concrete specifics, but the answer is truncated mid-sentence and never covers the requested end-markets section."
     },
     "linkup_total": 8.0,
-    "parallel_total": 7.0
+    "parallel_total": 7.8
   },
   {
     "id": "q116",
@@ -2338,13 +2426,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-sourced, detailed coverage of value-chain position, services, and scale with explicit disambiguation from Plexus Corp., but the answer cuts off mid-sentence on end-markets, leaving that section underdeveloped."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.2
+    "parallel_total": 8.0
   },
   {
     "id": "q117",
@@ -2357,14 +2446,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 3.0,
-      "completeness": 1.0,
-      "gtm_value": 0.0,
-      "specificity": 1.0,
-      "signal_to_noise": 2.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Correctly identifies MAP as a Munich-based insurance intermediary for Mittelstand brokers and clients with clear value-chain positioning and end-markets, though it lacks concrete details (size, product lines, financials) and includes some hedging and source-limitation caveats that dilute density."
     },
     "linkup_total": 7.6,
-    "parallel_total": 1.4
+    "parallel_total": 7.6
   },
   {
     "id": "q118",
@@ -2378,13 +2468,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-structured, fact-dense answer covering value chain position, services, and clients with concrete details (founding year, HQ, revenue estimates, Mitel partnership), but it is truncated mid-sentence in the end-markets section, leaving that requested element incomplete."
     },
     "linkup_total": 8.6,
-    "parallel_total": 7.0
+    "parallel_total": 8.0
   },
   {
     "id": "q119",
@@ -2397,14 +2488,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-structured answer covering value chain positioning, products/services, and hospitality end-market with concrete facts (acquisitions, partners, revenue, HQ), but it is truncated mid-sentence on the contact center segment and some figures (revenue, founding date, Thing5 relationship) are uncertain or loosely stated."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.2
+    "parallel_total": 8.0
   },
   {
     "id": "q120",
@@ -2417,14 +2509,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 6.0,
-      "signal_to_noise": 3.0
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-structured, fact-dense answer correctly anchored to plexustechnology.com with concrete details (founding year, location, leadership, service lines), but it is cut off mid-sentence in the end-markets section, leaving that requested element incomplete."
     },
     "linkup_total": 8.4,
-    "parallel_total": 5.0
+    "parallel_total": 7.8
   },
   {
     "id": "q121",
@@ -2441,7 +2534,8 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-sourced overview of NSI Groupe's value-chain position, founder, size (~5,000 employees, ~\u20ac100M revenue), and full service portfolio with named subsidiaries, but the answer is cut off mid-sentence and end-markets are only briefly addressed."
     },
     "linkup_total": 8.4,
     "parallel_total": 8.2
@@ -2457,14 +2551,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 5.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detailed coverage of value chain position and services with concrete facts (history, ownership, treatment offerings), but the answer is cut off mid-sentence in the end-markets section, leaving that part of the question incompletely addressed."
     },
     "linkup_total": 7.4,
-    "parallel_total": 5.8
+    "parallel_total": 7.6
   },
   {
     "id": "q123",
@@ -2477,14 +2572,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Correctly identifies MAP as an insurance intermediary with well-structured coverage of value chain position, services, and end-markets (mid-market commercial and affluent private clients), though detail is limited by a thin source and the answer carries some hedging/disclaimer padding."
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.6
+    "parallel_total": 7.6
   },
   {
     "id": "q124",
@@ -2497,14 +2593,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 3.0,
-      "completeness": 1.0,
-      "gtm_value": 1.0,
-      "specificity": 2.0,
-      "signal_to_noise": 2.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-structured answer with strong specifics (founding year, Cox acquisition, DG2 platform, employee/revenue ranges) covering value chain and products, but it is cut off mid-sentence before fully detailing end-markets and includes some hedged revenue figures."
     },
     "linkup_total": 8.2,
-    "parallel_total": 1.8
+    "parallel_total": 8.2
   },
   {
     "id": "q125",
@@ -2518,13 +2615,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 5.0,
+      "completeness": 6.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly disambiguates the zbr.global entity from Zebra Technologies and provides concrete details (legal name, company number, HQ, services), but it is cut off mid-sentence so the end-markets section is incomplete, and the lengthy meta-clarification adds some overhead."
     },
     "linkup_total": 6.6,
-    "parallel_total": 7.0
+    "parallel_total": 6.8
   },
   {
     "id": "q126",
@@ -2537,14 +2635,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, detail-rich profile of Checkpoint Surgical with concrete figures (funding, revenue range, products, sales model) covering value chain position and products, but the answer is truncated mid-sentence and end-markets/clinical specialties are only partially addressed."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.4
+    "parallel_total": 8.2
   },
   {
     "id": "q127",
@@ -2558,13 +2657,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, well-sourced description of Eurona's value-chain position (rural satellite/wireless ISP), concrete product details (Serenae plans with prices and speeds, hotspot/tourism offerings), and clear end-market segmentation, with minimal filler."
     },
     "linkup_total": 8.4,
-    "parallel_total": 7.4
+    "parallel_total": 8.8
   },
   {
     "id": "q128",
@@ -2577,14 +2677,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate and highly specific coverage of Microsense's value chain position and product portfolio (acquisition details, Mi-Fi product line, ISP licensing), but the answer is truncated mid-sentence and never delivers the requested end-markets section, and the formatting deviates from the requested paragraph style."
     },
     "linkup_total": 8.6,
-    "parallel_total": 6.8
+    "parallel_total": 8.0
   },
   {
     "id": "q129",
@@ -2597,11 +2698,12 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 6.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies Mews (mews.com) and provides rich, specific detail on positioning and products (PMS, payments, BI, acquisitions) with concrete metrics, but the answer is truncated mid-sentence, omits the requested end-markets coverage, and contains a likely date error ('April 2026' for Mews BI launch)."
     },
     "linkup_total": 8.2,
     "parallel_total": 7.6
@@ -2617,14 +2719,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies Mitsui & Co. Global Investment from the website and delivers a fact-dense, well-structured answer covering value chain position, services, and end-markets with concrete portfolio examples and metrics, though the final sentence is truncated mid-word."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.0
+    "parallel_total": 8.4
   },
   {
     "id": "q131",
@@ -2641,7 +2744,8 @@
       "completeness": 6.0,
       "gtm_value": 7.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurate and detail-rich on value chain positioning and funding with concrete figures and names, but the answer is truncated mid-sentence and never covers the requested end-markets served, leaving the question partially unanswered."
     },
     "linkup_total": 7.2,
     "parallel_total": 7.8
@@ -2658,13 +2762,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 8.0,
+      "completeness": 9.0,
       "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer correctly identifies Time BioVentures as an early-stage life sciences VC, clearly covers value-chain position, services, and end-markets with concrete details (founding year, five investment sectors, specific deals like Phantom Neuro $6M and BillionToOne $125M), in the requested paragraph format with minimal filler."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.4
+    "parallel_total": 8.6
   },
   {
     "id": "q133",
@@ -2677,14 +2782,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced description of Arlettie's sample-sale intermediary model with strong concrete details (legal entity, RCS number, member counts, service lines), but the end-markets dimension is only partially addressed (no geographic footprint or customer segmentation) and the answer appears to end before fully covering it."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.4
+    "parallel_total": 8.2
   },
   {
     "id": "q134",
@@ -2697,14 +2803,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, fact-dense answer correctly covering Flender's value-chain position, brands, ownership, and scale with concrete figures, but it cuts off mid-sentence before fully covering the product/services portfolio and end-markets served."
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.2
+    "parallel_total": 8.0
   },
   {
     "id": "q135",
@@ -2717,14 +2824,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly disambiguates Metaformers, Inc. and provides concrete details (Reston VA HQ, founded 2000, CEO Edward Bouryng, Oracle partnership, value-chain positioning), but it is truncated mid-sentence, leaving the products/services list unfinished and the requested end-markets section entirely missing, with a minor internal inconsistency on employee count (11\u201350 vs ~64)."
     },
     "linkup_total": 7.8,
-    "parallel_total": 8.4
+    "parallel_total": 6.6
   },
   {
     "id": "q136",
@@ -2737,14 +2845,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
+      "accuracy": 9.0,
+      "completeness": 8.0,
       "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "Correctly disambiguates META as a Metz-based French music/booking association and covers value chain positioning, services, and end-markets, but ignores the requested paragraph format, includes source-citation meta-commentary and a truncated trailing note, and lacks concrete details like founding date, roster size, or named artists."
     },
     "linkup_total": 7.2,
-    "parallel_total": 7.6
+    "parallel_total": 7.2
   },
   {
     "id": "q137",
@@ -2757,14 +2866,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Factually accurate and detailed (founding year, HQ, OneView platform, partnerships) with clear value-chain positioning and product specifics, but the answer is truncated mid-sentence and omits the requested end-markets section, leaving the question only partially addressed."
     },
     "linkup_total": 8.4,
-    "parallel_total": 6.0
+    "parallel_total": 7.8
   },
   {
     "id": "q138",
@@ -2780,11 +2890,12 @@
       "accuracy": 9.0,
       "completeness": 7.0,
       "gtm_value": 8.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Well-grounded, citation-backed analysis of all 4 indicators with concrete details (CTA text, phone, email), but the answer is truncated mid-sentence and never explicitly states the final SLG classification, though it is clearly implied by the four 'NO' findings."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.0
+    "parallel_total": 8.4
   },
   {
     "id": "q139",
@@ -2797,14 +2908,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides rich, concrete detail on NDI's value chain positioning (managed services/integrator, KPN Excellence Partner) and service portfolio with specific addresses, headcounts, and offerings, but it is cut off mid-sentence and never addresses the end-markets served as the question required, with some hedging on conflicting figures."
     },
     "linkup_total": 8.0,
-    "parallel_total": 8.2
+    "parallel_total": 7.4
   },
   {
     "id": "q140",
@@ -2817,14 +2929,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 7.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides well-sourced, nuanced analysis distinguishing BigID's sales-led enterprise platform from its self-serve CMP Express product, but it is truncated mid-indicator-4 and never delivers the required final PLG/SLG/Hybrid classification, leaving the core question unanswered."
     },
     "linkup_total": 9.0,
-    "parallel_total": 5.4
+    "parallel_total": 6.4
   },
   {
     "id": "q141",
@@ -2837,14 +2950,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 1.0,
-      "gtm_value": 1.0,
-      "specificity": 3.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, detail-rich profile of Howden's value-chain position (intermediary/MGA), segments (retail, specialty, wholesale, DUAL, Howden Re, capital markets) with concrete figures, though the answer is truncated mid-sentence and end-market coverage is somewhat lighter than the products/positioning sections."
     },
     "linkup_total": 8.2,
-    "parallel_total": 2.4
+    "parallel_total": 8.4
   },
   {
     "id": "q142",
@@ -2857,14 +2971,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 10.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, evidence-cited assessment of all 4 indicators with concrete pricing tiers and signup details leading to a correct PLG classification; only flaw is the answer cuts off mid-sentence in the supporting notes."
     },
     "linkup_total": 8.2,
-    "parallel_total": 7.0
+    "parallel_total": 9.2
   },
   {
     "id": "q143",
@@ -2877,14 +2992,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 6.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Thorough, well-sourced assessment of all 4 indicators with concrete pricing tiers, signup URLs, and free plan details, though the answer cuts off mid-sentence before explicitly stating the final PLG classification (which is clearly implied as 4/4 = PLG)."
     },
     "linkup_total": 8.4,
-    "parallel_total": 6.2
+    "parallel_total": 8.8
   },
   {
     "id": "q144",
@@ -2901,10 +3017,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "Thorough, well-evidenced analysis of all 4 indicators with correct entity disambiguation (Windward Maritime AI vs. Windward Studios) and cited sources, but the answer is truncated mid-table and never explicitly states the final SLG classification, though it is clearly implied by four 'No' results."
     },
     "linkup_total": 8.6,
-    "parallel_total": 8.2
+    "parallel_total": 8.4
   },
   {
     "id": "q145",
@@ -2917,14 +3034,15 @@
       "signal_to_noise": 4.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "Well-evidenced analysis of all 4 indicators with specific source citations (Deal Desk role, Order Forms, 72-hour onboarding) clearly pointing to SLG, though the answer is truncated before explicitly stating the final classification."
     },
     "linkup_total": 5.2,
-    "parallel_total": 5.0
+    "parallel_total": 8.4
   },
   {
     "id": "q146",
@@ -2937,14 +3055,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "Thorough, well-evidenced indicator-by-indicator analysis with concrete CTA and navigation details pointing to SLG, but the answer is truncated before stating the final classification explicitly."
     },
     "linkup_total": 6.6,
-    "parallel_total": 7.4
+    "parallel_total": 8.2
   },
   {
     "id": "q147",
@@ -2958,13 +3077,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Well-grounded, source-cited analysis correctly showing all 4 indicators are NO for this contracted school-transportation service, but the answer cuts off mid-sentence and never explicitly states the final SLG classification."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.4
+    "parallel_total": 8.4
   },
   {
     "id": "q148",
@@ -2977,14 +3097,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 6.0,
       "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded, source-cited analysis of all 4 indicators with concrete pricing details, but the answer is truncated before delivering the final PLG/SLG/Hybrid classification the question explicitly required."
     },
     "linkup_total": 8.8,
-    "parallel_total": 7.8
+    "parallel_total": 7.4
   },
   {
     "id": "q149",
@@ -2998,13 +3119,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "Accurately evaluates all 4 indicators with concrete website evidence (CTAs, demo-only access, no pricing page, enterprise customers) correctly pointing to a Sales-Led classification, though the answer is cut off before stating the final SLG verdict explicitly."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.2
+    "parallel_total": 8.8
   },
   {
     "id": "q150",
@@ -3018,13 +3140,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies the right company (flagging confusable Fathom entities) and gives well-evidenced assessments for indicators 1-3 with concrete details, but it is truncated before evaluating indicator 4 and never delivers the final PLG/SLG/Hybrid classification the question demands."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.2
+    "parallel_total": 7.0
   },
   {
     "id": "q151",
@@ -3038,13 +3161,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
-      "gtm_value": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
       "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 9.0,
+      "reason": "Thorough, evidence-backed evaluation of all 4 indicators with concrete CTAs and product details clearly pointing to Sales-Led (0/4), though the final classification statement is truncated and left implicit."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.4
+    "parallel_total": 8.8
   },
   {
     "id": "q152",
@@ -3057,14 +3181,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, evidence-rich evaluation of all 4 indicators with concrete pricing tiers and sources, but the answer cuts off mid-sentence and never explicitly states the final PLG classification."
     },
     "linkup_total": 8.8,
-    "parallel_total": 5.2
+    "parallel_total": 8.4
   },
   {
     "id": "q153",
@@ -3081,10 +3206,11 @@
       "completeness": 7.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "All four indicators are accurately and thoroughly evaluated with specific source-grounded evidence (CloudZero is indeed demo/quote-driven), but the answer cuts off before explicitly stating the final SLG classification, leaving the conclusion implied rather than stated."
     },
     "linkup_total": 8.8,
-    "parallel_total": 8.2
+    "parallel_total": 8.4
   },
   {
     "id": "q154",
@@ -3097,14 +3223,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, well-sourced indicator-by-indicator analysis with concrete pricing figures and tiers correctly pointing to a PLG classification, though the answer is truncated mid-sentence before explicitly stating the final verdict."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.6
+    "parallel_total": 8.8
   },
   {
     "id": "q155",
@@ -3117,11 +3244,12 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
+      "accuracy": 6.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 6.0,
-      "signal_to_noise": 6.0
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides well-sourced, specific analysis with concrete pricing (USD 270/mo Grow, USD 115/mo Startup) but is truncated mid-indicator-4 and never delivers the required final PLG/SLG/Hybrid classification, and may understate Qiscus's actual self-serve free trial availability."
     },
     "linkup_total": 6.8,
     "parallel_total": 5.6
@@ -3137,14 +3265,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 5.0,
-      "completeness": 3.0,
-      "gtm_value": 3.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The analysis is well-grounded with concrete evidence (e.g., $1.2/QPU pricing, 'Book Demo' CTAs, JFrog acquisition context), but it is truncated mid-indicator 3, never evaluates indicator 4, and crucially never delivers the final PLG/SLG/Hybrid classification the question requires."
     },
     "linkup_total": 8.4,
-    "parallel_total": 4.4
+    "parallel_total": 6.4
   },
   {
     "id": "q157",
@@ -3157,14 +3286,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 9.0,
-      "signal_to_noise": 9.0
+      "accuracy": 3.0,
+      "completeness": 5.0,
+      "gtm_value": 4.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer evaluates the wrong entity\u2014idsoftware.com belongs to the game developer id Software, but the analysis substitutes idsoftware.us (a biometrics vendor)\u2014and despite detailed, well-cited indicator evidence, it cuts off before stating the final classification (implied SLG)."
     },
     "linkup_total": 8.0,
-    "parallel_total": 9.0
+    "parallel_total": 5.4
   },
   {
     "id": "q158",
@@ -3177,14 +3307,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer correctly identifies Crest Infotech as a web development services agency and reasonably infers absence of PLG indicators, but it admits inability to access the actual website pages, relies on 'no evidence found' for each indicator, and is cut off mid-sentence without ever delivering the explicit SLG classification the question requires."
     },
     "linkup_total": 9.0,
-    "parallel_total": 8.0
+    "parallel_total": 5.2
   },
   {
     "id": "q159",
@@ -3197,14 +3328,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Systematically evaluates all four PLG indicators with grounded source citations and quotes, correctly identifying iBrain as an IT services/staffing firm and classifying it as Sales-Led, with only a minor truncation at the end."
     },
     "linkup_total": 8.4,
-    "parallel_total": 6.2
+    "parallel_total": 8.8
   },
   {
     "id": "q160",
@@ -3217,14 +3349,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 8.0,
-      "gtm_value": 8.0,
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 9.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-sourced, specific analysis of all four indicators (14-day trial, quote-based pricing, signup friction details), but it omits the final required classification (3 yes \u2192 PLG), leaving the core question technically unanswered."
     },
     "linkup_total": 8.2,
-    "parallel_total": 8.4
+    "parallel_total": 7.4
   },
   {
     "id": "q161",
@@ -3237,14 +3370,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced analysis correctly identifying wildworks.com as a corporate game-studio site with no PLG signals, but the answer is truncated mid-way through indicator 4 and never delivers the final PLG/SLG/Hybrid classification the question explicitly requires."
     },
     "linkup_total": 6.8,
-    "parallel_total": 7.8
+    "parallel_total": 7.2
   },
   {
     "id": "q162",
@@ -3257,14 +3391,15 @@
       "signal_to_noise": 0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 3.0,
-      "gtm_value": 3.0,
-      "specificity": 4.0,
-      "signal_to_noise": 4.0
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, well-evidenced analysis of all 4 indicators with source citations and a sharp catch on the third-party signup prompt, but the answer is truncated and never explicitly states the final SLG classification (though 0/4 indicators makes it clearly implied)."
     },
     "linkup_total": 0,
-    "parallel_total": 4.2
+    "parallel_total": 8.2
   },
   {
     "id": "q163",
@@ -3281,10 +3416,11 @@
       "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 9.0,
+      "reason": "Delivers precise, well-sourced financials (revenue \u20ac180,620, net loss, employees, registration details) and the official website while correctly disambiguating from Arca Fondi SGR, only falling short on the unavailable EBITDA figure and a truncated final sentence."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.4
+    "parallel_total": 8.6
   },
   {
     "id": "q164",
@@ -3297,14 +3433,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 5.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer relies on conflicting third-party listings rather than the actual website, is truncated mid-analysis, never assesses indicator 4, and fails to deliver the requested final PLG/SLG/Hybrid classification despite including some concrete data points."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.8
+    "parallel_total": 4.4
   },
   {
     "id": "q165",
@@ -3317,14 +3454,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded with concrete evidence (pricing quotes, phone number, store prices) for the first three indicators, but it is cut off mid-sentence on indicator 4 and never delivers the final PLG/SLG/Hybrid classification that the question explicitly requires."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.0
+    "parallel_total": 7.2
   },
   {
     "id": "q166",
@@ -3337,14 +3475,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 8.0,
-      "gtm_value": 8.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 5.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer correctly identifies the entity and provides a board member with postal code and founding date, but fails to deliver any of the requested financial metrics (revenue, fonds propres, EBITDA, employees) or a reporting year, and trails off mid-sentence."
     },
     "linkup_total": 8.0,
-    "parallel_total": 8.2
+    "parallel_total": 4.6
   },
   {
     "id": "q167",
@@ -3357,14 +3496,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "accuracy": 6.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Highly specific, well-sourced revenue and financial data for Wrigley France SNC, but the SIREN (916-series, implying 2022 registration) conflicts with the stated 1965 creation date raising accuracy doubts, and the answer is cut off mid-sentence."
     },
     "linkup_total": 5.0,
-    "parallel_total": 6.8
+    "parallel_total": 8.0
   },
   {
     "id": "q168",
@@ -3378,13 +3518,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
+      "completeness": 5.0,
       "gtm_value": 5.0,
       "specificity": 6.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly identifies the right company, flags confusable entities, and surfaces concrete revenue estimates ($36.8M, $10-25M range), but cannot deliver the requested 2024-vs-2025 growth comparison and spends considerable space on caveats and unavailable data."
     },
     "linkup_total": 6.0,
-    "parallel_total": 5.8
+    "parallel_total": 6.0
   },
   {
     "id": "q169",
@@ -3397,14 +3538,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Strong, well-sourced pricing detail with concrete dollar figures and providers, but the answer is truncated mid-sentence and never addresses the requested revenue estimates or demand analysis, while honestly noting the French Quarter gap."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.4
+    "parallel_total": 6.6
   },
   {
     "id": "q170",
@@ -3418,13 +3560,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate and detailed on website, HQ, key markets, and description, but the answer is truncated mid-sentence and omits required fields (annual revenue/YoY, registration ID, industry bucket, sub-sector) and lacks a true ranked top-5 country list."
     },
     "linkup_total": 6.4,
-    "parallel_total": 5.6
+    "parallel_total": 6.2
   },
   {
     "id": "q171",
@@ -3437,14 +3580,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate and detail-rich on website, HQ, and description (founder, CEO, employee count, POS, countries), but the answer is truncated and never delivers revenue/YoY, registration ID, industry bucket, sub-sector, or a complete top-5 country list."
     },
     "linkup_total": 5.8,
-    "parallel_total": 6.0
+    "parallel_total": 7.0
   },
   {
     "id": "q172",
@@ -3457,14 +3601,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-cited, and detail-rich on website, HQ, markets, and brand description (Whispering Angel volumes, US ~65% of sales), but the answer is truncated and entirely omits revenue/YoY, registration ID, industry bucket, and sub-sector."
     },
     "linkup_total": 6.0,
-    "parallel_total": 5.8
+    "parallel_total": 7.2
   },
   {
     "id": "q173",
@@ -3477,14 +3622,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides concrete sourced revenue figures (\u00a319M 2020 revenue, 125 employees, ZoomInfo $18.4M) plus valuable acquisition and entity-status context, though the answer is cut off mid-sentence before covering Algeco UK's separate figures."
     },
     "linkup_total": 6.2,
-    "parallel_total": 5.4
+    "parallel_total": 8.4
   },
   {
     "id": "q174",
@@ -3497,14 +3643,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "What's present (website, HQ, founding, products, certifications) is accurate, well-sourced, and specific, but the answer cuts off mid-sentence and never delivers top 5 countries of operation, revenue/YoY growth, registration ID, industry bucket, or sub-sector \u2014 roughly half the requested fields."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.0
+    "parallel_total": 6.6
   },
   {
     "id": "q175",
@@ -3517,14 +3664,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced brand facts (HQ, website, ownership, industry) with good detail, but it omits top 5 countries of operation and brand-level revenue/YoY, and the answer is truncated mid-sentence at the registration ID."
     },
     "linkup_total": 5.2,
-    "parallel_total": 5.0
+    "parallel_total": 7.0
   },
   {
     "id": "q176",
@@ -3538,13 +3686,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate and well-sourced on website, HQ, history, and LVMH ownership with good detail, but the answer is truncated mid-sentence and omits revenue/YoY growth, registration ID, industry bucket, and sub-sector, and admits no definitive top-5 country list."
     },
     "linkup_total": 7.0,
-    "parallel_total": 7.0
+    "parallel_total": 6.6
   },
   {
     "id": "q177",
@@ -3557,14 +3706,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced detail on website, HQ, and brand background with honest caveats, but the answer is incomplete\u2014missing revenue/YoY, registration ID, industry bucket, and sub-sector (appears truncated), and cannot provide a true top-5 country breakdown."
     },
     "linkup_total": 6.6,
-    "parallel_total": 5.6
+    "parallel_total": 7.0
   },
   {
     "id": "q178",
@@ -3578,13 +3728,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate and well-sourced details on website, HQ, and brand background, but the answer is truncated mid-description and never delivers revenue/YoY, registration ID, industry bucket, or sub-sector, and lacks a true top-5 country list."
     },
     "linkup_total": 5.2,
-    "parallel_total": 5.8
+    "parallel_total": 6.4
   },
   {
     "id": "q179",
@@ -3601,7 +3752,8 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced details on website, HQ, founding, and products, but the answer is truncated and never delivers revenue, registration ID, industry bucket, or sub-sector, and the top-5 countries are only inferred from site selectors."
     },
     "linkup_total": 6.8,
     "parallel_total": 6.4
@@ -3618,10 +3770,11 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 4.0,
+      "completeness": 5.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced detail on website, HQ, history, and LVMH ownership, but the answer is truncated and omits several requested fields (top 5 countries, revenue/YoY, registration ID, industry bucket, sub-sector)."
     },
     "linkup_total": 6.2,
     "parallel_total": 6.8
@@ -3638,13 +3791,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer is factually solid with good entity disambiguation and a precise HQ address, but it cuts off mid-sentence and omits most requested fields (description, revenue, registration ID, industry bucket, sub-sector) and admits the top-5 countries aren't available."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.0
+    "parallel_total": 5.2
   },
   {
     "id": "q182",
@@ -3657,14 +3811,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced detail on website, HQ, and brand history with honest handling of unavailable geographic data, but the answer cuts off mid-sentence and never addresses revenue, registration ID, industry bucket, or sub-sector, leaving roughly half the question unanswered."
     },
     "linkup_total": 5.4,
-    "parallel_total": 6.4
+    "parallel_total": 6.6
   },
   {
     "id": "q183",
@@ -3677,14 +3832,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 6.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
+      "gtm_value": 6.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced details on the correct company (website, St. Helena HQ, founding, flagship wines) but the answer is truncated mid-sentence and omits revenue, top 5 countries, industry bucket, and sub-sector, leaving roughly half the requested fields unanswered."
     },
     "linkup_total": 8.6,
-    "parallel_total": 5.6
+    "parallel_total": 6.6
   },
   {
     "id": "q184",
@@ -3697,14 +3853,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 9.0,
-      "gtm_value": 9.0,
-      "specificity": 8.0,
-      "signal_to_noise": 9.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The confirmed facts (Reims HQ, 1843 founding, LVMH/Mo\u00ebt Hennessy ownership since 1999, Champagne sub-sector) are accurate and well-cited, but the answer is truncated and fails to deliver revenue, registration ID, and top countries of operation\u2014key fields the question explicitly requested."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.8
+    "parallel_total": 5.8
   },
   {
     "id": "q185",
@@ -3721,10 +3878,11 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-cited details on website, HQ, description, and industry classification, but the answer is truncated mid-sentence and entirely omits top 5 countries of operation, revenue/YoY growth, and only partially addresses registration ID."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.0
+    "parallel_total": 6.2
   },
   {
     "id": "q186",
@@ -3738,13 +3896,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced detail on website, HQ, geography, and history, but the answer is truncated and never delivers revenue/YoY growth, registration ID, industry bucket, or sub-sector, and the country list is hedged rather than definitive."
     },
     "linkup_total": 6.0,
-    "parallel_total": 6.4
+    "parallel_total": 7.0
   },
   {
     "id": "q187",
@@ -3757,14 +3916,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 7.0,
+      "accuracy": 9.0,
+      "completeness": 5.0,
       "gtm_value": 6.0,
-      "specificity": 9.0,
-      "signal_to_noise": 7.0
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Factually accurate and rich detail on website, HQ, markets, and description, but the answer is truncated mid-sentence and never delivers revenue, registration ID, industry bucket, or sub-sector as requested."
     },
     "linkup_total": 4.6,
-    "parallel_total": 7.4
+    "parallel_total": 7.2
   },
   {
     "id": "q188",
@@ -3777,14 +3937,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides accurate, well-sourced detail on sector, sites, headcount, and capital for Hill Rom SARL (correctly distinguishing the holding from HILL-ROM SAS), but it is truncated mid-sentence and entirely omits the requested strategic plan and business challenges sections, leaving the question only partially answered."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.6
+    "parallel_total": 6.4
   },
   {
     "id": "q189",
@@ -3798,13 +3959,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 10.0,
-      "gtm_value": 8.0,
-      "specificity": 10.0,
-      "signal_to_noise": 9.0
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Accurate and well-sourced details on website, HQ, and country footprint, but the answer is truncated mid-sentence and omits revenue/YoY growth, registration ID, industry bucket, and sub-sector, leaving major parts of the question unanswered."
     },
     "linkup_total": 9.0,
-    "parallel_total": 9.2
+    "parallel_total": 6.6
   },
   {
     "id": "q190",
@@ -3819,12 +3981,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced detail on the correct Mercier champagne brand (website, HQ, founding, vineyard size, market position), but the answer is truncated and omits revenue, registration ID, industry bucket, and sub-sector, leaving several requested fields unanswered."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.4
+    "parallel_total": 7.0
   },
   {
     "id": "q191",
@@ -3838,13 +4001,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
-      "specificity": 9.0,
-      "signal_to_noise": 7.0
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides accurate, sourced details on sector, location, headcount (230), and revenue (~$80.96M), but is truncated mid-sentence and entirely omits two required fields (plan strat\u00e9gique actuel and principaux enjeux), which are the most strategically valuable for GTM."
     },
     "linkup_total": 6.4,
-    "parallel_total": 7.0
+    "parallel_total": 6.2
   },
   {
     "id": "q192",
@@ -3857,11 +4021,12 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 5.0,
+      "accuracy": 8.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 6.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The core ask (revenue/EBITDA from Jahresabschluss) is unanswered, but the response compensates with accurate, well-sourced registration details, growth rate (259%), enterprise value, and funding figures, though it cuts off mid-sentence."
     },
     "linkup_total": 6.4,
     "parallel_total": 6.4
@@ -3878,13 +4043,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
+      "completeness": 8.0,
       "gtm_value": 8.0,
       "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Delivers a concrete revenue figure (\u20ac1.8M 2025, tripled YoY) from Neuraspace's own press release plus funding, headcount, and investment details with clear sourcing, transparently noting EBITDA is unavailable rather than fabricating it."
     },
     "linkup_total": 8.4,
-    "parallel_total": 8.2
+    "parallel_total": 8.4
   },
   {
     "id": "q194",
@@ -3897,14 +4063,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 5.0,
       "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Website, HQ, and description are accurate and richly detailed (founding date, founders, signature wines, estate size), but the answer entirely omits the requested revenue, registration ID, industry bucket, and sub-sector fields and only partially addresses countries of operation."
     },
     "linkup_total": 5.6,
-    "parallel_total": 6.4
+    "parallel_total": 7.2
   },
   {
     "id": "q195",
@@ -3917,14 +4084,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 4.0,
+      "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "Accurate, well-sourced brand/parent details with good specifics (founding year, Hamburg HQ, market leadership), but the answer is truncated mid-sentence and omits revenue, registration ID, industry bucket, and sub-sector, while only partially addressing the top-5 countries."
     },
     "linkup_total": 6.6,
-    "parallel_total": 5.8
+    "parallel_total": 6.4
   },
   {
     "id": "q196",
@@ -3937,14 +4105,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 10.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "signal_to_noise": 9.0,
+      "reason": "Accurate, precise figures (revenue $69.8M, net income $23.8M, EPS $2.48) with YoY comparisons, source reconciliation, and useful context like the tax benefit and segment mix, only slightly truncated at the end."
     },
     "linkup_total": 7.0,
-    "parallel_total": 6.0
+    "parallel_total": 9.2
   },
   {
     "id": "q197",
@@ -3961,10 +4130,11 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "The provided details (website, Hamburg HQ, segments, brands, founding date) are accurate and well-sourced, but the answer is truncated mid-sentence and entirely omits revenue/YoY growth, registration ID, industry bucket, and sub-sector, while admitting it cannot rank top 5 countries."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.2
+    "parallel_total": 6.4
   },
   {
     "id": "q198",
@@ -3978,13 +4148,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 4.0,
+      "completeness": 6.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "Provides a well-sourced 2024 revenue figure (~$636M) and useful historical ad-revenue mix (~80%), but lacks 2024 advertising breakdown and is cut off mid-sentence before addressing the Internet Brands relationship."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.6
+    "parallel_total": 7.0
   },
   {
     "id": "q199",
@@ -3997,14 +4168,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
+      "accuracy": 9.0,
       "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "What's present is accurate and well-sourced (correct brand/parent distinction, Hamburg HQ, country highlights), but the answer is truncated and missing description, revenue/YoY, registration ID, industry bucket, and sub-sector\u2014roughly half the requested fields."
     },
     "linkup_total": 7.2,
-    "parallel_total": 5.0
+    "parallel_total": 6.2
   },
   {
     "id": "q200",
@@ -4017,14 +4189,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 6.0,
+      "reason": "The answer offers credible, concrete figures (9 GW Microsoft/Amazon EU procurement, 40 GW Microsoft contracted, $3.2B Sweden investment, 10-15 year PPA terms) but admits it cannot provide the requested TWh contract value or supplier revenue figure, is truncated mid-section, and substitutes adjacent GW data for the specific contract economics asked about."
     },
     "linkup_total": 5.2,
-    "parallel_total": 5.8
+    "parallel_total": 6.4
   },
   {
     "id": "q201",
@@ -4037,14 +4210,15 @@
       "signal_to_noise": 4.0
     },
     "parallel": {
-      "accuracy": 5.0,
-      "completeness": 4.0,
-      "gtm_value": 4.0,
-      "specificity": 6.0,
-      "signal_to_noise": 5.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded and specific on company identity, product, and partnerships, but the answer is truncated and omits notable customers, competitive position, awards, and funding details explicitly requested."
     },
     "linkup_total": 5.0,
-    "parallel_total": 4.8
+    "parallel_total": 7.2
   },
   {
     "id": "q202",
@@ -4058,13 +4232,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 7.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies TADA Cognitive Solutions with strong, sourced specifics (HQ address, founding year, Digital Duplicate\u2122 product) and even flags a same-name entity trap, but it is truncated mid-sentence and entirely omits the requested customers, competitive position, awards, and funding sections."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.6
+    "parallel_total": 7.0
   },
   {
     "id": "q203",
@@ -4077,14 +4252,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies LionGate AG with strong disambiguation, concrete products, and recent news, but the answer truncates mid-citation and never addresses notable customers, competitive position, awards, or funding as asked."
     },
     "linkup_total": 6.0,
-    "parallel_total": 5.6
+    "parallel_total": 7.2
   },
   {
     "id": "q204",
@@ -4097,14 +4273,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 6.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Gateway AI (disambiguating similarly-named firms) with specific product and founder details, but is truncated mid-answer and entirely omits recent news, customers, competitive position, awards, and funding."
     },
     "linkup_total": 7.4,
-    "parallel_total": 5.6
+    "parallel_total": 6.2
   },
   {
     "id": "q205",
@@ -4117,14 +4294,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 5.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer honestly and methodically rules out each source by date, but ultimately fails to deliver any PLG launch/announcement matching the query, leaving the sales team with no actionable information."
     },
     "linkup_total": 7.2,
-    "parallel_total": 6.6
+    "parallel_total": 4.0
   },
   {
     "id": "q206",
@@ -4138,13 +4316,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 6.0,
-      "gtm_value": 7.0,
-      "specificity": 9.0,
-      "signal_to_noise": 8.0
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies Intuition Robotics with strong specifics (founders, CEO, HQ, employee counts, ElliQ product), but the answer is truncated mid-sentence and never covers recent news, customers, competitive position, awards, or funding \u2014 most of what was asked."
     },
     "linkup_total": 6.8,
-    "parallel_total": 7.8
+    "parallel_total": 6.8
   },
   {
     "id": "q207",
@@ -4158,13 +4337,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer is accurate and detail-rich about Lessen's identity, founding, and products, but it is cut off mid-answer and never addresses recent news, customers, competitive position, awards, or funding as asked."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.2
+    "parallel_total": 7.0
   },
   {
     "id": "q208",
@@ -4179,12 +4359,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies Riskified with strong specifics (ticker RSKD, founders, products, IPO date), but is cut off mid-sentence and omits the requested customers, competitive position, awards, and funding details."
     },
     "linkup_total": 6.6,
-    "parallel_total": 7.0
+    "parallel_total": 6.6
   },
   {
     "id": "q209",
@@ -4197,14 +4378,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 3.0,
-      "gtm_value": 3.0,
-      "specificity": 5.0,
-      "signal_to_noise": 4.0
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 2.0,
+      "reason": "The answer correctly flags that no sources match the queried domain 'apexnexus.ai' but then cuts off before delivering any actual synthesis, leaving only scraped boilerplate, a sign-up CTA, and conflicting fragments about two different 'Apex AI' entities with no usable GTM intelligence."
     },
     "linkup_total": 5.2,
-    "parallel_total": 4.2
+    "parallel_total": 2.6
   },
   {
     "id": "q210",
@@ -4220,11 +4402,12 @@
       "accuracy": 9.0,
       "completeness": 4.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-sourced and rich in concrete details (legal entity, HQ, founder, product capabilities), but it cuts off mid-way and never addresses recent news, customers, competitive position, awards, or funding \u2014 over half of what was asked."
     },
     "linkup_total": 7.4,
-    "parallel_total": 6.8
+    "parallel_total": 7.2
   },
   {
     "id": "q211",
@@ -4237,14 +4420,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
+      "accuracy": 9.0,
+      "completeness": 6.0,
       "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies poli.ufrj.br as UFRJ's Polytechnic School (not a company) with concrete details like address, programs, and recent news, but the answer is truncated mid-sentence and never addresses competitive position, awards, or funding analogs, limiting completeness and GTM actionability beyond disqualifying the entity as a commercial prospect."
     },
     "linkup_total": 8.2,
-    "parallel_total": 6.2
+    "parallel_total": 7.4
   },
   {
     "id": "q212",
@@ -4257,14 +4441,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 5.0,
-      "signal_to_noise": 5.0
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides well-sourced, specific company identity and product details with helpful entity disambiguation, but it is truncated mid-sentence and entirely omits recent news, notable customers, competitive position, and awards, while showing some internal inconsistency (trade-in widget vs. wholesale auction marketplace)."
     },
     "linkup_total": 7.6,
-    "parallel_total": 5.0
+    "parallel_total": 6.2
   },
   {
     "id": "q213",
@@ -4278,13 +4463,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-sourced and highly specific on company identity (company number, incorporation date, HQ, contacts) and product offerings, but it truncates before addressing recent news, notable customers, competitive position, awards, and funding \u2014 over half the question."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.2
+    "parallel_total": 7.0
   },
   {
     "id": "q214",
@@ -4297,14 +4483,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 5.0,
-      "gtm_value": 6.0,
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies shopware AG with strong specifics (founders, HQ, license, release version) and usefully disambiguates from Shop-Ware Inc., but the answer is truncated and entirely omits the requested customers, competitive position, awards, and funding sections."
     },
     "linkup_total": 7.0,
-    "parallel_total": 6.6
+    "parallel_total": 6.8
   },
   {
     "id": "q215",
@@ -4319,12 +4506,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "gtm_value": 4.0,
+      "specificity": 4.0,
+      "signal_to_noise": 5.0,
+      "reason": "Correctly identifies Shapiro Negotiations (SNI) and its negotiation/sales training offering while properly disambiguating similar-named companies, but fails to provide news, customers, competitive position, awards, or funding, leaving most of the question unanswered with substantial 'not available' filler."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.0
+    "parallel_total": 5.2
   },
   {
     "id": "q216",
@@ -4337,14 +4525,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer accurately identifies Brainforge as an Austin-based data analytics consultancy with strong sourcing, founder details, and useful disambiguation, but it is truncated and never addresses recent news, customers, competitive position, awards, or funding that the question explicitly requested."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.6
+    "parallel_total": 7.0
   },
   {
     "id": "q217",
@@ -4359,12 +4548,13 @@
     "parallel": {
       "accuracy": 8.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Thaloz (Cassiel S.A.S) with strong sourced detail on identity, founders, and service lines, but it is truncated and entirely omits recent news, customers, competitive position, awards, and funding \u2014 most of what was asked."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.0
+    "parallel_total": 6.6
   },
   {
     "id": "q218",
@@ -4377,14 +4567,15 @@
       "signal_to_noise": 6.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 2.0,
-      "gtm_value": 2.0,
-      "specificity": 3.0,
-      "signal_to_noise": 4.0
+      "accuracy": 8.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "The answer is dense, well-cited, and highly specific about the company identity, leadership, and products, but it cuts off mid-sentence and entirely omits recent news, notable customers, competitive position, awards, and funding \u2014 over half of what was asked."
     },
     "linkup_total": 6.4,
-    "parallel_total": 3.4
+    "parallel_total": 7.2
   },
   {
     "id": "q219",
@@ -4397,14 +4588,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 5.0,
-      "signal_to_noise": 5.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer accurately identifies Verified Inc. (formerly Unum ID) with specific founders, location, size, and product details, but it cuts off mid-sentence and never addresses recent news, customers, competitive position, awards, or funding \u2014 over half of what was asked."
     },
     "linkup_total": 7.4,
-    "parallel_total": 5.6
+    "parallel_total": 6.2
   },
   {
     "id": "q220",
@@ -4417,14 +4609,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 5.0,
+      "accuracy": 8.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies the company with strong, well-cited specifics (founders, location, pool metrics) and helpfully disambiguates similarly-named entities, but it is truncated mid-sentence and never addresses recent news, customers, competitive position, awards, or funding."
     },
     "linkup_total": 7.6,
-    "parallel_total": 7.0
+    "parallel_total": 6.8
   },
   {
     "id": "q221",
@@ -4437,14 +4630,15 @@
       "signal_to_noise": 4.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 3.0,
-      "gtm_value": 2.0,
-      "specificity": 5.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is accurate and detailed on company identity and product with strong specifics, but it cuts off mid-sentence and never covers recent news, notable customers, competitive position, awards, or funding\u2014roughly half the question."
     },
     "linkup_total": 4.6,
-    "parallel_total": 3.4
+    "parallel_total": 7.0
   },
   {
     "id": "q222",
@@ -4457,14 +4651,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Correctly identifies Seek Now, Inc. with rich, well-sourced detail on identity and products, but the answer is truncated and omits recent news, customers, competitive position, awards, and funding\u2014half of what was asked."
     },
     "linkup_total": 7.2,
-    "parallel_total": 6.6
+    "parallel_total": 7.0
   },
   {
     "id": "q223",
@@ -4477,14 +4672,15 @@
       "signal_to_noise": 0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 5.0,
+      "completeness": 1.0,
+      "gtm_value": 1.0,
+      "specificity": 2.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer honestly avoids conflating similarly-named companies and extracts the only available fact (the 'Industrial Intelligence Platform' tagline), but it ultimately fails to answer any part of the question\u2014no company name, product, news, customers, awards, or funding\u2014making it of almost no GTM value despite being well-organized."
     },
     "linkup_total": 0,
-    "parallel_total": 6.6
+    "parallel_total": 2.4
   },
   {
     "id": "q224",
@@ -4497,14 +4693,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 5.0,
+      "specificity": 5.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer correctly identifies The Neuron Collective and its agentic AI platform while commendably avoiding conflation with similarly-named companies, but it fails to provide most requested fields (news, customers, awards, funding, competitive position), limiting its GTM usefulness."
     },
     "linkup_total": 7.4,
-    "parallel_total": 6.8
+    "parallel_total": 5.6
   },
   {
     "id": "q225",
@@ -4517,14 +4714,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
+      "accuracy": 8.0,
+      "completeness": 3.0,
       "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Galaxy Weblinks with strong specifics (founders, HQ address, headcount, service verticals), but it is truncated mid-sentence and entirely omits recent news, notable customers, competitive position, awards, and funding\u2014more than half of what was asked."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.2
+    "parallel_total": 6.0
   },
   {
     "id": "q226",
@@ -4537,14 +4735,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 4.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "accuracy": 9.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate, well-sourced, and specific on company identity, product, and founding details, but the answer is truncated mid-sentence and omits the requested customers, competitive position, awards, and funding information."
     },
     "linkup_total": 7.0,
-    "parallel_total": 5.6
+    "parallel_total": 6.8
   },
   {
     "id": "q227",
@@ -4558,13 +4757,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 3.0,
-      "specificity": 6.0,
-      "signal_to_noise": 4.0
+      "completeness": 5.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies Amplify HR Management as a PEO with specific details (CEO, founding year, retention metrics, Inc. 5000 rank) and disambiguates similar entities, but it is truncated mid-sentence and never covers notable customers, competitive position, or funding as asked."
     },
     "linkup_total": 6.6,
-    "parallel_total": 4.8
+    "parallel_total": 7.2
   },
   {
     "id": "q228",
@@ -4581,10 +4781,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurately identifies the company with strong details (founder, location, size, products) and useful entity disambiguation, but the answer cuts off and never covers recent news, notable customers, competitive position, awards, or funding\u2014over half of what was asked."
     },
     "linkup_total": 6.4,
-    "parallel_total": 6.8
+    "parallel_total": 7.0
   },
   {
     "id": "q229",
@@ -4601,7 +4802,8 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer is well-grounded and specific about company identity, leadership, location, and main product with citations, but it is truncated mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding\u2014more than half of what was asked."
     },
     "linkup_total": 8.0,
     "parallel_total": 6.4
@@ -4617,14 +4819,15 @@
       "signal_to_noise": 9.0
     },
     "parallel": {
-      "accuracy": 7.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
+      "accuracy": 8.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "Solidly identifies Flexible Details, Lda. as a Portuguese industrial-staffing/welder recruitment firm with concrete contact details, but the answer is truncated and never addresses recent news, customers, competitive position, awards, or funding."
     },
     "linkup_total": 8.0,
-    "parallel_total": 6.2
+    "parallel_total": 6.8
   },
   {
     "id": "q231",
@@ -4640,11 +4843,12 @@
       "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 5.0,
-      "specificity": 5.0,
-      "signal_to_noise": 6.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Wiv as an Israeli FinOps automation startup with good sourced detail on identity, founding, and product, but it cuts off mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding\u2014half of what was asked."
     },
     "linkup_total": 7.4,
-    "parallel_total": 5.6
+    "parallel_total": 6.2
   },
   {
     "id": "q232",
@@ -4659,9 +4863,10 @@
     "parallel": {
       "accuracy": 8.0,
       "completeness": 4.0,
-      "gtm_value": 6.0,
+      "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded and rich in concrete details (founding year, HQ address, CEO, revenue, product name) with good entity disambiguation, but it cuts off mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding, leaving most of the multi-part question unanswered."
     },
     "linkup_total": 8.2,
     "parallel_total": 6.6
@@ -4677,14 +4882,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Well-sourced and specific on company identity, product (FlowStructAI), and recent launch news, but the answer omits competitive position, awards, and funding entirely and names no actual customers, leaving nearly half the question unanswered."
     },
     "linkup_total": 6.8,
-    "parallel_total": 6.6
+    "parallel_total": 6.4
   },
   {
     "id": "q234",
@@ -4697,14 +4903,15 @@
       "signal_to_noise": 5.0
     },
     "parallel": {
-      "accuracy": 4.0,
-      "completeness": 2.0,
-      "gtm_value": 2.0,
-      "specificity": 3.0,
-      "signal_to_noise": 3.0
+      "accuracy": 9.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies Grunt AS (Oslo) with specific products, address, and founders, but is truncated mid-sentence and omits most requested items: recent news, customers, competitive position, awards, and funding."
     },
     "linkup_total": 4.6,
-    "parallel_total": 2.8
+    "parallel_total": 6.6
   },
   {
     "id": "q235",
@@ -4717,14 +4924,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
+      "accuracy": 8.0,
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Well-sourced and highly specific on company identity, leadership, and product offerings (KVK number, founders, SOC/MDR details), but the answer is truncated and fails to address recent news, notable customers, competitive position, awards, or funding as the question required."
     },
     "linkup_total": 7.4,
-    "parallel_total": 7.0
+    "parallel_total": 6.8
   },
   {
     "id": "q236",
@@ -4737,14 +4945,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
+      "accuracy": 9.0,
+      "completeness": 5.0,
       "gtm_value": 6.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-grounded and specific on company identity, products, customers, and competitive positioning with concrete names and testimonials, but it omits recent news, awards, and funding entirely and is cut off mid-sentence."
     },
     "linkup_total": 7.6,
-    "parallel_total": 6.4
+    "parallel_total": 7.2
   },
   {
     "id": "q237",
@@ -4757,14 +4966,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 4.0,
-      "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "accuracy": 6.0,
+      "completeness": 2.0,
+      "gtm_value": 3.0,
+      "specificity": 3.0,
+      "signal_to_noise": 1.0,
+      "reason": "The answer correctly identifies Artisan AI Inc. and hints at its AI BDR product 'Ava', but it is mostly unprocessed scraped webpage footer/navigation text (plus a stray 'CookUnity'), cuts off mid-sentence, and fails to address funding, customers, awards, news, or competitive position."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.8
+    "parallel_total": 3.0
   },
   {
     "id": "q238",
@@ -4777,14 +4987,15 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 8.0,
+      "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Accurate and detailed on identity, founders, and product, but the answer cuts off mid-sentence and never covers notable customers, competitive position, awards, or funding as asked."
     },
     "linkup_total": 7.4,
-    "parallel_total": 6.2
+    "parallel_total": 7.0
   },
   {
     "id": "q239",
@@ -4797,11 +5008,12 @@
       "signal_to_noise": 8.0
     },
     "parallel": {
-      "accuracy": 9.0,
-      "completeness": 5.0,
+      "accuracy": 8.0,
+      "completeness": 4.0,
       "gtm_value": 6.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies Stems N Pots (a Dubai flower delivery boutique) with strong concrete detail (address, phone, pricing in AED, employee count) and helpfully disambiguates from Stem Inc., but it cuts off mid-section and never addresses recent news, notable customers, competitive position, awards, or funding\u2014over half of what was asked."
     },
     "linkup_total": 7.4,
     "parallel_total": 7.0
@@ -4817,14 +5029,15 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 8.0,
-      "completeness": 4.0,
-      "gtm_value": 5.0,
+      "accuracy": 9.0,
+      "completeness": 5.0,
+      "gtm_value": 7.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-grounded, correctly identifies the actual operator (10XMarcel) with concrete details on products, credentials, and locations, but cannot address several asked items (news, customers, awards, funding, competitive position), limiting completeness."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.4
+    "parallel_total": 7.4
   },
   {
     "id": "q241",
@@ -4839,12 +5052,13 @@
     "parallel": {
       "accuracy": 9.0,
       "completeness": 4.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-sourced and highly specific on the operator, founder, HQ, and product (including the Zink platform and 70+ lender network), but it cuts off mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding\u2014more than half of what was asked."
     },
     "linkup_total": 6.6,
-    "parallel_total": 6.4
+    "parallel_total": 7.2
   },
   {
     "id": "q242",
@@ -4861,7 +5075,8 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies Nutrogen and gives detailed, well-sourced product and company info, but it cuts off mid-sentence and never addresses recent news, customers, competitive position, awards, or funding as asked."
     },
     "linkup_total": 7.2,
     "parallel_total": 6.6
@@ -4878,13 +5093,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-sourced and rich in concrete details (founders, founding year, HQ, headcount) about the correct company, but it cuts off mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding \u2014 roughly half of what was asked."
     },
     "linkup_total": 7.8,
-    "parallel_total": 6.0
+    "parallel_total": 6.8
   },
   {
     "id": "q244",
@@ -4901,7 +5117,8 @@
       "completeness": 4.0,
       "gtm_value": 5.0,
       "specificity": 7.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 7.0,
+      "reason": "The answer correctly identifies DCatalog with solid founding, leadership, and product details, but it is truncated mid-sentence and entirely omits the requested recent news, notable customers, competitive position, awards, and funding."
     },
     "linkup_total": 7.0,
     "parallel_total": 6.2
@@ -4918,13 +5135,14 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 8.0,
+      "reason": "Accurately identifies SeedLegals with strong specifics (founders, address, product lines, headcount), but the answer is truncated mid-sentence and entirely omits recent news details, notable customers, competitive position, awards, and funding\u2014half of what was asked."
     },
     "linkup_total": 6.6,
-    "parallel_total": 7.4
+    "parallel_total": 7.0
   },
   {
     "id": "q246",
@@ -4938,13 +5156,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is well-sourced and specific on company identity (including a useful disambiguation from fluent.ai) and product details, but it cuts off before addressing recent news, customers, competitive position, awards, and funding\u2014roughly half of what was asked."
     },
     "linkup_total": 6.4,
-    "parallel_total": 5.8
+    "parallel_total": 6.8
   },
   {
     "id": "q247",
@@ -4958,13 +5177,14 @@
     },
     "parallel": {
       "accuracy": 8.0,
-      "completeness": 3.0,
-      "gtm_value": 5.0,
-      "specificity": 7.0,
-      "signal_to_noise": 6.0
+      "completeness": 4.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies and disambiguates Organic Media Group (SEO agency, Carlsbad CA, founder Miguel Salcido) with strong sourced detail, but it cuts off mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding."
     },
     "linkup_total": 6.6,
-    "parallel_total": 5.8
+    "parallel_total": 6.8
   },
   {
     "id": "q248",
@@ -4977,11 +5197,12 @@
       "signal_to_noise": 7.0
     },
     "parallel": {
-      "accuracy": 6.0,
-      "completeness": 4.0,
+      "accuracy": 8.0,
+      "completeness": 3.0,
       "gtm_value": 5.0,
-      "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides well-sourced, specific details on the company's identity, founders, and product with useful disambiguation, but it is cut off mid-sentence and never addresses recent news, customers, competitive position, awards, or funding\u2014the majority of what was asked."
     },
     "linkup_total": 6.8,
     "parallel_total": 6.0
@@ -5001,10 +5222,11 @@
       "completeness": 4.0,
       "gtm_value": 6.0,
       "specificity": 8.0,
-      "signal_to_noise": 7.0
+      "signal_to_noise": 8.0,
+      "reason": "The answer correctly identifies Nagaris and gives rich, specific product detail with good source discipline, but it is truncated mid-sentence and never addresses recent news, notable customers, competitive position, awards, or funding\u2014over half of what the question asked."
     },
     "linkup_total": 7.4,
-    "parallel_total": 6.8
+    "parallel_total": 7.0
   },
   {
     "id": "q250",
@@ -5018,12 +5240,13 @@
     },
     "parallel": {
       "accuracy": 9.0,
-      "completeness": 5.0,
-      "gtm_value": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
       "specificity": 8.0,
-      "signal_to_noise": 8.0
+      "signal_to_noise": 7.0,
+      "reason": "Correctly identifies Vouched with strong specifics (HQ, founders, CEO background, product capabilities, 500+ IDs/60+ countries) but is truncated mid-answer and never covers recent news, customers, competitive position, awards, or funding as asked."
     },
     "linkup_total": 6.8,
-    "parallel_total": 7.4
+    "parallel_total": 6.6
   }
 ]

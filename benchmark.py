@@ -10,7 +10,7 @@ LINKUP_KEY   = os.environ["LINKUP_API_KEY"]
 PARALLEL_KEY = os.environ["PARALLEL_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 SYNTH_MODEL = "claude-opus-4-8"
-JUDGE_MODEL = "claude-fable-5"
+JUDGE_MODEL = "claude-opus-4-8"
 
 DIMS = ["accuracy","completeness","gtm_value","specificity","signal_to_noise"]
 
@@ -47,7 +47,7 @@ async def parallel_search(client, query, sem):
                 r = await client.post("https://api.parallel.ai/v1beta/search",
                     headers={"x-api-key": PARALLEL_KEY, "Content-Type":"application/json",
                              "parallel-beta":"search-extract-2025-10-10"},
-                    json={"objective": query[:5000], "search_queries":[query], "max_results":10, "excerpts":{}}, timeout=60)
+                    json={"objective": query[:5000], "search_queries":[query], "max_results":20, "excerpts":{}}, timeout=60)
                 r.raise_for_status()
                 out=[]
                 for x in r.json().get("results", []):

@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "q002",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides specific entities, dates, and breach details useful for GTM targeting, but future-dated incidents (2026) raise plausibility/accuracy concerns and one source URL is truncated."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides specific entities, dates, figures, and source URLs for several retail breaches, but the answer is cut off mid-sentence and uses implausible future dates (2026) that raise accuracy concerns."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q006",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 7.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer confidently confirms a highly specific deal with detailed figures, but this appears to be fabricated/unverifiable as no such Brink's\u2013NCR Atleos acquisition is corroborated, and the suspiciously precise details with no working source URLs suggest hallucination."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer presents highly specific deal terms but the underlying event appears fabricated\u2014there is no verifiable record of Brink's acquiring NCR Atleos in 2026, and the answer is also truncated mid-section, omitting announcement date, rationale, status, and source URLs/dates that were explicitly requested."
+    },
+    "linkup_total": 3.8,
+    "parallel_total": 5.2
+  },
+  {
+    "id": "q004",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Provides a clear yes/no verdict with confirmed deal structure, date, rationale, and undisclosed value, though source URLs are missing despite being requested and the announced-vs-completed status is slightly ambiguous."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer confirms the acquisition and rationale with specific sourcing but the response is cut off mid-sentence, fails to confirm deal value, and the 2026 dating/details cannot be fully verified for accuracy."
+    },
+    "linkup_total": 8.6,
+    "parallel_total": 5.8
+  },
+  {
+    "id": "q008",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly refutes the signal as unverified and carefully distinguishes similarly-named entities with specific dates and sources, though the answer text appears truncated mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Correctly refutes the unconfirmed signal with clear reasoning and rules out similarly named entities, though it lacks source URLs and ends abruptly."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q001",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer confirms the deal with detailed structure, value, ownership split, carve-out, and announcement date, though source URLs are truncated and status (announced vs completed) is not explicitly stated in the visible text."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer confirms the deal with specific structure (50/50 Blackstone/EQT), value (~$6.6B/\u20ac5.6B), seller (Platinum Equity), Argentina carve-out, and Feb 12 2026 date, with appropriate status caveat; cannot independently verify but details are internally consistent and well-cited, though answer is cut off."
+    },
+    "linkup_total": 8.2,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q003",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides concrete deal values, parties, and dates with some sourcing, but the Google-Wiz status is self-contradictory, the Netflix-WBD entry appears truncated, and likely only covers a couple of deals with hedging about source recency."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides specific deal values, parties, and regulatory bodies for at least one major deal (Google/Wiz) with sources, but the answer is cut off mid-sentence, some dates appear internally inconsistent/speculative, and overall coverage of 'right now' pending deals is incomplete."
+    },
+    "linkup_total": 6.2,
+    "parallel_total": 6.2
+  },
+  {
+    "id": "q009",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides specific deals with values, dates, and source URLs, but the answer is truncated, mixes 2025/2026 without resolving 'this year,' and acknowledges inconsistency in the sources."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Names major real deals with values, dates, and source URLs, but is truncated mid-sentence and mixes 2025/2026 timeframes without verifying all figures (e.g., Wiz/Synopsys-Ansys details warrant scrutiny)."
+    },
+    "linkup_total": 6.8,
+    "parallel_total": 7.2
+  },
+  {
+    "id": "q005",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly flags the false 2026 premise and 192.7M figure, providing well-sourced 2024 specifics (190M, ALPHV/BlackCat, data types), though the answer is cut off mid-sentence and root cause detail is incomplete."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly flags the 2026 timing error while confirming the 192.7M figure with company/government sources and dates, though the answer is cut off mid-sentence and data types are incompletely addressed."
+    },
+    "linkup_total": 8.2,
+    "parallel_total": 8.2
+  },
+  {
+    "id": "q007",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides specific entities, dollar amounts, and dates with source citations giving good actionable detail, but it cuts off mid-sentence on the Anthropic/Mistral/DeepMind/Meta section leaving it incomplete, and these 2026 events cannot be independently verified."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer provides specific deal names, amounts, and dates but focuses exclusively on OpenAI acquisitions of dubious/unverifiable provenance (several appear fabricated or speculative), the response is cut off mid-sentence, and it ignores the question's request for the broader market of notable AI acquisitions."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 5.2
+  },
+  {
+    "id": "q012",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with exact title, effective date, prior roles, and succession details with cited sources, though source URLs are not actually shown and the answer is cut off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Thorough yes/no confirmation with title, dates, prior role, and predecessor, though source URLs are referenced only by number rather than full links and the answer is cut off mid-sentence."
+    },
+    "linkup_total": 8.8,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q010",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly refutes the 2026 claim with confirmed 2024 date, exact title, and prior role, though predecessor remains unconfirmed and source URLs are referenced only as numbered placeholders."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly refutes the 2026 premise with strong specifics (Dec 5 2024 announcement, Nov 2024 start, GSA prior role, awards) though source URLs are cited only as numbered references rather than full URLs and the answer is cut off mid-sentence."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q011",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Highly specific and detailed but the 2026 dates and details are unverifiable/likely fabricated, as Langer's plausible career history (HUGO BOSS CEO) doesn't reconcile with a verifiable PUMA appointment, raising serious accuracy concerns."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer is highly specific with titles, dates, and career history, but the 2026 dates are suspiciously future-dated and cannot be reliably verified, raising concerns about possible fabrication despite strong sourcing detail."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 7.6
+  },
+  {
+    "id": "q014",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer provides highly specific deal structure, value corrections, and payment terms, but lacks the requested announcement date and source URLs, and internal accuracy is hard to fully verify."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer presents highly specific figures ($80.7M, $158M EV, installment dates, April 6 2026 date) but these appear fabricated/unverifiable for a future 2026 deal, and it contradicts the question's reported $148M-as-price detail without credible grounding, raising serious accuracy concerns."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 4.4
+  },
+  {
+    "id": "q020",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer fails to verify the specific claimed detail (stockholder approval ~January 22, 2026) and instead reports a different deal structure ($45/share all-cash, ~$660M, announced Nov 6 2025), which appears fabricated or unverifiable since no source URLs or dates are actually provided despite being requested, undermining accuracy."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Comprehensive answer confirming the deal with structure, value, dates, vote details and source citations, though answer is cut off mid-section and lacks explicit URLs and full rationale/status closure."
+    },
+    "linkup_total": 5.6,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q015",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-sourced verification distinguishing HIBP-derived 2.6M figure from DentaQuest's official 3,086 filing and flagging confirmed vs alleged, though the answer is cut off before fully completing disclosure date and verdict synthesis."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer treats a likely-fabricated future-dated 2026 breach as confirmed with detailed sourcing, which strongly suggests hallucinated/unverifiable content rather than grounded fact."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 2.8
+  },
+  {
+    "id": "q021",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "Identifies two plausible telecom breaches (Telus, Charter) with some specific detail, but the answer is truncated, heavily hedged on dates, and falls far short of the requested broad round-up."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides specific breach details with dates and sources for a few telecom companies but is truncated mid-entry, limiting the breadth the open-ended question demanded, and date-window reliability is uncertain."
+    },
+    "linkup_total": 5.2,
+    "parallel_total": 6.2
+  },
+  {
+    "id": "q016",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the appointment with title, multiple dated sources, prior roles, and notes a date discrepancy, though it lacks explicit source URLs and any predecessor info (succession) is not clearly addressed."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 0.0,
+      "reason": "Clearly answers yes with confirmed title, announcement date, prior role, and correctly notes no named predecessor, though it lacks actual source URLs and the answer is cut off mid-sentence."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q017",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 6.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is detailed and well-structured, but it asserts a 2026 Telus breach by ShinyHunters with specific dates and figures that are highly likely fabricated/hallucinated, undermining accuracy on a verification task where grounding is paramount."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides specific sourcing, dates, and a clear confirmed-vs-alleged breakdown, but the underlying claims about a 2026 Telus/ShinyHunters breach are unverifiable and likely fabricated, raising serious accuracy concerns, and it cuts off mid-sentence without fully addressing number affected, root cause, or disclosure date."
+    },
+    "linkup_total": 5.6,
+    "parallel_total": 6.4
+  },
+  {
+    "id": "q024",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Highly specific with title, dates, prior roles, and succession context, but unverifiable future-dated 2026 details and truncated ending introduce some accuracy uncertainty."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with exact title, dual-dated announcement, detailed prior roles, and appropriately notes no predecessor based on cited sources, though it references source numbers rather than actual URLs as requested."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q013",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Strongly grounded answer that corrects the year (2025 not 2026), distinguishes the 23M multi-company total from the ~7.3M airline-specific figure with confirmation status and dates, though it is cut off mid-sentence and lacks the full source URLs requested."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "The answer flags the year error and provides detailed, well-sourced specifics on records, data types, and root cause, though it cuts off mid-sentence before fully confirming disclosure date and company-confirmed status with URLs."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q018",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides specific entities, dates, victim counts, and source URLs with strong detail, though the answer is cut off mid-sentence on the Conduent breach reducing completeness."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific with entities, dates, victim counts, and source URLs, though the answer is cut off mid-sentence and the future dates (2026) cannot be verified for accuracy."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q022",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed and well-sourced verification confirming the number, data types, and attribution nuance, though the answer is cut off mid-sentence and lacks the explicit disclosure date and source URLs requested."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer gives a clear yes/no verdict with specific confirmed figures, data types, and a nuanced threat-actor note, though it is cut off mid-section and lacks the full disclosure date and complete source URLs requested."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q023",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 3.0,
+      "reason": "This appears to be a fabricated/hallucinated deal\u2014there is no credible evidence NextEra agreed to acquire Dominion Energy in 2026, so the confidently 'confirmed' specifics are almost certainly invented despite the polished detail."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 7.0,
+      "signal_to_noise": 4.0,
+      "reason": "This appears to be a fabricated confirmation of an M&A deal that almost certainly did not occur (a May 2026 NextEra-Dominion merger), with hallucinated specifics like exchange ratios and source citations presented confidently as fact."
+    },
+    "linkup_total": 2.6,
+    "parallel_total": 3.8
+  },
+  {
+    "id": "q019",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the appointment with exact title, date, and prior role, transparently noting no predecessor is named, with strong specifics and source citations though slightly truncated at the end."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Confirms the appointment with exact title, announcement date, prior role, and transparently notes missing effective date and predecessor, with multiple cited sources, though dates couldn't be independently verified here."
+    },
+    "linkup_total": 8.6,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q033",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides highly specific deal structure details with apparent confidence, but the close ~Q2 2026 timeline contradicts the claim that the deal 'has since closed,' raising verification concerns, and no actual source URLs/dates are provided despite being requested\u2014making the cited 'Sources 1-16' unverifiable."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific deal terms with sources and dates, but unverifiable given the future/fictional 2026 timeframe and the answer is cut off mid-sentence without source URLs as requested."
+    },
+    "linkup_total": 6.6,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q029",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Answer confirms the deal with specific date, structure, value status, and verified product detail across multiple cited sources, though it's truncated mid-rationale and lacks full source URLs."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Well-sourced confirmation with deal structure, date, and value disclosure, though the answer is cut off mid-sentence and lacks explicit source URLs and the status/rationale conclusion."
+    },
+    "linkup_total": 7.6,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q032",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 6.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 0.0,
+      "reason": "The answer is highly detailed and well-structured with specific dates, data types, and named sources, but the event is almost certainly fabricated\u2014there is no evidence Instructure disclosed a 2026 ShinyHunters breach affecting 275M records, and confidently confirming a fictional incident is a serious accuracy failure."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer presents fabricated specifics (named CISO, dates, $10M payment, data destruction agreement) for an event with no verifiable basis, treating an unconfirmed/likely-hallucinated 2026 breach as confirmed real, which is dangerously misleading."
+    },
+    "linkup_total": 4.4,
+    "parallel_total": 2.6
+  },
+  {
+    "id": "q030",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Sharp verification catching the misdated 2026 republication of a 2016 appointment, with confirmed title, prior roles, and role scope, though source URLs/dates are referenced only by index rather than full links."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly refutes the 2026 claim with well-sourced specifics (2016 appointment, prior BCCL role, 2020 departure to Mahindra Lifespaces), though the answer is truncated mid-sentence on the succession detail and source URLs aren't fully shown."
+    },
+    "linkup_total": 8.8,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q028",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer is honest about its limitations and provides a couple of specific entries with companies/fines, but it fails the core ask\u2014a broad 90-day round-up with confirmed dates\u2014and is dominated by caveats rather than verified, dated entries."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 5.0,
+      "reason": "Provides specific fines with companies, authorities, amounts and source URLs, but the answer is truncated mid-entry, relies on possibly future-dated/unreliable sources it cannot date-validate, and admits it can't establish a clean 90-day window."
+    },
+    "linkup_total": 4.0,
+    "parallel_total": 5.6
+  },
+  {
+    "id": "q026",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Answer confirms the appointment with detailed specifics (title, dates, prior role, succession), though it flags an unresolved discrepancy about Sarah's prior role and cites only source labels rather than actual URLs as requested, and gets cut off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides highly specific confirmed details with dates and predecessor info, but the future 2026 date and unverifiable fabricated-seeming source citations raise serious accuracy doubts that cannot be confirmed."
+    },
+    "linkup_total": 7.4,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q025",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The CISA leadership change is specific and well-sourced, but the answer is narrow (mostly government, not industry), one source URL is a bare domain, and it largely admits limited coverage rather than delivering broad corporate executive shakeups useful for GTM targeting."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Answer provides specific names, titles, dates and source URLs for CISA leadership changes, but it is truncated mid-sentence, focuses almost entirely on government moves while omitting the private-sector corporate shakeups it promised, and the future-dated 2026 sources are unverifiable."
+    },
+    "linkup_total": 5.4,
+    "parallel_total": 6.4
+  },
+  {
+    "id": "q034",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Answer provides specific confirmed details (exact count 2,697,540, data types, intrusion timeline) with citations and a clear company-confirmed verdict, but it is truncated mid-sentence on root cause/threat actor and never delivers the disclosure date or completes the source URLs as requested."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear confirmed verdict with precise figure (2,697,540), detailed data types, source attribution, and notes on conflicting numbers, but the answer is cut off mid-section on root cause/threat actor and disclosure date, leaving those required fields unverified."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 7.6
+  },
+  {
+    "id": "q027",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides concrete deals with dates, dollar figures, and sources, but several claims are questionable (Meta's Scale AI was a stake/investment not full acquisition; Google's Wiz acquisition was a 2025 deal still pending) and the answer cuts off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides specific deals with dollar amounts, dates, and source URLs, but some entries appear speculative/future-dated (xAI-SpaceX Feb 2026, Groq-Nvidia) raising accuracy concerns, and the answer is cut off mid-sentence."
+    },
+    "linkup_total": 6.4,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q035",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "Provides specific deal names and figures but is undermined by acknowledged future-dated/unreliable sources, gets cut off mid-sentence, and cannot confirm the deals fall within a true 90-day window."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 3.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer uses implausible future dates (2026) suggesting fabricated or hallucinated sources, the list is truncated mid-table, and source URLs appear partly generic/unverifiable, undermining trust despite some specific deal details."
+    },
+    "linkup_total": 4.6,
+    "parallel_total": 4.2
+  },
+  {
+    "id": "q036",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides a couple of concrete, specific stealth-exit entries with funding details and sources, but the list is short, cut off mid-entry, and undermined by uncertainty about the date anchor needed for a '30-day' window."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides some concrete details (valuations, funding, sources) but suffers from unverifiable future dates, an unnamed entry, truncation, and uncertainty about the recency window, limiting reliability and completeness."
+    },
+    "linkup_total": 6.2,
+    "parallel_total": 5.8
+  },
+  {
+    "id": "q031",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 0,
+      "completeness": 0,
+      "gtm_value": 0,
+      "specificity": 0,
+      "signal_to_noise": 0,
+      "reason": "judge failed"
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is highly specific and well-structured, but the 2026 dates and details appear fabricated/unverifiable, as SolarEdge's actual CFO is Ariel Porat and these claims cannot be confirmed as accurate."
+    },
+    "linkup_total": 0.0,
+    "parallel_total": 6.4
+  },
+  {
+    "id": "q041",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the acquisition with announcement date, structure, undisclosed-but-estimated value with cited sources, though the answer is cut off mid-section on OAuth/API rationale and lacks full URLs."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed verification with deal structure, multiple value estimates, announcement date, and OAuth confirmation, though the answer is truncated mid-sentence and the events are future-dated (2026) which limits verifiability."
+    },
+    "linkup_total": 8.2,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q045",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The VodafoneThree merger completed in mid-2025 with CK Hutchison holding 49%, so a 2026 ~\u00a34.3B Vodafone buyout of that stake appears fabricated/unverifiable, and the answer presents detailed specifics without citing actual source URLs as requested and cuts off mid-section."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer presents fabricated specifics (precise share cancellation structure, enterprise values, March 2026 net debt figures, May 5 2026 announcement) as confirmed despite no verifiable evidence and a question framing this as merely 'reported,' making the confident CONFIRMED verdict unreliable and likely hallucinated."
+    },
+    "linkup_total": 5.4,
+    "parallel_total": 3.8
+  },
+  {
+    "id": "q042",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 6.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer presents highly specific deal details with great confidence, but a May 2026 deal at this precision is almost certainly fabricated/hallucinated given the future date and the suspiciously exact figures, making the apparent accuracy unverifiable and likely false."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific and well-structured with deal terms, share counts, and dated sources, but the underlying facts cannot be independently verified and may be fabricated given the future date, and no actual source URLs are shown in the truncated output."
+    },
+    "linkup_total": 5.2,
+    "parallel_total": 8.2
+  },
+  {
+    "id": "q039",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer is detailed and well-sourced with specific figures, data types, and threat actor attribution, but it is cut off mid-section (missing root cause completion and disclosure date confirmation), and the 2026 timeline cannot be independently verified as plausible vs. fabricated."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 0.0,
+      "reason": "Detailed and specific verification with confirmed numbers, data types, threat actor, and source attribution, though the answer is truncated and lacks visible URLs/dates and unverifiable source authenticity given the 2026 timeframe."
+    },
+    "linkup_total": 7.4,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q043",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 4.0,
+      "reason": "This describes a June 2026 ServiceNow incident with fabricated-looking specifics (KB numbers, named CISO, endpoint paths) that cannot be verified and likely refers to an event that did not occur, making the confident 'YES' verdict probably hallucinated and unreliable."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 7.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer fabricates a detailed 2026 incident with fake KB numbers, dates, and sources that cannot be verified, making it likely hallucinated and unreliable despite its specific-seeming claims."
+    },
+    "linkup_total": 2.8,
+    "parallel_total": 3.6
+  },
+  {
+    "id": "q038",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 8.0,
+      "reason": "Clearly answers yes/alleged-only with threat actor and date nuance (June 9 vs claimed June 10), correctly flags missing number/data types/root cause, but answer is truncated and lacks the explicit source URLs the question requested."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer provides a clear yes/no with threat actor (WORLDLEAKS), corrected date (June 9 vs alleged June 10), and properly flags alleged-vs-confirmed status, but is truncated mid-table and lacks the actual source URLs requested."
+    },
+    "linkup_total": 7.4,
+    "parallel_total": 7.4
+  },
+  {
+    "id": "q044",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific and well-sourced answer with title, dates, prior role, and succession details, though source URLs aren't shown and the response is cut off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer presents highly specific and confident details, but this appears to be fabricated/unverifiable\u2014Oracle's CFO situation and Hilary Maxson's actual role at Schneider Electric raise serious accuracy doubts about this future-dated 2026 appointment claim."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 5.8
+  },
+  {
+    "id": "q048",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is highly specific and well-structured, but the question asks about a 2026 deal while the answer cites a December 2025 announcement, and such a transaction cannot be independently verified, suggesting potential fabrication or date mismatch undermining accuracy."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Strong, specific verification with deal structure, value, date correction, rationale, and status, though source URLs were requested but only source numbers shown and answer appears truncated mid-sentence on status."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q037",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides a structured list with names, dates, and source URLs and sensibly excludes speaker-announcement noise, but the answer is cut off mid-entry (Vouch) and breadth is limited to a handful of companies."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "signal_to_noise": 4.0,
+      "reason": "Provides a few dated CEO announcements with sources but heavily hedges on timeframe, includes likely fabricated/speculative entries (Apple/Disney CEO changes), and the answer is truncated mid-table, leaving the round-up incomplete."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 4.6
+  },
+  {
+    "id": "q046",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer cites implausible future dates (June 2026) suggesting fabricated or unreliable sources, is truncated mid-sentence, and covers only two entities for an open-ended breadth-focused round-up."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 0.0,
+      "reason": "The answer provides detailed, specific breach info for Instructure with multiple source URLs but the dates reference 2026 (likely fabricated/inconsistent timeline), the second entry is cut off mid-sentence, and the list is incomplete relative to the open-ended breadth requested."
+    },
+    "linkup_total": 4.4,
+    "parallel_total": 4.8
+  },
+  {
+    "id": "q040",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides a few concrete CRO appointments with names and dates, but the list is thin, dates appear implausible (2026), the answer is cut off mid-entry, and the Exato.ai entry lacks a source URL."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides three well-detailed CRO appointments with names, dates, backgrounds, and sources, but breadth is limited and one source URL is truncated, falling short of the open-ended round-up's goal of maximum coverage."
+    },
+    "linkup_total": 5.4,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q047",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "signal_to_noise": 4.0,
+      "reason": "Provides a few specific $1B+ deals with values and sources, but the answer is truncated, heavily hedged about dating, and cannot confirm the 30-day window, leaving coverage incomplete and uncertain."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer provides some specific deal details with values and dates but appears to reference implausible 2026 dates, includes hedging about the time window, uses generic non-permalink source URLs, and cuts off mid-sentence, leaving the list incomplete."
+    },
+    "linkup_total": 4.6,
+    "parallel_total": 4.6
+  },
+  {
+    "id": "q053",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific and complete with titles, dates, prior roles, and succession context, though the 2026 future-dated claims cannot be independently verified and source reliability is uncertain."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the appointment with exact title, effective date (April 22, 2026), prior COO role, and predecessor with multiple cited sources, though answer is cut off mid-sentence and lacks explicit source URLs."
+    },
+    "linkup_total": 8.2,
+    "parallel_total": 8.6
+  },
+  {
+    "id": "q052",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 9.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the deal with correct structure ($32B all-cash), announcement (March 2025) and completion (March 11, 2026) dates, rationale, break-up fee, and source URLs, though it cuts off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the deal with specific structure ($32B all-cash), announcement date (March 2025), close date (March 11, 2026), and regulatory milestones with sourced citations, though the answer appears truncated and rationale is only lightly addressed."
+    },
+    "linkup_total": 8.8,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q050",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the appointment with exact title, dated announcement, detailed prior Nokia roles, and addresses succession (none mentioned), all attributed to sources though URLs are not explicitly shown."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 9.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Thorough and specific answer with exact title, date, prior role, and reporting line, though source URLs appear partially fabricated/truncated and cannot be fully verified."
+    },
+    "linkup_total": 8.6,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q054",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides a clear yes with specific title, dates, prior role, and source URLs, though the truncated ending and unverifiable future-dated (2026) sources raise mild accuracy/completeness concerns about whether a successor was identified."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with title, prior role, and multiple dated sources, though exact effective date and predecessor remain unconfirmed and the answer is cut off mid-sentence; URLs are referenced but not actually shown."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q057",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 6.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer presents a fabricated 2026 Devon-Coterra merger with detailed specifics that appear invented (no such deal is known), making it likely a hallucination despite its confident, detailed framing."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer confidently confirms a Devon-Coterra merger with fabricated specifics (exchange ratios, merger sub names, completion status) that appear to be hallucinated, as no such verified 2026 deal is established, making it likely inaccurate and unreliable."
+    },
+    "linkup_total": 3.6,
+    "parallel_total": 3.4
+  },
+  {
+    "id": "q051",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-sourced answer confirming deal structure, value breakdown clarifying the $300M figure, dates, and completed status, though the underlying facts cannot be independently verified and the answer is cut off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 7.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer presents highly specific fabricated details (merger sub names, exact cash/retention splits, dates in 2026) for what appears to be a future/unverifiable deal, indicating likely hallucination that could seriously mislead a GTM team."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 4.2
+  },
+  {
+    "id": "q049",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides specific deal details (companies, values, dates, sources) that appear plausible, but I cannot verify the future-dated 2026 deals, the list is truncated mid-entry, and coverage is incomplete relative to the open-ended breadth requested."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The list has specific deals with dollar figures, dates, and source URLs, but the 2026 deals are highly likely fabricated/speculative (e.g., Capital One-Brex, Santander-Webster) and unverifiable, raising serious accuracy concerns, plus the answer is truncated mid-sentence."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 5.0
+  },
+  {
+    "id": "q059",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 6.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer confidently asserts a specific 2026 deal with precise figures and dates, but these claims appear fabricated/unverifiable and the suspiciously exact details (e.g., $120.96 closing price, $57.3M equity awards) raise strong accuracy concerns despite high specificity."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is highly specific and well-structured, but the deal appears fabricated/unverifiable (AMI/THL Partners, May 2026 dates, $120.96 stock price), raising serious accuracy concerns that the confident 'YES \u2014 confirmed' verdict cannot overcome."
+    },
+    "linkup_total": 5.6,
+    "parallel_total": 6.6
+  },
+  {
+    "id": "q056",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly flags the 2026 date error and provides well-sourced confirmed specifics on the actual 2022 incident, though source URLs are referenced as numbers rather than full URLs and the answer appears slightly cut off."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 6.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly debunks the false 2026/1.2B premise with well-sourced specifics on the actual 2022 leak, though the answer is cut off mid-sentence and GTM actionability is inherently limited for this security-signal query."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q060",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 0.0,
+      "reason": "The answer provides highly specific deal terms (per-share consideration, premiums, structure) and addresses most asked dimensions, but Santander/Webster is an unverified/likely-fabricated deal so accuracy is suspect, and the answer is cut off mid-sentence missing announcement date, rationale, and source URLs."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 2.0,
+      "signal_to_noise": 3.0,
+      "reason": "This appears to be a fabricated deal \u2014 there is no credible evidence Santander agreed to acquire Webster Financial in 2026, and the answer's elaborate fake specifics (citing 20+ phantom sources without any actual URLs) make it dangerously misleading despite its confident formatting."
+    },
+    "linkup_total": 6.4,
+    "parallel_total": 2.4
+  },
+  {
+    "id": "q058",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 0.0,
+      "reason": "Coupang entry is detailed and credible with date and source, but the answer is truncated mid-Conduent entry and includes a strong caveat that most sources fall outside the window, leaving the list far from the requested breadth."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "signal_to_noise": 4.0,
+      "reason": "Answer references implausible future dates (2026) and fabricated-looking sources, the table is abruptly cut off mid-entry, and breadth is poor with only two complete entries despite an open-ended round-up request."
+    },
+    "linkup_total": 4.6,
+    "parallel_total": 3.8
+  },
+  {
+    "id": "q055",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 0.0,
+      "reason": "Confirms the appointment and exact date with sourced detail and appropriately flags unconfirmed prior role and predecessor, though the answer is cut off mid-sentence and source URLs are referenced only as numbered placeholders."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer confirms the appointment, title, and date with multiple cited sources and dates, but the prior role and predecessor details are incomplete/cut off and unverified."
+    },
+    "linkup_total": 6.0,
+    "parallel_total": 6.6
+  },
+  {
+    "id": "q063",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides specific deal values, dates, and source URLs for multiple fintech acquisitions, though the answer is cut off mid-sentence and some 2026-dated deals raise minor verification concerns."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Provides specific entities, deal values, dates, and sources with strong detail, though the answer is cut off mid-section and relies on a single source URL."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q068",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly refutes the 2026/115,837 signal with grounded 2024 ransomware details, though the answer is cut off mid-sentence and lacks the explicit source URLs requested."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Strongly grounded answer correctly flags the date discrepancy (2024 not 2026), confirms the affected count, threat actor (Play), data types, and company confirmation with cited sources, though missing exact disclosure date clarity and URLs are truncated."
+    },
+    "linkup_total": 8.2,
+    "parallel_total": 8.2
+  },
+  {
+    "id": "q070",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Highly specific and well-structured with dates, named executive, and clear confirmed/alleged distinctions, but covers a future-dated 2026 event that cannot be verified and the answer is truncated before fully addressing number affected, data types, and threat actor."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer describes a February 2026 event that is in the future relative to verifiable records, citing implausible/likely-fabricated sources, so the confident 'company-confirmed' verdict cannot be trusted and the response appears hallucinated."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 2.8
+  },
+  {
+    "id": "q064",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 8.0,
+      "reason": "Clearly answers the yes/no with alleged-vs-confirmed framing, identifies the CHAOS group, corrects the date to 2026-06-09 with a source URL, and honestly flags unverifiable details, though it lacks specifics on numbers/data types and the answer is cut off."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer gives a clear yes/alleged verdict with threat actor, leak size, and dates, but cites unverifiable/likely-fabricated future-dated sources and lacks affected counts and data types, raising authenticity concerns."
+    },
+    "linkup_total": 7.4,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q062",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "Identifies a few named deals with specifics, but most dates fall outside or cannot be anchored to the last 30 days, the answer is truncated mid-sentence, and it admits the sources are mostly generic guides limiting breadth."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer provides concrete company names, amounts, investors, and source URLs in a useful table format, but it is cut off mid-entry (Phytolon) leaving the list incomplete, and the future 2026 dates plus single-source reliance raise some accuracy concerns."
+    },
+    "linkup_total": 5.8,
+    "parallel_total": 7.0
+  },
+  {
+    "id": "q061",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer honestly flags that it cannot confirm the 30-day timeframe and provides only two entities with specific details, but coverage is thin and the dates don't match the requested window, limiting GTM usefulness."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "signal_to_noise": 0.0,
+      "reason": "The Conduent entry is detailed and well-sourced with specific figures and dates, but the answer is truncated mid-sentence, only delivers one entity for an explicitly breadth-focused round-up, and leaves the caveat section incomplete."
+    },
+    "linkup_total": 5.2,
+    "parallel_total": 4.4
+  },
+  {
+    "id": "q065",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides concrete CMO appointments with names, dates, and details, but one source URL is truncated/incomplete and the list appears cut off, limiting the requested breadth."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides specific named appointments with dates and source URLs, but the answer is cut off mid-entry and some sources are second-hand citations, limiting completeness and full verifiability."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q067",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides a clear yes with exact title, both announcement (April 9, 2026) and effective (April 1, 2026) dates, prior roles, and addresses succession, though it cites sources without actual URLs and is cut off mid-sentence at the end."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer provides clear yes/no with specific title, date (April 9, 2026), prior roles, and source URLs; predecessor question is addressed (none named), though the answer is cut off mid-sentence which slightly hurts completeness."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 8.2
+  },
+  {
+    "id": "q066",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Delivers a clear yes with announcement date, structure, and undisclosed-value confirmation, though the rationale section is cut off and value remains unverified."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with announcement date, deal structure, undisclosed terms, rationale, and cited sources, though status (announced vs completed) is cut off and source URLs are referenced only by index numbers."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q071",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with title, February 2026 start date, prior roles, and acknowledges uncertainty on succession, but title discrepancy and missing explicit source URLs/dates slightly weaken verification."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is highly specific and well-structured, but the 2026 dates and unverifiable source citations raise strong fabrication concerns, and it fails to clearly state who (if anyone) was succeeded."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 6.6
+  },
+  {
+    "id": "q072",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer provides strong specific verification with numbers, data types, dates, and attribution, but is cut off mid-sentence on root cause and lacks the source URLs explicitly requested."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer provides confirmed specifics (25.9M total, Texas 15.4M, Oregon 10.5M, data types, state AG sourcing, dates) with a clear yes/confirmed verdict and source attribution, though it's truncated mid-sentence on the threat actor section and lacks full URLs."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q069",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 3.0,
+      "reason": "The 2026 Carnival breach with these specifics appears fabricated/unverifiable, and the answer confidently confirms invented figures (5,995,277 affected, ShinyHunters, May 27 2026) with phantom source citations, making it likely hallucinated and unreliable."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is highly specific and well-structured but describes a 2026 event that almost certainly does not exist (no Carnival/ShinyHunters breach affecting ~6M is verifiable for that date), so the confident 'CONFIRMED' verdict and fabricated-looking source citations make it likely inaccurate and potentially hallucinated."
+    },
+    "linkup_total": 2.8,
+    "parallel_total": 5.8
+  },
+  {
+    "id": "q075",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 3.0,
+      "reason": "Capital One did not acquire Brex in 2026; this deal appears fabricated, and confidently confirming a non-existent acquisition with invented dates and terms is severely misleading despite the detailed formatting."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 5.0,
+      "signal_to_noise": 4.0,
+      "reason": "This appears to fabricate confirmation of a deal that almost certainly did not occur (a future 2026 Capital One/Brex acquisition), with invented sources and specifics, making it dangerously inaccurate despite its detailed and confident presentation."
+    },
+    "linkup_total": 3.0,
+    "parallel_total": 3.4
+  },
+  {
+    "id": "q077",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 9.0,
+      "reason": "Confirms appointment with exact title, date, and prior role, transparently noting the predecessor detail couldn't be verified, with dated source URLs."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer gives a clear yes with detailed confirmed specifics (title, date, prior role, citations), though the future-dated 2026 details and unverifiable source plausibility introduce some uncertainty and the succession point is truncated."
+    },
+    "linkup_total": 8.8,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q074",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 7.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer presents highly specific fabricated details (exact share prices, termination fees, VWAP) for what appears to be a non-existent deal, indicating likely hallucination despite confident citations."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 7.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer confidently confirms a Boston Scientific/Penumbra acquisition with highly specific figures, but this deal appears fabricated/unverifiable, and the response is cut off mid-sentence with no source URLs as requested."
+    },
+    "linkup_total": 3.6,
+    "parallel_total": 3.8
+  },
+  {
+    "id": "q073",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "signal_to_noise": 9.0,
+      "reason": "Correctly refutes the 2026 premise with a confirmed 2025 date, provides exact title, prior Swift role, predecessor, and reporting line with specifics, though source URLs are truncated/incomplete."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Correctly flags the year error (2024/effective Jan 2025), confirms title, dates, and Swift prior role with specifics and sources, but the answer is cut off mid-sentence on the predecessor detail the question explicitly asked about."
+    },
+    "linkup_total": 9.0,
+    "parallel_total": 8.4
+  },
+  {
+    "id": "q079",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 0.0,
+      "reason": "The answer provides some specifically-dated incidents with sources but heavily hedges on the time window, is cut off mid-table, and relies almost entirely on a single CSIS tracker source, limiting breadth and confidence."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "Provides a few specific incidents with dates, threat actors, and partial source URLs, but the answer is cut off mid-entry, hedges heavily on the time window, and delivers limited breadth for an open-ended round-up."
+    },
+    "linkup_total": 4.0,
+    "parallel_total": 5.4
+  },
+  {
+    "id": "q076",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer confidently confirms a future-dated (2026) appointment with fabricated-seeming specifics and dead source citations, which is almost certainly a hallucination that misleads rather than verifies."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 5.0,
+      "gtm_value": 3.0,
+      "specificity": 7.0,
+      "signal_to_noise": 4.0,
+      "reason": "Answer confidently confirms a likely-fabricated appointment with fake-specific dates and citations for a future date (June 2026), making it unverifiable and probably hallucinated, despite detailed-sounding structure."
+    },
+    "linkup_total": 2.8,
+    "parallel_total": 4.2
+  },
+  {
+    "id": "q080",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 7.0,
+      "signal_to_noise": 7.0,
+      "reason": "Answer confirms the appointment with title, date, and prior role citing specific sources, and correctly flags the predecessor as unconfirmed, though source URLs aren't actually provided and the text cuts off mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides a clear yes with exact title, dated announcement (April 10, 2026), prior role at OSTTRA, and honestly notes succession isn't confirmed, though only one source URL is shown and others are cited generically."
+    },
+    "linkup_total": 7.2,
+    "parallel_total": 8.0
+  },
+  {
+    "id": "q081",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Directly confirms the appointment with exact title, June 10 2026 date, prior Plan A role, and notes no predecessor existed, all well-sourced and specific."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Detailed answer with confirmed title, date, prior role, and succession status, but the Sources section is empty despite the prompt requiring source URLs and dates, and the 2026 dating cannot be independently verified."
+    },
+    "linkup_total": 8.6,
+    "parallel_total": 7.6
+  },
+  {
+    "id": "q078",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, well-sourced answer with specific dates, titles, and career history, though the May 2026 dates and abrupt cutoff raise minor verification/coherence concerns and the succession question is only partially resolved."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is highly specific and well-structured, but the May 11, 2026 date and surrounding details cannot be independently verified and appear potentially fabricated, undermining confidence in the core factual claim."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 6.2
+  },
+  {
+    "id": "q084",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 3.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer is honest that sources don't name specific companies with CISO turnover, but this directly fails the question's core ask for entities and dates, offering only aggregate industry trends of limited GTM use."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 6.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides concrete named CISO departures with dates, names, and source URLs across multiple companies, though the answer is truncated mid-entry and may not capture all relevant turnover."
+    },
+    "linkup_total": 4.4,
+    "parallel_total": 7.8
+  },
+  {
+    "id": "q083",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Confirms the appointment with title, date, prior role, and predecessor citing multiple sources, though some date precision relies on inference and the answer is cut off mid-sentence with no clean source URLs listed."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is highly specific and well-structured but the underlying facts appear fabricated/unverifiable\u2014Smartsheet was taken private by Blackstone/Vista in early 2025, the cited 2026 dates and Rajeev Singh CEO claim are dubious, and source URLs are truncated/unconfirmed, raising serious accuracy concerns."
+    },
+    "linkup_total": 8.4,
+    "parallel_total": 6.2
+  },
+  {
+    "id": "q082",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "signal_to_noise": 9.0,
+      "reason": "Detailed, well-sourced confirmation with specific deal structure, value, dates, and rationale, flagging a conflicting source; answer appears cut off at the end but core verification is complete."
+    },
+    "parallel": {
+      "accuracy": 8.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 0.0,
+      "reason": "Provides a clear yes with detailed deal structure, value breakdown, and dates, though source URLs are cited only by number without actual links and the answer is cut off mid-sentence."
+    },
+    "linkup_total": 9.0,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q086",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "Contains some real, specifically-dated deals (Novartis/Avidity, Alkermes/Avadel, GSK/Nuvalent) with sources, but heavy hedging about dates, truncated output, and inability to confirm the 90-day window limit completeness and actionability."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides specific deal details with dollar amounts, dates, products, and source URLs, but the answer is truncated mid-entry and likely incomplete given the open-ended breadth request, and relies heavily on a single aggregator source whose future-dated content (2026) raises accuracy concerns."
+    },
+    "linkup_total": 5.6,
+    "parallel_total": 6.6
+  },
+  {
+    "id": "q089",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "Dates appear fabricated/future (2026) and rely heavily on unverifiable LinkedIn post URLs, undermining accuracy, while the answer is also truncated mid-entry."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides concrete named CIO appointments with people, companies, and source URLs, but relies on a single roundup source, hedges heavily on dates, and the answer is cut off mid-section reducing completeness."
+    },
+    "linkup_total": 4.4,
+    "parallel_total": 6.8
+  },
+  {
+    "id": "q090",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 8.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 7.0,
+      "reason": "Detailed and specific with exact title, dates, and prior role, but the date discrepancy (Dec 2025 start vs 2026 coverage) and unverifiable predecessor introduce some accuracy uncertainty, and full source URLs aren't shown."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides plausible confirmed specifics (title VP & CIO, December 2025 start, late January 2026 announcement, prior role at Home City Ice) but the response is truncated mid-sentence, omits the actual source URLs requested, and doesn't clearly identify who he succeeded; without verifiable URLs the accuracy claims remain unconfirmed."
+    },
+    "linkup_total": 7.8,
+    "parallel_total": 6.2
+  },
+  {
+    "id": "q085",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "The answer is highly specific and well-structured, but PathAI/Roche is not a known real acquisition and the confident 'verified' framing with fabricated-looking source citations raises serious accuracy concerns about a likely hallucinated deal."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 7.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer is highly detailed and specific but describes a May 2026 acquisition that appears fabricated/unverifiable (future-dated, no real evidence Roche acquired PathAI), so the confident YES verdict is likely inaccurate despite strong structure."
+    },
+    "linkup_total": 6.2,
+    "parallel_total": 6.0
+  },
+  {
+    "id": "q087",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 2.0,
+      "gtm_value": 3.0,
+      "specificity": 4.0,
+      "signal_to_noise": 6.0,
+      "reason": "Honestly explains the sources lack the requested company-level recent filings and offers aggregate context plus a method (EDGAR), but fails to deliver the named list with dates and URLs the question required."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 2.0,
+      "gtm_value": 2.0,
+      "specificity": 3.0,
+      "signal_to_noise": 3.0,
+      "reason": "The answer explicitly cannot scope to the last 30 days, surfaces only two stale 2024-era filings, and is truncated mid-entry, leaving the open-ended round-up largely unfulfilled."
+    },
+    "linkup_total": 4.6,
+    "parallel_total": 2.8
+  },
+  {
+    "id": "q088",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 6.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides named executives, companies, dates, and source URLs in a structured format, but the LinkedIn aggregator-bot URLs and 2026 dating raise grounding concerns, and the list appears truncated mid-entry with only three entities for an explicitly breadth-focused round-up."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 0.0,
+      "reason": "The answer is transparent about no appointments falling in the strict 30-day window and provides dated entries with sources, but the table is cut off mid-entry and most listed appointments are months old, limiting completeness and actionability."
+    },
+    "linkup_total": 6.0,
+    "parallel_total": 4.8
+  },
+  {
+    "id": "q094",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 7.0,
+      "reason": "Provides concrete named appointments with dates and sources, but relies entirely on LinkedIn posts of uncertain reliability and the list appears truncated mid-entry, limiting completeness and breadth."
+    },
+    "parallel": {
+      "accuracy": 7.0,
+      "completeness": 5.0,
+      "gtm_value": 6.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides specific names, dates, and source URLs for several CFO appointments but the answer is truncated mid-table and accuracy cannot be fully verified against fictional-seeming 2026 dates."
+    },
+    "linkup_total": 7.0,
+    "parallel_total": 6.4
+  },
+  {
+    "id": "q092",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides specific company names, figures, and dates with source URLs, but the 2026 events appear largely speculative or fabricated (future dates, unverifiable claims), undermining accuracy, and the list is truncated and incomplete."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 3.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer provides specific company names, figures, and dates with sources, but 2026 layoff data is likely fabricated or unverifiable given the future timeframe, and the response is truncated mid-source, leaving the list incomplete."
+    },
+    "linkup_total": 5.0,
+    "parallel_total": 4.6
+  },
+  {
+    "id": "q091",
+    "category": "leadership_change",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Answer provides a clear yes/no with detailed specifics on title, date, prior role at Gigamon, and notes succession info is unavailable, though it cites sources without full URLs and is truncated mid-sentence."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 3.0,
+      "specificity": 6.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer confidently confirms a future-dated (2026) appointment with fabricated-seeming source citations and a truncated ending, raising strong concerns this is hallucinated and unverifiable."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 4.0
+  },
+  {
+    "id": "q093",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 6.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides concrete company names, locations, and dated sources for several HQ/expansion events, but the list is cut off mid-entry and relies entirely on LinkedIn posts which limits breadth and verifiability."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 6.0,
+      "signal_to_noise": 6.0,
+      "reason": "Provides some specific company expansions with sources but is heavily DFW-concentrated, has suspicious future dates (June 2026), and the answer is cut off mid-entry leaving the list incomplete."
+    },
+    "linkup_total": 6.4,
+    "parallel_total": 5.4
+  },
+  {
+    "id": "q095",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 9.0,
+      "completeness": 8.0,
+      "gtm_value": 7.0,
+      "specificity": 10.0,
+      "signal_to_noise": 0.0,
+      "reason": "Answer is highly specific with exact figures, government investigation citations, dates, and useful caveats distinguishing confirmed vs disputed claims, though the response is cut off mid-sentence on root cause/threat actor and lacks full source URLs."
+    },
+    "parallel": {
+      "accuracy": 9.0,
+      "completeness": 9.0,
+      "gtm_value": 8.0,
+      "specificity": 10.0,
+      "signal_to_noise": 9.0,
+      "reason": "Directly verifies the signal with precise affected counts, data types, root cause, threat actor profile, and corrects the date premise, though source URLs are referenced only as numbered citations rather than full URLs."
+    },
+    "linkup_total": 6.8,
+    "parallel_total": 9.0
+  },
+  {
+    "id": "q096",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 2.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 3.0,
+      "reason": "This describes a transaction that did not occur as of the knowledge cutoff and fabricates specific details (exchange ratios, source quotes, entity filings), making it a likely hallucination presented with false confidence."
+    },
+    "parallel": {
+      "accuracy": 2.0,
+      "completeness": 4.0,
+      "gtm_value": 2.0,
+      "specificity": 7.0,
+      "signal_to_noise": 3.0,
+      "reason": "This describes a SpaceX-xAI merger as confirmed fact with fabricated specifics (exchange ratios, advisor quotes, valuations), but no such deal occurred, making the highly detailed answer dangerously inaccurate."
+    },
+    "linkup_total": 2.8,
+    "parallel_total": 3.6
+  },
+  {
+    "id": "q100",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 7.0,
+      "completeness": 6.0,
+      "gtm_value": 7.0,
+      "specificity": 8.0,
+      "signal_to_noise": 8.0,
+      "reason": "Provides specific named incidents with dates, patient counts, and source URLs, though coverage appears limited to a few providers and some details (e.g., exact attack timing) can't be fully verified."
+    },
+    "parallel": {
+      "accuracy": 4.0,
+      "completeness": 5.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides specific entities, dates, and source URLs, but the 2026 dating and unverifiable details raise strong concerns about fabrication, and the response is cut off mid-sentence leaving it incomplete."
+    },
+    "linkup_total": 7.2,
+    "parallel_total": 5.4
+  },
+  {
+    "id": "q099",
+    "category": "ma_acquisition",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 7.0,
+      "gtm_value": 8.0,
+      "specificity": 9.0,
+      "signal_to_noise": 8.0,
+      "reason": "Detailed, specific answer with deal structure, value, and dates, though answer is cut off mid-rationale and lacks the explicit source URLs requested and unverifiable future-dated specifics."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 6.0,
+      "gtm_value": 5.0,
+      "specificity": 8.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides highly specific deal details but the May 28, 2026 transaction appears fabricated/unverifiable and source URLs/dates were not actually provided as requested, undermining accuracy despite the confident specificity."
+    },
+    "linkup_total": 8.0,
+    "parallel_total": 5.6
+  },
+  {
+    "id": "q097",
+    "category": "security_breach",
+    "linkup": {
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "gtm_value": 4.0,
+      "specificity": 5.0,
+      "signal_to_noise": 4.0,
+      "reason": "The answer appears fabricated, confidently confirming a future-dated 2026 breach with detailed specifics but providing no actual source URLs/dates and cutting off mid-sentence on root cause, raising strong hallucination concerns."
+    },
+    "parallel": {
+      "accuracy": 3.0,
+      "completeness": 5.0,
+      "gtm_value": 4.0,
+      "specificity": 7.0,
+      "signal_to_noise": 5.0,
+      "reason": "The answer presents a confident, detailed confirmation of a 2026 breach with specific figures and sources, but the event appears fabricated/unverifiable (future-dated, no credible grounding), making the apparent accuracy highly suspect despite its specificity."
+    },
+    "linkup_total": 4.0,
+    "parallel_total": 4.8
+  },
+  {
+    "id": "q098",
+    "category": "list_building",
+    "linkup": {
+      "accuracy": 8.0,
+      "completeness": 3.0,
+      "gtm_value": 2.0,
+      "specificity": 4.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer honestly reports that sources lack any qualifying last-30-days breaches and cites specific irrelevant items, but it fails to deliver the requested round-up, providing minimal GTM value."
+    },
+    "parallel": {
+      "accuracy": 6.0,
+      "completeness": 4.0,
+      "gtm_value": 5.0,
+      "specificity": 7.0,
+      "signal_to_noise": 6.0,
+      "reason": "The answer provides specific breach details and monitoring offers with source URLs, but explicitly admits most events fall outside the 30-day window requested, the output is truncated mid-entry, and dated 2026 events raise plausibility concerns about accuracy."
+    },
+    "linkup_total": 4.6,
+    "parallel_total": 5.6
+  }
+]
