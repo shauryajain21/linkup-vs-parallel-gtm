@@ -10,7 +10,7 @@ LINKUP_KEY   = os.environ["LINKUP_API_KEY"]
 PARALLEL_KEY = os.environ["PARALLEL_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 SYNTH_MODEL = "claude-opus-4-8"
-JUDGE_MODEL = "claude-opus-4-8"
+JUDGE_MODEL = "claude-fable-5"
 
 DIMS = ["accuracy","completeness","gtm_value","specificity","signal_to_noise"]
 

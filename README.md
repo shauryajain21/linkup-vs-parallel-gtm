@@ -191,9 +191,11 @@ Linkup leads overall, driven by **enrichment** (the largest bucket) plus recency
 **People Search** - each product in its own vendor-recommended people config (no prompt transplant):
 1. Linkup `/v1/search` depth=standard + people-targeting prompt; Parallel `/v1beta/search` + people objective + linkedin source filter; both post-filtered to `linkedin.com/in/` profiles.
 2. Graded relevance 0–3, judged by an independent model (Claude Fable 5): 3 = exact fit (function + seniority + location), 2 = right person minor mismatch, 1 = real person wrong role, 0 = not a real personal profile.
-3. Metrics: Top-Result Hit (rank-1 grade ≥ 2) and Quality Score (mean grade / 3). What makes it distinct from prior people benchmarks: our own GTM-outbound query set, graded relevance instead of binary match, an independent judge from a different model family, and both products tuned to their best config.
+3. Metrics: nDCG@10 and MRR (ranking quality), Top-Result Hit / P@1 (rank-1 grade ≥ 2), and Quality Score (mean grade / 3). What makes it distinct from prior people benchmarks: our own GTM-outbound query set, graded relevance instead of binary match, an independent judge from a different model family, and both products tuned to their best config.
 
 **People Research** - same search→synth→judge pipeline as Company & Signal, with a people-tuned synthesis prompt (confirm the right person, don't conflate namesakes) and a 6-dimension judge: accuracy, identity_match, completeness, recency, specificity, gtm_value. Final score = mean of the six.
+
+> **Note on judge availability:** The judge models named above (Claude Fable 5 for Company, People Search, and People Research; Claude Opus 4.8 for Signal) are the exact models used. Since Claude Fable 5 is not publicly available, it can be substituted with the model one tier below — scoring is head-to-head off a shared synthesizer, so any judge self-preference applies equally to both sides and cancels.
 
 # Pricing
 
@@ -242,7 +244,7 @@ data/people_queries.jsonl          100 people-search queries (id, segment, query
 data/coresignal_people_queries.jsonl  100 people-research queries (id, category, query; LinkedIn URL provided)
 benchmark.py                       company & signal runner (retrieval → shared synthesis → independent judge)
 people_benchmark.py                people runner (best-config retrieval → graded-relevance judge)
-people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 7-dim judge)
+people_research_benchmark.py       people-research runner (retrieval → shared synthesis → 6-dim judge)
 latency_benchmark.py               latency runner (sequential, retrieval-only timing across all 4 benchmarks)
 results/company_results.json       250 company-research scores (id, category, linkup, parallel, totals)
 results/signal_bench_100_opus.json 100 signal scores
